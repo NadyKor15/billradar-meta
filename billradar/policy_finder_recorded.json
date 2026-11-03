@@ -1,0 +1,1674 @@
+[
+ {
+  "status": "undated",
+  "hospital": "Houston Methodist Hospital",
+  "city": "Houston",
+  "zip": "",
+  "state": "TX",
+  "domain": "houstonmethodist.org",
+  "domain_step": 1,
+  "domain_note": "houstonmethodist.org: the site printed on your bill",
+  "candidate": null,
+  "url": "https://www.houstonmethodist.org/pay-your-bill/new-policies/~/media/FEF929744A354D72B953697C96C31650.ashx",
+  "title": "Plain Language Summary Houston Methodist\u2019s Financial Assistance Policy",
+  "doc_date": "",
+  "date_quote": "",
+  "date_note": "the page prints no revision date; check that it is the current policy",
+  "tiers": [
+   {
+    "benefit": "free",
+    "discount_pct": 100,
+    "from_fpl_pct": 0,
+    "quote": "Patients whose family income is at or below 200% of the Federal Poverty Level (FPL) are eligible to receive free services",
+    "up_to_fpl_pct": 200,
+    "shows": "free care"
+   },
+   {
+    "benefit": "discount",
+    "discount_pct": 0,
+    "from_fpl_pct": 200,
+    "quote": "patients whose family income is above 200% but not more than 500% of the FPL are eligible to receive services at a discounted amount",
+    "up_to_fpl_pct": 500,
+    "shows": "a discount, amount not stated"
+   },
+   {
+    "benefit": "discount",
+    "discount_pct": 0,
+    "from_fpl_pct": 500,
+    "quote": "Patients whose family income is above 500% of the FPL may be eligible for discounted services",
+    "up_to_fpl_pct": 0,
+    "shows": "a discount, amount not stated"
+   }
+  ],
+  "missing": [],
+  "state_laws": {
+   "state": "TX",
+   "status": "link_only",
+   "sections": [],
+   "dropped": [],
+   "url": "https://statutes.capitol.texas.gov/GetStatute.aspx?Code=HS&Value=311.045",
+   "message": "we found the state's law page, but no section passed the check; read it yourself",
+   "note": "State law depends on your plan, the hospital, the dates and the law's own conditions (an employer's self-funded plan is outside state law). This is the law's own text, not legal advice.",
+   "tavily_calls": [
+    {
+     "at": "2026-11-01T23:53:52+00:00",
+     "label": "laws:search",
+     "provider": "tavily",
+     "endpoint": "https://api.tavily.com/search",
+     "key": "b21c7cb53a1238c4c80c",
+     "live": true,
+     "request_id": "9fe758ba-c50d-4c45-8cdf-fbf29f34e049",
+     "credits": 2,
+     "response_time": 3.86,
+     "results": 3,
+     "seconds": 0.0
+    },
+    {
+     "at": "2026-11-01T23:53:52+00:00",
+     "label": "laws:extract",
+     "provider": "tavily",
+     "endpoint": "https://api.tavily.com/extract",
+     "key": "024b58cc26f0d7736753",
+     "live": true,
+     "request_id": "0a542fa1-62fe-4958-b114-b6bdc52e29f4",
+     "credits": 0,
+     "response_time": 0.02,
+     "results": 2,
+     "seconds": 0.0
+    }
+   ],
+   "model_calls": [
+    {
+     "label": "laws:sections",
+     "model": "muse-spark-1.3",
+     "response_id": "resp_6ae7ce99f631bded8c72495d",
+     "usd": 0.00154,
+     "live": false
+    }
+   ]
+  },
+  "dropped": [],
+  "rejected": [
+   {
+    "url": "https://www.houstonmethodist.org/~/media/pdf/for-patients/Bill_Pay/Korean/FA_full.ashx?la=en",
+    "why": "not the English version"
+   },
+   {
+    "url": "https://www.houstonmethodist.org/about-us/community-involvement/methodist-community-grants/community-benefits-grant",
+    "why": "another document (needs assessment, community benefit, report)"
+   }
+  ],
+  "tavily_calls": [
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "policy:search",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "974ddb3d57537f9fd17a",
+    "live": true,
+    "request_id": "e2a784c9-2405-4c3b-b295-677d8060fb4d",
+    "credits": 2,
+    "response_time": 5.45,
+    "results": 5,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "policy:dated",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "49dc256de6e23c6e8beb",
+    "live": true,
+    "request_id": "7a498def-3e9b-48d3-8518-6f1f0a653e6c",
+    "credits": 2,
+    "response_time": 1.72,
+    "results": 5,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "laws:search",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "b21c7cb53a1238c4c80c",
+    "live": true,
+    "request_id": "9fe758ba-c50d-4c45-8cdf-fbf29f34e049",
+    "credits": 2,
+    "response_time": 3.86,
+    "results": 3,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "laws:extract",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/extract",
+    "key": "024b58cc26f0d7736753",
+    "live": true,
+    "request_id": "0a542fa1-62fe-4958-b114-b6bdc52e29f4",
+    "credits": 0,
+    "response_time": 0.02,
+    "results": 2,
+    "seconds": 0.0
+   }
+  ],
+  "model_calls": [
+   {
+    "label": "policy:tiers",
+    "model": "muse-spark-1.3",
+    "response_id": "resp_6ae7cee80b292f5bc39744d4",
+    "usage": {
+     "input_tokens": 989,
+     "input_tokens_details": {
+      "cached_tokens": 369
+     },
+     "output_tokens": 1133,
+     "output_tokens_details": {
+      "reasoning_tokens": 944
+     },
+     "total_tokens": 2122
+    },
+    "usd": 0.005646,
+    "live": false
+   },
+   {
+    "label": "laws:sections",
+    "model": "muse-spark-1.3",
+    "response_id": "resp_6ae7ce99f631bded8c72495d",
+    "usd": 0.00154,
+    "live": false
+   }
+  ],
+  "credits": 6,
+  "model_usd": 0.007186,
+  "checked_at": "2026-11-01T23:53:52+00:00",
+  "note": "Policies change; check the hospital's own site before you apply. This is not a promise of a discount.",
+  "message": "the tiers are quoted from the page, but it prints no date and may be out of date"
+ },
+ {
+  "status": "link_only",
+  "hospital": "Mount Sinai Hospital",
+  "city": "New York",
+  "zip": "",
+  "state": "NY",
+  "domain": "mountsinai.org",
+  "domain_step": 1,
+  "domain_note": "mountsinai.org: the site printed on your bill",
+  "candidate": null,
+  "url": "https://www.mountsinai.org/about/financial-assistance",
+  "title": "Financial Assistance and Billing and Collections Policy",
+  "doc_date": "",
+  "date_quote": "",
+  "date_note": "the page prints no revision date; check that it is the current policy",
+  "tiers": [],
+  "missing": [],
+  "state_laws": {
+   "state": "NY",
+   "status": "not_found",
+   "sections": [],
+   "dropped": [],
+   "url": "",
+   "message": "no page of the state's statutes came back from its official law site",
+   "note": "State law depends on your plan, the hospital, the dates and the law's own conditions (an employer's self-funded plan is outside state law). This is the law's own text, not legal advice.",
+   "tavily_calls": [
+    {
+     "at": "2026-11-01T23:53:52+00:00",
+     "label": "laws:search",
+     "provider": "tavily",
+     "endpoint": "https://api.tavily.com/search",
+     "key": "b45af0beb40cddc38a95",
+     "live": true,
+     "request_id": "711e4739-ed37-47f4-a930-f2f78300b45e",
+     "credits": 2,
+     "response_time": 4.01,
+     "results": 3,
+     "seconds": 0.0
+    },
+    {
+     "at": "2026-11-01T23:53:52+00:00",
+     "label": "laws:search",
+     "provider": "tavily",
+     "endpoint": "https://api.tavily.com/search",
+     "key": "095abb91ffe0212d169a",
+     "live": true,
+     "request_id": "27fa14de-5a9c-4397-b80c-253b4402bc7b",
+     "credits": 2,
+     "response_time": 3.96,
+     "results": 3,
+     "seconds": 0.0
+    }
+   ],
+   "model_calls": [
+    {
+     "label": "spark:law-search",
+     "model": "muse-spark-1.3",
+     "response_id": "resp_6ae7ce9ca74c48862b824f80",
+     "usd": 0.017352,
+     "live": false
+    }
+   ]
+  },
+  "dropped": [],
+  "rejected": [
+   {
+    "url": "https://www.mountsinai.org/files/MSHealth/Assets/MSH/MSH-&-MSQ-CHNA-2023.pdf",
+    "why": "another document (needs assessment, community benefit, report)"
+   },
+   {
+    "url": "https://www.mountsinai.org/files/MSHealth/Assets/MSSL/HS-Mount-Sinai-Morningside-and-Mount-Sinai-West-CSP.pdf",
+    "why": "another document (needs assessment, community benefit, report)"
+   },
+   {
+    "url": "https://www.mountsinai.org/files/MSHealth/Assets/HS/About/Financial%20Aid/2018%20MSHG%20Financial%20Assistance%20and%20Billing%20and%20Collections%20Policy%20downloadfile.pdf",
+    "why": "an older version (2018)"
+   }
+  ],
+  "tavily_calls": [
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "policy:search",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "974ddb3d57537f9fd17a",
+    "live": true,
+    "request_id": "e2a784c9-2405-4c3b-b295-677d8060fb4d",
+    "credits": 2,
+    "response_time": 5.45,
+    "results": 5,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "policy:dated",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "49dc256de6e23c6e8beb",
+    "live": true,
+    "request_id": "7a498def-3e9b-48d3-8518-6f1f0a653e6c",
+    "credits": 2,
+    "response_time": 1.72,
+    "results": 5,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "laws:search",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "b21c7cb53a1238c4c80c",
+    "live": true,
+    "request_id": "9fe758ba-c50d-4c45-8cdf-fbf29f34e049",
+    "credits": 2,
+    "response_time": 3.86,
+    "results": 3,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "laws:extract",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/extract",
+    "key": "024b58cc26f0d7736753",
+    "live": true,
+    "request_id": "0a542fa1-62fe-4958-b114-b6bdc52e29f4",
+    "credits": 0,
+    "response_time": 0.02,
+    "results": 2,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "policy:search",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "3cf80b5aeb22b02facb6",
+    "live": true,
+    "request_id": "805cb81d-322f-4677-984f-a39fcc3f55af",
+    "credits": 2,
+    "response_time": 3.02,
+    "results": 5,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "policy:dated",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "d8307211ff98152262ff",
+    "live": true,
+    "request_id": "25a8950b-0acb-4269-bc37-976a0c1d21b9",
+    "credits": 2,
+    "response_time": 2.63,
+    "results": 5,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "laws:search",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "b45af0beb40cddc38a95",
+    "live": true,
+    "request_id": "711e4739-ed37-47f4-a930-f2f78300b45e",
+    "credits": 2,
+    "response_time": 4.01,
+    "results": 3,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "laws:search",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "095abb91ffe0212d169a",
+    "live": true,
+    "request_id": "27fa14de-5a9c-4397-b80c-253b4402bc7b",
+    "credits": 2,
+    "response_time": 3.96,
+    "results": 3,
+    "seconds": 0.0
+   }
+  ],
+  "model_calls": [
+   {
+    "label": "policy:tiers",
+    "model": "muse-spark-1.3",
+    "response_id": "resp_6ae7ceec3243c8e9602d421f",
+    "usage": {
+     "input_tokens": 6703,
+     "input_tokens_details": {
+      "cached_tokens": 6641
+     },
+     "output_tokens": 497,
+     "output_tokens_details": {
+      "reasoning_tokens": 467
+     },
+     "total_tokens": 7200
+    },
+    "usd": 0.003186,
+    "live": false
+   },
+   {
+    "label": "spark:law-search",
+    "model": "muse-spark-1.3",
+    "response_id": "resp_6ae7ce9ca74c48862b824f80",
+    "usd": 0.017352,
+    "live": false
+   }
+  ],
+  "credits": 14,
+  "model_usd": 0.020538,
+  "checked_at": "2026-11-01T23:53:52+00:00",
+  "note": "Policies change; check the hospital's own site before you apply. This is not a promise of a discount.",
+  "message": "we found the policy, but no tier passed the quote check; check it yourself"
+ },
+ {
+  "status": "partial",
+  "hospital": "Cedars-Sinai Medical Center",
+  "city": "Los Angeles",
+  "zip": "90048",
+  "state": "CA",
+  "domain": "cedars-sinai.org",
+  "domain_step": 2,
+  "domain_note": "cedars-sinai.org: the page shows the name and Los Angeles",
+  "candidate": null,
+  "url": "https://www.cedars-sinai.org/content/dam/cedars-sinai/billing-insurance/financial-assistance/documents/faps/full-fap-english.pdf",
+  "title": "Financial Assistance Policy",
+  "doc_date": "Effective Date: 01/01/2025",
+  "date_quote": "Effective Date: 01/01/2025",
+  "date_note": "",
+  "tiers": [
+   {
+    "benefit": "free",
+    "discount_pct": 100,
+    "from_fpl_pct": 0,
+    "quote": "Charity Care will be made available to patients whose family income is at or below 400 percent of the current year\u2019s FPL",
+    "up_to_fpl_pct": 400,
+    "shows": "free care"
+   }
+  ],
+  "missing": [
+   "401%\u2013600%"
+  ],
+  "state_laws": {
+   "state": "CA",
+   "status": "shown",
+   "sections": [
+    {
+     "state": "CA",
+     "section": "127435",
+     "quote": "A hospital shall provide to the department a copy of its discount payment policy, charity care policy, eligibility procedures for those policies, review process, and the application for charity care or discounted payment programs, as well as a copy of its debt collection policy",
+     "date_quote": "Amended by Stats. 2024, Ch. 511, Sec. 6. (AB 2297) Effective January 1, 2025.",
+     "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=HSC&sectionNum=127435.",
+     "title": "California Code,  HSC 127435.",
+     "label": "May apply to you; check."
+    }
+   ],
+   "dropped": [],
+   "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=HSC&sectionNum=127435.",
+   "message": "",
+   "note": "State law depends on your plan, the hospital, the dates and the law's own conditions (an employer's self-funded plan is outside state law). This is the law's own text, not legal advice.",
+   "tavily_calls": [
+    {
+     "at": "2026-11-01T23:53:52+00:00",
+     "label": "laws:search",
+     "provider": "tavily",
+     "endpoint": "https://api.tavily.com/search",
+     "key": "ee5164857b03041c9c42",
+     "live": true,
+     "request_id": "bc641153-8185-48a2-b61d-a8081599755c",
+     "credits": 2,
+     "response_time": 2.84,
+     "results": 3,
+     "seconds": 0.0
+    },
+    {
+     "at": "2026-11-01T23:53:52+00:00",
+     "label": "laws:extract",
+     "provider": "tavily",
+     "endpoint": "https://api.tavily.com/extract",
+     "key": "3b788647d8aa4b649a6d",
+     "live": true,
+     "request_id": "2fd5754a-47d8-48c6-b836-93ff18e1238a",
+     "credits": 0,
+     "response_time": 0.28,
+     "results": 2,
+     "seconds": 0.0
+    }
+   ],
+   "model_calls": [
+    {
+     "label": "spark:law-search",
+     "model": "muse-spark-1.3",
+     "response_id": "resp_6ae7cefd5aa7cded59a24fe6",
+     "usd": 0.009617,
+     "live": false
+    },
+    {
+     "label": "laws:sections",
+     "model": "muse-spark-1.3",
+     "response_id": "resp_6ae7cf031a7b32b5b4a64db5",
+     "usd": 0.005347,
+     "live": false
+    }
+   ]
+  },
+  "dropped": [
+   {
+    "benefit": "discount",
+    "discount_pct": 95,
+    "from_fpl_pct": 401,
+    "quote": "FPL % 400% 450% 500% 550% 600% Uninsured 100% 95% 90% 85% 85% Underinsured 100% 90% 80% 70% 60%",
+    "up_to_fpl_pct": 450,
+    "why": "up to 450% of the poverty level is not what the quote prints"
+   },
+   {
+    "benefit": "discount",
+    "discount_pct": 90,
+    "from_fpl_pct": 401,
+    "quote": "FPL % 400% 450% 500% 550% 600% Uninsured 100% 95% 90% 85% 85% Underinsured 100% 90% 80% 70% 60%",
+    "up_to_fpl_pct": 450,
+    "why": "up to 450% of the poverty level is not what the quote prints"
+   },
+   {
+    "benefit": "discount",
+    "discount_pct": 90,
+    "from_fpl_pct": 451,
+    "quote": "FPL % 400% 450% 500% 550% 600% Uninsured 100% 95% 90% 85% 85% Underinsured 100% 90% 80% 70% 60%",
+    "up_to_fpl_pct": 500,
+    "why": "up to 500% of the poverty level is not what the quote prints"
+   },
+   {
+    "benefit": "discount",
+    "discount_pct": 80,
+    "from_fpl_pct": 451,
+    "quote": "FPL % 400% 450% 500% 550% 600% Uninsured 100% 95% 90% 85% 85% Underinsured 100% 90% 80% 70% 60%",
+    "up_to_fpl_pct": 500,
+    "why": "up to 500% of the poverty level is not what the quote prints"
+   },
+   {
+    "benefit": "discount",
+    "discount_pct": 85,
+    "from_fpl_pct": 501,
+    "quote": "FPL % 400% 450% 500% 550% 600% Uninsured 100% 95% 90% 85% 85% Underinsured 100% 90% 80% 70% 60%",
+    "up_to_fpl_pct": 550,
+    "why": "up to 550% of the poverty level is not what the quote prints"
+   },
+   {
+    "benefit": "discount",
+    "discount_pct": 70,
+    "from_fpl_pct": 501,
+    "quote": "FPL % 400% 450% 500% 550% 600% Uninsured 100% 95% 90% 85% 85% Underinsured 100% 90% 80% 70% 60%",
+    "up_to_fpl_pct": 550,
+    "why": "up to 550% of the poverty level is not what the quote prints"
+   },
+   {
+    "benefit": "discount",
+    "discount_pct": 85,
+    "from_fpl_pct": 551,
+    "quote": "FPL % 400% 450% 500% 550% 600% Uninsured 100% 95% 90% 85% 85% Underinsured 100% 90% 80% 70% 60%",
+    "up_to_fpl_pct": 600,
+    "why": "up to 600% of the poverty level is not what the quote prints"
+   },
+   {
+    "benefit": "discount",
+    "discount_pct": 60,
+    "from_fpl_pct": 551,
+    "quote": "FPL % 400% 450% 500% 550% 600% Uninsured 100% 95% 90% 85% 85% Underinsured 100% 90% 80% 70% 60%",
+    "up_to_fpl_pct": 600,
+    "why": "up to 600% of the poverty level is not what the quote prints"
+   }
+  ],
+  "rejected": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Cedars-Sinai_Medical_Center",
+    "why": "a directory, a guide or a shared host, not the hospital's site"
+   },
+   {
+    "url": "https://health.usnews.com/best-hospitals/area/ca/cedars-sinai-medical-center-6930444",
+    "why": "a directory, a guide or a shared host, not the hospital's site"
+   },
+   {
+    "url": "https://careers.cshs.org/locations",
+    "why": "name and place match, but the site's name does not; ask"
+   },
+   {
+    "url": "https://hcai.ca.gov/facility/cedars-sinai-medical-center",
+    "why": "a directory, a guide or a shared host, not the hospital's site"
+   },
+   {
+    "url": "https://www.cedars-sinai.org/content/dam/cedars-sinai/community-benefits/documents/community-benefit-plan-2023.pdf",
+    "why": "another document (needs assessment, community benefit, report)"
+   },
+   {
+    "url": "https://www.cedars-sinai.org/content/dam/cedars-sinai/community-benefits/documents/community-health-needs-assessment-2025.pdf",
+    "why": "another document (needs assessment, community benefit, report)"
+   },
+   {
+    "url": "https://www.cedars-sinai.org/content/dam/cedars-sinai/billing-insurance/financial-assistance/documents/faps/full-fap-korean.pdf",
+    "why": "not the English version"
+   },
+   {
+    "url": "https://www.cedars-sinai.org/content/dam/cedars-sinai/about-us/documents/csmc-fy21-form-990.pdf",
+    "why": "another document (needs assessment, community benefit, report)"
+   },
+   {
+    "url": "https://www.cedars-sinai.org/content/dam/cedars-sinai/billing-insurance/financial-assistance/documents/faps/full-fap-russian.pdf",
+    "why": "not the English version"
+   },
+   {
+    "url": "https://www.cedars-sinai.org/content/dam/cedars-sinai/billing-insurance/financial-assistance/documents/faps/full-fap-spanish.pdf",
+    "why": "not the English version"
+   },
+   {
+    "url": "https://www.cedars-sinai.org/content/dam/cedars-sinai/about-us/documents/csmc-fy22-form-990.pdf",
+    "why": "another document (needs assessment, community benefit, report)"
+   }
+  ],
+  "tavily_calls": [
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "policy:search",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "974ddb3d57537f9fd17a",
+    "live": true,
+    "request_id": "e2a784c9-2405-4c3b-b295-677d8060fb4d",
+    "credits": 2,
+    "response_time": 5.45,
+    "results": 5,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "policy:dated",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "49dc256de6e23c6e8beb",
+    "live": true,
+    "request_id": "7a498def-3e9b-48d3-8518-6f1f0a653e6c",
+    "credits": 2,
+    "response_time": 1.72,
+    "results": 5,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "laws:search",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "b21c7cb53a1238c4c80c",
+    "live": true,
+    "request_id": "9fe758ba-c50d-4c45-8cdf-fbf29f34e049",
+    "credits": 2,
+    "response_time": 3.86,
+    "results": 3,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "laws:extract",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/extract",
+    "key": "024b58cc26f0d7736753",
+    "live": true,
+    "request_id": "0a542fa1-62fe-4958-b114-b6bdc52e29f4",
+    "credits": 0,
+    "response_time": 0.02,
+    "results": 2,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "policy:search",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "3cf80b5aeb22b02facb6",
+    "live": true,
+    "request_id": "805cb81d-322f-4677-984f-a39fcc3f55af",
+    "credits": 2,
+    "response_time": 3.02,
+    "results": 5,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "policy:dated",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "d8307211ff98152262ff",
+    "live": true,
+    "request_id": "25a8950b-0acb-4269-bc37-976a0c1d21b9",
+    "credits": 2,
+    "response_time": 2.63,
+    "results": 5,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "laws:search",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "b45af0beb40cddc38a95",
+    "live": true,
+    "request_id": "711e4739-ed37-47f4-a930-f2f78300b45e",
+    "credits": 2,
+    "response_time": 4.01,
+    "results": 3,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "laws:search",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "095abb91ffe0212d169a",
+    "live": true,
+    "request_id": "27fa14de-5a9c-4397-b80c-253b4402bc7b",
+    "credits": 2,
+    "response_time": 3.96,
+    "results": 3,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "policy:site",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "598a7241e9bf6e284848",
+    "live": true,
+    "request_id": "666c4740-81fc-41d0-85b3-1e52adc5d010",
+    "credits": 1,
+    "response_time": 1.73,
+    "results": 5,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "policy:search",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "fb85e26fef5cd4c7f430",
+    "live": true,
+    "request_id": "d4131b57-8622-4779-a7fe-774ce6e213e2",
+    "credits": 2,
+    "response_time": 2.91,
+    "results": 5,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "policy:search",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "8cd5ad15984ab36c82c9",
+    "live": true,
+    "request_id": "e31dd9e9-ce4b-4077-b005-cda64f84f94c",
+    "credits": 2,
+    "response_time": 5.31,
+    "results": 5,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "laws:search",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "ee5164857b03041c9c42",
+    "live": true,
+    "request_id": "bc641153-8185-48a2-b61d-a8081599755c",
+    "credits": 2,
+    "response_time": 2.84,
+    "results": 3,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "laws:extract",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/extract",
+    "key": "3b788647d8aa4b649a6d",
+    "live": true,
+    "request_id": "2fd5754a-47d8-48c6-b836-93ff18e1238a",
+    "credits": 0,
+    "response_time": 0.28,
+    "results": 2,
+    "seconds": 0.0
+   }
+  ],
+  "model_calls": [
+   {
+    "label": "policy:tiers",
+    "model": "muse-spark-1.3",
+    "response_id": "resp_6ae7ceeee144c5c711174c4e",
+    "usage": {
+     "input_tokens": 7905,
+     "input_tokens_details": {
+      "cached_tokens": 369
+     },
+     "output_tokens": 4508,
+     "output_tokens_details": {
+      "reasoning_tokens": 3626
+     },
+     "total_tokens": 12413
+    },
+    "usd": 0.028634,
+    "live": false
+   },
+   {
+    "label": "spark:law-search",
+    "model": "muse-spark-1.3",
+    "response_id": "resp_6ae7cefd5aa7cded59a24fe6",
+    "usd": 0.009617,
+    "live": false
+   },
+   {
+    "label": "laws:sections",
+    "model": "muse-spark-1.3",
+    "response_id": "resp_6ae7cf031a7b32b5b4a64db5",
+    "usd": 0.005347,
+    "live": false
+   }
+  ],
+  "credits": 21,
+  "model_usd": 0.043598,
+  "checked_at": "2026-11-01T23:53:52+00:00",
+  "note": "Policies change; check the hospital's own site before you apply. This is not a promise of a discount.",
+  "message": "the policy prints more tiers than we could confirm word for word (401%\u2013600% of the poverty level); check the policy for those"
+ },
+ {
+  "status": "undated",
+  "hospital": "Orlando Health",
+  "city": "Orlando",
+  "zip": "",
+  "state": "FL",
+  "domain": "orlandohealth.com",
+  "domain_step": 1,
+  "domain_note": "orlandohealth.com: the site printed on your bill",
+  "candidate": null,
+  "url": "https://www.orlandohealth.com/patients-and-visitors/patient-financial-resources/pay-your-bill/financial-assistance",
+  "title": "Financial Assistance Program",
+  "doc_date": "",
+  "date_quote": "",
+  "date_note": "the page prints no revision date; check that it is the current policy",
+  "tiers": [
+   {
+    "benefit": "free",
+    "discount_pct": 100,
+    "from_fpl_pct": 0,
+    "quote": "If a validated financial statement application reflects an income at or below 225% of the most current Federal Poverty Level for the stated family size, the account will qualify for financial assistance in its entirety",
+    "up_to_fpl_pct": 225,
+    "shows": "free care"
+   }
+  ],
+  "missing": [],
+  "state_laws": {
+   "state": "FL",
+   "status": "skipped",
+   "sections": [],
+   "dropped": [],
+   "url": "",
+   "message": "Florida's protections are shown from BillRadar's checked base",
+   "note": "State law depends on your plan, the hospital, the dates and the law's own conditions (an employer's self-funded plan is outside state law). This is the law's own text, not legal advice.",
+   "tavily_calls": [],
+   "model_calls": []
+  },
+  "dropped": [],
+  "rejected": [
+   {
+    "url": "https://www.orlandohealth.com/about-us/community-involvement/community-benefit/community-grant-program",
+    "why": "another document (needs assessment, community benefit, report)"
+   }
+  ],
+  "tavily_calls": [
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "policy:search",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "974ddb3d57537f9fd17a",
+    "live": true,
+    "request_id": "e2a784c9-2405-4c3b-b295-677d8060fb4d",
+    "credits": 2,
+    "response_time": 5.45,
+    "results": 5,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "policy:dated",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "49dc256de6e23c6e8beb",
+    "live": true,
+    "request_id": "7a498def-3e9b-48d3-8518-6f1f0a653e6c",
+    "credits": 2,
+    "response_time": 1.72,
+    "results": 5,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "laws:search",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "b21c7cb53a1238c4c80c",
+    "live": true,
+    "request_id": "9fe758ba-c50d-4c45-8cdf-fbf29f34e049",
+    "credits": 2,
+    "response_time": 3.86,
+    "results": 3,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "laws:extract",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/extract",
+    "key": "024b58cc26f0d7736753",
+    "live": true,
+    "request_id": "0a542fa1-62fe-4958-b114-b6bdc52e29f4",
+    "credits": 0,
+    "response_time": 0.02,
+    "results": 2,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "policy:search",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "3cf80b5aeb22b02facb6",
+    "live": true,
+    "request_id": "805cb81d-322f-4677-984f-a39fcc3f55af",
+    "credits": 2,
+    "response_time": 3.02,
+    "results": 5,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "policy:dated",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "d8307211ff98152262ff",
+    "live": true,
+    "request_id": "25a8950b-0acb-4269-bc37-976a0c1d21b9",
+    "credits": 2,
+    "response_time": 2.63,
+    "results": 5,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "laws:search",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "b45af0beb40cddc38a95",
+    "live": true,
+    "request_id": "711e4739-ed37-47f4-a930-f2f78300b45e",
+    "credits": 2,
+    "response_time": 4.01,
+    "results": 3,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "laws:search",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "095abb91ffe0212d169a",
+    "live": true,
+    "request_id": "27fa14de-5a9c-4397-b80c-253b4402bc7b",
+    "credits": 2,
+    "response_time": 3.96,
+    "results": 3,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "policy:site",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "598a7241e9bf6e284848",
+    "live": true,
+    "request_id": "666c4740-81fc-41d0-85b3-1e52adc5d010",
+    "credits": 1,
+    "response_time": 1.73,
+    "results": 5,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "policy:search",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "fb85e26fef5cd4c7f430",
+    "live": true,
+    "request_id": "d4131b57-8622-4779-a7fe-774ce6e213e2",
+    "credits": 2,
+    "response_time": 2.91,
+    "results": 5,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "policy:search",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "8cd5ad15984ab36c82c9",
+    "live": true,
+    "request_id": "e31dd9e9-ce4b-4077-b005-cda64f84f94c",
+    "credits": 2,
+    "response_time": 5.31,
+    "results": 5,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "laws:search",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "ee5164857b03041c9c42",
+    "live": true,
+    "request_id": "bc641153-8185-48a2-b61d-a8081599755c",
+    "credits": 2,
+    "response_time": 2.84,
+    "results": 3,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "laws:extract",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/extract",
+    "key": "3b788647d8aa4b649a6d",
+    "live": true,
+    "request_id": "2fd5754a-47d8-48c6-b836-93ff18e1238a",
+    "credits": 0,
+    "response_time": 0.28,
+    "results": 2,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "policy:search",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "7aab1f361861f94fda46",
+    "live": true,
+    "request_id": "dbebc3b2-0299-48cc-87de-26a21a1c910e",
+    "credits": 2,
+    "response_time": 8.75,
+    "results": 2,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "policy:dated",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "9b3024c58cbed6d0baac",
+    "live": true,
+    "request_id": "e78ee1af-2fa0-4d68-9161-05bd733a95c5",
+    "credits": 2,
+    "response_time": 1.4,
+    "results": 5,
+    "seconds": 0.0
+   }
+  ],
+  "model_calls": [
+   {
+    "label": "policy:tiers",
+    "model": "muse-spark-1.3",
+    "response_id": "resp_6ae7cf06545878a9becc4a58",
+    "usage": {
+     "input_tokens": 2524,
+     "input_tokens_details": {
+      "cached_tokens": 369
+     },
+     "output_tokens": 735,
+     "output_tokens_details": {
+      "reasoning_tokens": 634
+     },
+     "total_tokens": 3259
+    },
+    "usd": 0.005873,
+    "live": false
+   }
+  ],
+  "credits": 25,
+  "model_usd": 0.005873,
+  "checked_at": "2026-11-01T23:53:52+00:00",
+  "note": "Policies change; check the hospital's own site before you apply. This is not a promise of a discount.",
+  "message": "the tiers are quoted from the page, but it prints no date and may be out of date"
+ },
+ {
+  "status": "ask_user",
+  "hospital": "Memorial Regional Hospital",
+  "city": "Hollywood",
+  "zip": "33021",
+  "state": "FL",
+  "domain": "",
+  "domain_step": 0,
+  "domain_note": "",
+  "candidate": {
+   "name": "Memorial Regional Hospital",
+   "city": "Hollywood",
+   "site": "mhs.net",
+   "url": "http://www.mhs.net/locations/memorial-regional"
+  },
+  "url": "",
+  "title": "",
+  "doc_date": "",
+  "date_quote": "",
+  "date_note": "",
+  "tiers": [],
+  "missing": [],
+  "state_laws": null,
+  "dropped": [],
+  "rejected": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Memorial_Regional_Hospital_(Florida)",
+    "why": "a directory, a guide or a shared host, not the hospital's site"
+   },
+   {
+    "url": "https://choosehollywoodfl.com/193/Memorial-Healthcare-System",
+    "why": "name and place match, but the site's name does not; ask"
+   },
+   {
+    "url": "http://www.mhs.net/locations/memorial-regional",
+    "why": "name and place match, but the site's name does not; ask"
+   },
+   {
+    "url": "https://ahca.myflorida.com/content/download/12750/file/memorial_regional_hospital.pdf",
+    "why": "a directory, a guide or a shared host, not the hospital's site"
+   },
+   {
+    "url": "http://www.mhs.net/locations",
+    "why": "name and place match, but the site's name does not; ask"
+   }
+  ],
+  "tavily_calls": [
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "policy:search",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "974ddb3d57537f9fd17a",
+    "live": true,
+    "request_id": "e2a784c9-2405-4c3b-b295-677d8060fb4d",
+    "credits": 2,
+    "response_time": 5.45,
+    "results": 5,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "policy:dated",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "49dc256de6e23c6e8beb",
+    "live": true,
+    "request_id": "7a498def-3e9b-48d3-8518-6f1f0a653e6c",
+    "credits": 2,
+    "response_time": 1.72,
+    "results": 5,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "laws:search",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "b21c7cb53a1238c4c80c",
+    "live": true,
+    "request_id": "9fe758ba-c50d-4c45-8cdf-fbf29f34e049",
+    "credits": 2,
+    "response_time": 3.86,
+    "results": 3,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "laws:extract",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/extract",
+    "key": "024b58cc26f0d7736753",
+    "live": true,
+    "request_id": "0a542fa1-62fe-4958-b114-b6bdc52e29f4",
+    "credits": 0,
+    "response_time": 0.02,
+    "results": 2,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "policy:search",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "3cf80b5aeb22b02facb6",
+    "live": true,
+    "request_id": "805cb81d-322f-4677-984f-a39fcc3f55af",
+    "credits": 2,
+    "response_time": 3.02,
+    "results": 5,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "policy:dated",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "d8307211ff98152262ff",
+    "live": true,
+    "request_id": "25a8950b-0acb-4269-bc37-976a0c1d21b9",
+    "credits": 2,
+    "response_time": 2.63,
+    "results": 5,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "laws:search",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "b45af0beb40cddc38a95",
+    "live": true,
+    "request_id": "711e4739-ed37-47f4-a930-f2f78300b45e",
+    "credits": 2,
+    "response_time": 4.01,
+    "results": 3,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "laws:search",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "095abb91ffe0212d169a",
+    "live": true,
+    "request_id": "27fa14de-5a9c-4397-b80c-253b4402bc7b",
+    "credits": 2,
+    "response_time": 3.96,
+    "results": 3,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "policy:site",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "598a7241e9bf6e284848",
+    "live": true,
+    "request_id": "666c4740-81fc-41d0-85b3-1e52adc5d010",
+    "credits": 1,
+    "response_time": 1.73,
+    "results": 5,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "policy:search",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "fb85e26fef5cd4c7f430",
+    "live": true,
+    "request_id": "d4131b57-8622-4779-a7fe-774ce6e213e2",
+    "credits": 2,
+    "response_time": 2.91,
+    "results": 5,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "policy:search",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "8cd5ad15984ab36c82c9",
+    "live": true,
+    "request_id": "e31dd9e9-ce4b-4077-b005-cda64f84f94c",
+    "credits": 2,
+    "response_time": 5.31,
+    "results": 5,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "laws:search",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "ee5164857b03041c9c42",
+    "live": true,
+    "request_id": "bc641153-8185-48a2-b61d-a8081599755c",
+    "credits": 2,
+    "response_time": 2.84,
+    "results": 3,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "laws:extract",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/extract",
+    "key": "3b788647d8aa4b649a6d",
+    "live": true,
+    "request_id": "2fd5754a-47d8-48c6-b836-93ff18e1238a",
+    "credits": 0,
+    "response_time": 0.28,
+    "results": 2,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "policy:search",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "7aab1f361861f94fda46",
+    "live": true,
+    "request_id": "dbebc3b2-0299-48cc-87de-26a21a1c910e",
+    "credits": 2,
+    "response_time": 8.75,
+    "results": 2,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "policy:dated",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "9b3024c58cbed6d0baac",
+    "live": true,
+    "request_id": "e78ee1af-2fa0-4d68-9161-05bd733a95c5",
+    "credits": 2,
+    "response_time": 1.4,
+    "results": 5,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "policy:site",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "3bc08a1273417e8c8148",
+    "live": true,
+    "request_id": "cbce2e8f-b319-420f-bded-a1132e5aa615",
+    "credits": 1,
+    "response_time": 1.02,
+    "results": 5,
+    "seconds": 0.0
+   }
+  ],
+  "model_calls": [],
+  "credits": 26,
+  "model_usd": 0.0,
+  "checked_at": "2026-11-01T23:53:52+00:00",
+  "note": "Policies change; check the hospital's own site before you apply. This is not a promise of a discount.",
+  "message": "Is this your hospital?"
+ },
+ {
+  "status": "verified",
+  "hospital": "Memorial Regional Hospital",
+  "city": "Hollywood",
+  "zip": "33021",
+  "state": "FL",
+  "domain": "mhs.net",
+  "domain_step": 3,
+  "domain_note": "mhs.net: you confirmed it is your hospital",
+  "candidate": null,
+  "url": "https://www.mhs.net/-/media/mhs/files/patients-and-visitors/financial-assistance/en/full-policy.pdf",
+  "title": "Memorial Healthcare System FINANCIAL ASSISTANCE POLICY",
+  "doc_date": "Revised May 2026",
+  "date_quote": "Revised May 2026",
+  "date_note": "",
+  "tiers": [
+   {
+    "benefit": "free",
+    "discount_pct": 100,
+    "from_fpl_pct": 0,
+    "quote": "Up to 200% of FPG 100% Discount",
+    "up_to_fpl_pct": 200,
+    "shows": "free care"
+   },
+   {
+    "benefit": "discount",
+    "discount_pct": 90,
+    "from_fpl_pct": 201,
+    "quote": "201% - 250% of FPG 90% Discount",
+    "up_to_fpl_pct": 250,
+    "shows": "90% discount"
+   },
+   {
+    "benefit": "discount",
+    "discount_pct": 85,
+    "from_fpl_pct": 251,
+    "quote": "251% - 300% of FPG 85% Discount",
+    "up_to_fpl_pct": 300,
+    "shows": "85% discount"
+   },
+   {
+    "benefit": "discount",
+    "discount_pct": 83,
+    "from_fpl_pct": 301,
+    "quote": "301% - 350% of FPG 83% Discount",
+    "up_to_fpl_pct": 350,
+    "shows": "83% discount"
+   },
+   {
+    "benefit": "discount",
+    "discount_pct": 83,
+    "from_fpl_pct": 351,
+    "quote": "351% - 400% of FPG 83% Discount",
+    "up_to_fpl_pct": 400,
+    "shows": "83% discount"
+   }
+  ],
+  "missing": [],
+  "state_laws": {
+   "state": "FL",
+   "status": "skipped",
+   "sections": [],
+   "dropped": [],
+   "url": "",
+   "message": "Florida's protections are shown from BillRadar's checked base",
+   "note": "State law depends on your plan, the hospital, the dates and the law's own conditions (an employer's self-funded plan is outside state law). This is the law's own text, not legal advice.",
+   "tavily_calls": [],
+   "model_calls": []
+  },
+  "dropped": [],
+  "rejected": [
+   {
+    "url": "https://www.mhs.net/-/media/mhs/files/patients-and-visitors/financial-assistance/po/full-policy-portuguese.pdf",
+    "why": "not the English version"
+   }
+  ],
+  "tavily_calls": [
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "policy:search",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "974ddb3d57537f9fd17a",
+    "live": true,
+    "request_id": "e2a784c9-2405-4c3b-b295-677d8060fb4d",
+    "credits": 2,
+    "response_time": 5.45,
+    "results": 5,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "policy:dated",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "49dc256de6e23c6e8beb",
+    "live": true,
+    "request_id": "7a498def-3e9b-48d3-8518-6f1f0a653e6c",
+    "credits": 2,
+    "response_time": 1.72,
+    "results": 5,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "laws:search",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "b21c7cb53a1238c4c80c",
+    "live": true,
+    "request_id": "9fe758ba-c50d-4c45-8cdf-fbf29f34e049",
+    "credits": 2,
+    "response_time": 3.86,
+    "results": 3,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "laws:extract",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/extract",
+    "key": "024b58cc26f0d7736753",
+    "live": true,
+    "request_id": "0a542fa1-62fe-4958-b114-b6bdc52e29f4",
+    "credits": 0,
+    "response_time": 0.02,
+    "results": 2,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "policy:search",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "3cf80b5aeb22b02facb6",
+    "live": true,
+    "request_id": "805cb81d-322f-4677-984f-a39fcc3f55af",
+    "credits": 2,
+    "response_time": 3.02,
+    "results": 5,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "policy:dated",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "d8307211ff98152262ff",
+    "live": true,
+    "request_id": "25a8950b-0acb-4269-bc37-976a0c1d21b9",
+    "credits": 2,
+    "response_time": 2.63,
+    "results": 5,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "laws:search",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "b45af0beb40cddc38a95",
+    "live": true,
+    "request_id": "711e4739-ed37-47f4-a930-f2f78300b45e",
+    "credits": 2,
+    "response_time": 4.01,
+    "results": 3,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "laws:search",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "095abb91ffe0212d169a",
+    "live": true,
+    "request_id": "27fa14de-5a9c-4397-b80c-253b4402bc7b",
+    "credits": 2,
+    "response_time": 3.96,
+    "results": 3,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "policy:site",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "598a7241e9bf6e284848",
+    "live": true,
+    "request_id": "666c4740-81fc-41d0-85b3-1e52adc5d010",
+    "credits": 1,
+    "response_time": 1.73,
+    "results": 5,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "policy:search",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "fb85e26fef5cd4c7f430",
+    "live": true,
+    "request_id": "d4131b57-8622-4779-a7fe-774ce6e213e2",
+    "credits": 2,
+    "response_time": 2.91,
+    "results": 5,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "policy:search",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "8cd5ad15984ab36c82c9",
+    "live": true,
+    "request_id": "e31dd9e9-ce4b-4077-b005-cda64f84f94c",
+    "credits": 2,
+    "response_time": 5.31,
+    "results": 5,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "laws:search",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "ee5164857b03041c9c42",
+    "live": true,
+    "request_id": "bc641153-8185-48a2-b61d-a8081599755c",
+    "credits": 2,
+    "response_time": 2.84,
+    "results": 3,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "laws:extract",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/extract",
+    "key": "3b788647d8aa4b649a6d",
+    "live": true,
+    "request_id": "2fd5754a-47d8-48c6-b836-93ff18e1238a",
+    "credits": 0,
+    "response_time": 0.28,
+    "results": 2,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "policy:search",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "7aab1f361861f94fda46",
+    "live": true,
+    "request_id": "dbebc3b2-0299-48cc-87de-26a21a1c910e",
+    "credits": 2,
+    "response_time": 8.75,
+    "results": 2,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "policy:dated",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "9b3024c58cbed6d0baac",
+    "live": true,
+    "request_id": "e78ee1af-2fa0-4d68-9161-05bd733a95c5",
+    "credits": 2,
+    "response_time": 1.4,
+    "results": 5,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "policy:site",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "3bc08a1273417e8c8148",
+    "live": true,
+    "request_id": "cbce2e8f-b319-420f-bded-a1132e5aa615",
+    "credits": 1,
+    "response_time": 1.02,
+    "results": 5,
+    "seconds": 0.0
+   },
+   {
+    "at": "2026-11-01T23:53:52+00:00",
+    "label": "policy:search",
+    "provider": "tavily",
+    "endpoint": "https://api.tavily.com/search",
+    "key": "87a0ee55223afc65f550",
+    "live": true,
+    "request_id": "88288240-3c13-4123-946b-5ba83b4d8a9b",
+    "credits": 2,
+    "response_time": 2.6,
+    "results": 5,
+    "seconds": 0.0
+   }
+  ],
+  "model_calls": [
+   {
+    "label": "policy:tiers",
+    "model": "muse-spark-1.3",
+    "response_id": "resp_6ae7cf083388721fb0884205",
+    "usage": {
+     "input_tokens": 4804,
+     "input_tokens_details": {
+      "cached_tokens": 369
+     },
+     "output_tokens": 1059,
+     "output_tokens_details": {
+      "reasoning_tokens": 766
+     },
+     "total_tokens": 5863
+    },
+    "usd": 0.0101,
+    "live": false
+   }
+  ],
+  "credits": 28,
+  "model_usd": 0.0101,
+  "checked_at": "2026-11-01T23:53:52+00:00",
+  "note": "Policies change; check the hospital's own site before you apply. This is not a promise of a discount.",
+  "message": ""
+ }
+]
