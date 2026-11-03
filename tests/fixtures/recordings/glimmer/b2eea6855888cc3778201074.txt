@@ -1,0 +1,34 @@
+171|$0.00
+172|$0.00
+173|$0.00
+174|$0.00
+175|Other Carrier Adjustments: $0.00
+176|HLNK
+177|Patient sibility $0.00
+178|Responsibility: 
+179|Total Payment Amount: $0.00
+180|
+181|Your Responsibility: $0.00
+182|Claim #: 731405113900
+183|Provider: OYELARAN, BENEDICT T.
+184|Patient: DANIELA  CASTILLO
+185|Member ID: 39132817396
+186|Dates of
+187|Service
+188|Total
+189|Discount
+190|Allowed
+191|Other
+192|Other Plan
+193|Not
+194|Co-Pay
+195|Deductible
+196|Co-Insurance
+197|Benefit
+198|Reason
+199|Service
+200|Code
+201|Charge
+202|Amount
+203|Amount
+204|Adjustments

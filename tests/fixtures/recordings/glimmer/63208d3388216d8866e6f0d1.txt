@@ -1,0 +1,34 @@
+171|$0.00
+172|$0.00
+173|$0.00
+174|$2,984.04
+175|Other Carrier Adjustments: $0.00
+176|Patient Responsibility: $0.00
+177|Total Payment Amount: $2,984.04
+178|
+179|Your Responsibility: $0.00
+180|
+181|Claim #: 731405279900
+182|Provider: OYELARAN, BENEDICT T.
+183|Patient: MATEO MORENO
+184|Member ID: 85291284617
+185|Dates of
+186|Service
+187|Total
+188|Discount
+189|Allowed
+190|Other
+191|Other Plan
+192|Not
+193|Co-Pay
+194|Deductible
+195|Co-Insurance
+196|Benefit
+197|Reason
+198|Service
+199|Code
+200|Charge
+201|Amount
+202|Amount
+203|Adjustments
+204|Payments

@@ -1,0 +1,73 @@
+Harborlight Health Next
+A Product of Harborlight Health Florida, Inc.
+Harborlight Health
+Next
+A product of Harborlight Health Florida, Inc.
+Explanation of Benefits
+RETAIN FOR TAX PURPOSES
+THIS IS NOT A BILL
+Customer Service
+[CODE]
+[MAIL_2]
+[PATIENT_1]
+[ADDR_4]
+[ADDR_1]
+For Member Service, please call the number on the back of
+Participant Information
+Group Number:
+Group Name: Harborlight Health Next
+Member: [PATIENT_1]
+Date: 04/08/2025
+Page 1 of 1
+Claim [CLAIM_7]
+Provider: SEASIDE REGIONAL HOSPITAL
+[PATIENT_1]
+[MEMBER_1]
+Dates of Service
+Service Code
+Total Charge
+Discount Amount
+Allowed Amount
+Other Adjustments
+Other Plan Payments
+Not Covered
+Co-Pay Amount
+Deductible Amount
+Co-Insurance Amount
+Benefit Amount
+Reason Code
+02/17/2025- 0112 $4,670.00 $2,416.89 $2,253.11 $0.00 $0.00 $0.00 $0.00 $750.00 $300.62 $1,202.49 CPA
+02/19/2025
+02/17/2025- 0722 $3,837.00 $2,194.16 $1,642.84 $0.00 $0.00 $0.00 $0.00 $0.00 $328.57 $1,314.27 CPA
+02/19/2025
+02/17/2025- 0379 $1,822.00 $958.31 $863.69 $0.00 $0.00 $0.00 $0.00 $0.00 $172.74 $690.95 CPA
+02/19/2025
+02/17/2025- 0251 $796.00 $460.07 $335.93 $0.00 $0.00 $0.00 $0.00 $0.00 $67.19 $268.74 CPA
+02/19/2025
+02/17/2025- 0637 $17.00 $8.60 $8.40 $0.00 $0.00 $0.00 $0.00 $0.00 $1.68 $6.72 CPA
+02/19/2025
+02/17/2025- 0272 $313.00 $174.96 $138.04 $0.00 $0.00 $0.00 $0.00 $0.00 $27.61 $110.43 CPA
+02/19/2025
+02/17/2025- 0302 $839.00 $454.87 $384.13 $0.00 $0.00 $0.00 $0.00 $0.00 $76.83 $307.30 CPA
+02/19/2025
+02/17/2025- 0309 $725.00 $374.93 $350.07 $0.00 $0.00 $0.00 $0.00 $0.00 $70.01 $280.06 CPA
+02/19/2025
+Claim Totals $13,019.00 $7,042.79 $5,976.21 $0.00 $0.00 $0.00 $0.00 $750.00 $1,045.25 $4,180.96
+Patient
+Responsibility: $1,795.25
+Other Carrier Adjustments: $0.00
+Total Payment Amount: $4,180.96
+Your Responsibility: $1,795.25
+Service Code Description
+Reason Code Description
+0112 Private Room, Maternity Hosp IP
+CPA Paid at the contracted rate; member share applied per plan design
+0251 Drugs, Generic Hosp IP
+0272 Sterile Supplies Hosp IP
+0302 Lab, Immunology Hosp IP
+0309 Lab, Other Hosp IP
+0379 Anesthesia, Other Hosp IP
+0637 Self-Administered Drugs Hosp IP
+0722 Delivery Room Hosp IP
+Page 1 of 1
+SAMPLE - FICTIONAL TEST DOCUMENT - not a real bill. All names, numbers and organizations are invented.

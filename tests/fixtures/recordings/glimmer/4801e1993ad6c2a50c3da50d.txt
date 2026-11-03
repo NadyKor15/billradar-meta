@@ -1,0 +1,34 @@
+1|224
+2|
+3|
+4|Harborlight Health Next
+5|Harborlight Health
+6|A Product of Harborlight Health Florida, Inc.
+7|Next
+8|1450 Lighthouse Parkway
+9|A product of Harborlight Health Florida, Inc.
+10|Tampa Bay, FL 33699
+11|Explanation of Benefits
+12|RETAIN FOR TAX PURPOSES
+13|THIS IS NOT A BILL
+14|Customer Service
+15|H2PX366M009338 HLNX
+16|DANIELA MORENO
+17|4089 CORAL REEF WAY # 400
+18|For Member Service, please call the number on the back of
+19|BAYSIDE, FL 33067
+20|your ID card
+21|Participant Information
+22|Group Number:
+23|HLNXT
+24|Group Name:
+25|Harborlight Health Next
+26|Member:
+27|DANIELA MORENO
+28|Date:
+29|05/26/2025
+30|Page 1 of 4
+31|Claim #: 731388473600
+32|Provider: QUILLFORD, AUGUSTINE P.
+33|Patient: DANIELA MORENO
+34|Member ID: 16791689883

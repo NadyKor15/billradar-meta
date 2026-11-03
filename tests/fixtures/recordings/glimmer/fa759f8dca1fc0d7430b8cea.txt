@@ -1,0 +1,30 @@
+1|Page 2 of 2
+2|Service Code Description
+3|
+4|Reason Code Description
+5|
+6|76815
+7|Ultrasound, Pregnant Uterus, Limited Med Office
+8|CDA Allowed amount
+9|Allowed amount reflects the provider’s contract with the plan
+10|80055
+11|Lab Panel, Obstetric Med OP
+12|FS1 Allowed accordin
+13|Allowed according to the plan's laboratory fee schedule
+14|81003
+15|Urinalysis, Automated Med OP
+16|86762
+17|Rubella Antibody Med OP
+18|86780
+19|Treponema Pallidum Antibody Med OP
+20|87086
+21|Urine Culture, Colony Count Med OP
+22|87491
+23|Chlamydia, Amplified Probe Med OP
+24|87591
+25|Gonorrhea, Amplified Probe Med OP
+26|
+27|Page 2 of 2
+28|72
+29|January 8, 2025
+30|SAMPLE - FICTIONAL TEST DOCUMENT - not a real bill. All names, numbers and organizations are invented.

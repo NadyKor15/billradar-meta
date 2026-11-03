@@ -1,0 +1,22 @@
+[ACCT_3]
+Admitting Physician:	Pediatrics
+Attending Physician:	Pediatrics
+Anesthesiologist:
+(The physician name will appear
+multiple services)
+Consultants and other Providers
+For more Provider contact information, please go to our website to Find a Physician at
+If you had services provided by the following specialty providers, they will bill you separately. Below is
+their billing contact information
+Company Name	Professional Service	Telephone Number
+Shoreline ER Physicians	Emergency Room	[PHONE_2]
+Pathology Partners of S. Coral	Laboratory	[PHONE_3]
+Harbor Imaging Radiology		[PHONE_4]
+Brightwater Healthcare Group NEO	Neonatology	[PHONE_6]
+Brightwater Healthcare Group ANE	Anesthesiology	[PHONE_5]
+Pediatric Critical Care Partners	Intensive Care	[PHONE_7]
+Coastal EKG Associates	Cardiology/Pulmonary	[PHONE_8]
+Seaside Physician Group Practices		[PHONE_9]
+	Managed Care Hospitalist	[PHONE_10]
+Account [ACCT_3]	Print Date 4/7/2025	Page 4 of 4
+SAMPLE - FICTIONAL TEST DOCUMENT - not a real bill. All names, numbers and organizations are invented.

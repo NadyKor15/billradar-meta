@@ -1,0 +1,34 @@
+137|Provider: TREMAYNE, OSWIN K.
+138|Patient: MARIA ORTEGA
+139|Member ID: 33901862407
+140|Dates of
+141|Service
+142|Total
+143|Discount
+144|Allowed
+145|Other
+146|Other Plan
+147|Not
+148|Co-Pay
+149|Deductible
+150|Co-Insurance
+151|Benefit
+152|Reason
+153|Service
+154|Code
+155|Charge
+156|Amount
+157|Amount
+158|Adjustments
+159|Payments
+160|Covered
+161|Amount
+162|Amount
+163|Amount
+164|Amount
+165|Code
+166|02/17/2025-
+167|01960
+168|$4,108.00
+169|$3,220.94
+170|$887.06

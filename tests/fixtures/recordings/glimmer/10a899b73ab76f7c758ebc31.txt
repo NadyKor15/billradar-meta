@@ -1,0 +1,34 @@
+35|07/13/2025
+36|Date
+37|Description
+38|Charges
+39|Payments
+40|Amount Due
+41|/Adjustments
+42|03/29/2025
+43|Patient: Noah Andres Ortega, Account Num:
+44|6189921
+45|03/29/2025
+46|Claim:3642872, Provider: Greta I. V Vanterpool, MD
+47|03/29/2025
+48|OFFICE VISIT-EST PAT LEVEL 2
+49|164.00
+50|03/29/2025
+51|Patient Copay
+52|15.00
+53|04/19/2025
+54|Insurance Payment
+55|58.00
+56|04/19/2025
+57|Insurance Adjustment
+58|64.00
+59|04/19/2025
+60|Your Balance Due On These Services ...
+61|27.00
+62|07/13/2025
+63|**** Make a secure online payment at https://payclinic24.example
+64|by using your personal statement code - HGQMGKfm ****
+65|Your Account may be subject to Collections. You can resolve
+66|this by making an immediate payment.
+67|
+68|PAYMENT OPTIONS

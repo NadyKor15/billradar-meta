@@ -1,0 +1,17 @@
+103|Total Payment Amount: $2,032.06
+104|Your Responsibility $
+105|Your Responsibility: $658.02
+106|Service Code Description
+107|
+108|Reason Code Description
+109|
+110|59410 Delivery and Pc
+111|Delivery and Postpartum Care Med IP
+112|| CDA Allowed amount
+113|Allowed amount reflects the provider's contract with the plan
+114|99222 Hospital Admis
+115|Hospital Admission Visit Med IP
+116|Page 1 of 1
+117|189
+118|May 18, 2025
+119|SAMPLE - FICTIONAL TEST DOCUMENT - not a real bill. All names, numbers and organizations are invented.

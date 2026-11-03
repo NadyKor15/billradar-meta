@@ -1,0 +1,10 @@
+35|www.cradleview.example/insuranceform or call us at (888) 555-0107.
+36|Insurance plans accept claims only for a limited time, so a quick reply helps.
+37|If we do not receive updated coverage, or the plan does not pay, within 30 days
+38|of the date of this letter, the balance shown above becomes your
+39|responsibility.
+40|Sincerely,
+41|Patient Accounts Team
+42|*NOTE: A payment made in the last 14 days may not be shown in the balance above.
+43|Para recibir esta informacion en Espanol, llame al (888) 555-0107. Gracias.
+44|CRADLYVIEW1-9404541-000000-81378607-001-891504-0024145-1989

@@ -1,0 +1,98 @@
+{"type": "speechStart", "audioProcessedMs": 0, "turnId": 0}
+{"type": "transcript", "transcript": " Thank", "final": false, "audioProcessedMs": 960}
+{"type": "transcript", "transcript": " Thank you", "final": false, "audioProcessedMs": 1040}
+{"type": "transcript", "transcript": " Thank you for", "final": false, "audioProcessedMs": 1120}
+{"type": "transcript", "transcript": " Thank you for calling", "final": false, "audioProcessedMs": 1680}
+{"type": "transcript", "transcript": " Thank you for calling Seaside", "final": false, "audioProcessedMs": 2240}
+{"type": "transcript", "transcript": " Thank you for calling Seaside Billing. This", "final": false, "audioProcessedMs": 2720}
+{"type": "transcript", "transcript": " Thank you for calling Seaside Billing. This is", "final": false, "audioProcessedMs": 3280}
+{"type": "transcript", "transcript": " Thank you for calling Seaside Billing. This is Morgan.", "final": false, "audioProcessedMs": 3520}
+{"type": "transcript", "transcript": " Thank you for calling Seaside Billing. This is Morgan. ", "final": false, "audioProcessedMs": 4560}
+{"type": "speaker", "label": "A", "audioProcessedMs": 4560}
+{"type": "speechEnd", "audioProcessedMs": 4060, "turnId": 0}
+{"type": "speechComplete", "audioProcessedMs": 4060, "turnId": 0, "transcript": " Thank you for calling Seaside Billing. This is Morgan. "}
+{"type": "speechStart", "audioProcessedMs": 4460, "turnId": 1}
+{"type": "transcript", "transcript": " Hi,", "final": false, "audioProcessedMs": 4960}
+{"type": "transcript", "transcript": " Hi, I'm", "final": false, "audioProcessedMs": 5520}
+{"type": "transcript", "transcript": " Hi, I'm calling", "final": false, "audioProcessedMs": 5840}
+{"type": "transcript", "transcript": " Hi, I'm calling about", "final": false, "audioProcessedMs": 6000}
+{"type": "transcript", "transcript": " Hi, I'm calling about my", "final": false, "audioProcessedMs": 6240}
+{"type": "transcript", "transcript": " Hi, I'm calling about my bill.", "final": false, "audioProcessedMs": 6800}
+{"type": "transcript", "transcript": " Hi, I'm calling about my bill. I", "final": false, "audioProcessedMs": 7120}
+{"type": "transcript", "transcript": " Hi, I'm calling about my bill. I think", "final": false, "audioProcessedMs": 7280}
+{"type": "transcript", "transcript": " Hi, I'm calling about my bill. I think there is", "final": false, "audioProcessedMs": 7600}
+{"type": "transcript", "transcript": " Hi, I'm calling about my bill. I think there is a", "final": false, "audioProcessedMs": 8000}
+{"type": "transcript", "transcript": " Hi, I'm calling about my bill. I think there is a duplicate", "final": false, "audioProcessedMs": 8320}
+{"type": "transcript", "transcript": " Hi, I'm calling about my bill. I think there is a duplicate anesthesia", "final": false, "audioProcessedMs": 9120}
+{"type": "transcript", "transcript": " Hi, I'm calling about my bill. I think there is a duplicate anesthesia charge.", "final": false, "audioProcessedMs": 9600}
+{"type": "transcript", "transcript": " Hi, I'm calling about my bill. I think there is a duplicate anesthesia charge. ", "final": false, "audioProcessedMs": 10400}
+{"type": "speaker", "label": "B", "audioProcessedMs": 10400}
+{"type": "speechEnd", "audioProcessedMs": 9900, "turnId": 1}
+{"type": "speechComplete", "audioProcessedMs": 9900, "turnId": 1, "transcript": " Hi, I'm calling about my bill. I think there is a duplicate anesthesia charge. "}
+{"type": "speechStart", "audioProcessedMs": 10380, "turnId": 2}
+{"type": "transcript", "transcript": " The", "final": false, "audioProcessedMs": 10880}
+{"type": "transcript", "transcript": " The discount", "final": false, "audioProcessedMs": 11760}
+{"type": "transcript", "transcript": " The discount is only", "final": false, "audioProcessedMs": 11840}
+{"type": "transcript", "transcript": " The discount is only for", "final": false, "audioProcessedMs": 12320}
+{"type": "transcript", "transcript": " The discount is only for uninsured", "final": false, "audioProcessedMs": 12720}
+{"type": "transcript", "transcript": " The discount is only for uninsured patients.", "final": false, "audioProcessedMs": 13360}
+{"type": "transcript", "transcript": " The discount is only for uninsured patients. ", "final": false, "audioProcessedMs": 14640}
+{"type": "speaker", "label": "A", "audioProcessedMs": 14640}
+{"type": "speechEnd", "audioProcessedMs": 14140, "turnId": 2}
+{"type": "speechComplete", "audioProcessedMs": 14140, "turnId": 2, "transcript": " The discount is only for uninsured patients. "}
+{"type": "speechStart", "audioProcessedMs": 14220, "turnId": 3}
+{"type": "transcript", "transcript": " Your", "final": false, "audioProcessedMs": 14880}
+{"type": "transcript", "transcript": " Your policy", "final": false, "audioProcessedMs": 15200}
+{"type": "transcript", "transcript": " Your policy says", "final": false, "audioProcessedMs": 15680}
+{"type": "transcript", "transcript": " Your policy says insured", "final": false, "audioProcessedMs": 16480}
+{"type": "transcript", "transcript": " Your policy says insured patients can", "final": false, "audioProcessedMs": 16880}
+{"type": "transcript", "transcript": " Your policy says insured patients can apply", "final": false, "audioProcessedMs": 17440}
+{"type": "transcript", "transcript": " Your policy says insured patients can apply too.", "final": false, "audioProcessedMs": 17760}
+{"type": "transcript", "transcript": " Your policy says insured patients can apply too. ", "final": false, "audioProcessedMs": 18640}
+{"type": "speaker", "label": "B", "audioProcessedMs": 18640}
+{"type": "speechEnd", "audioProcessedMs": 18140, "turnId": 3}
+{"type": "speechComplete", "audioProcessedMs": 18140, "turnId": 3, "transcript": " Your policy says insured patients can apply too. "}
+{"type": "speechStart", "audioProcessedMs": 18460, "turnId": 4}
+{"type": "transcript", "transcript": " You", "final": false, "audioProcessedMs": 19280}
+{"type": "transcript", "transcript": " You only have", "final": false, "audioProcessedMs": 19520}
+{"type": "transcript", "transcript": " You only have 30", "final": false, "audioProcessedMs": 19840}
+{"type": "transcript", "transcript": " You only have 30 days to", "final": false, "audioProcessedMs": 20160}
+{"type": "transcript", "transcript": " You only have 30 days to apply", "final": false, "audioProcessedMs": 20480}
+{"type": "transcript", "transcript": " You only have 30 days to apply for", "final": false, "audioProcessedMs": 20960}
+{"type": "transcript", "transcript": " You only have 30 days to apply for financial", "final": false, "audioProcessedMs": 21360}
+{"type": "transcript", "transcript": " You only have 30 days to apply for financial assistance.", "final": false, "audioProcessedMs": 22320}
+{"type": "transcript", "transcript": " You only have 30 days to apply for financial assistance. ", "final": false, "audioProcessedMs": 23280}
+{"type": "speaker", "label": "A", "audioProcessedMs": 23280}
+{"type": "speechEnd", "audioProcessedMs": 22780, "turnId": 4}
+{"type": "speechComplete", "audioProcessedMs": 22780, "turnId": 4, "transcript": " You only have 30 days to apply for financial assistance. "}
+{"type": "speechStart", "audioProcessedMs": 23020, "turnId": 5}
+{"type": "transcript", "transcript": " Could you", "final": false, "audioProcessedMs": 23680}
+{"type": "transcript", "transcript": " Could you send", "final": false, "audioProcessedMs": 23840}
+{"type": "transcript", "transcript": " Could you send me", "final": false, "audioProcessedMs": 24000}
+{"type": "transcript", "transcript": " Could you send me that", "final": false, "audioProcessedMs": 24560}
+{"type": "transcript", "transcript": " Could you send me that in", "final": false, "audioProcessedMs": 24640}
+{"type": "transcript", "transcript": " Could you send me that in writing,", "final": false, "audioProcessedMs": 25120}
+{"type": "transcript", "transcript": " Could you send me that in writing, please?", "final": false, "audioProcessedMs": 25680}
+{"type": "transcript", "transcript": " Could you send me that in writing, please? ", "final": false, "audioProcessedMs": 26880}
+{"type": "speaker", "label": "B", "audioProcessedMs": 26880}
+{"type": "speechEnd", "audioProcessedMs": 26380, "turnId": 5}
+{"type": "speechComplete", "audioProcessedMs": 26380, "turnId": 5, "transcript": " Could you send me that in writing, please? "}
+{"type": "speechStart", "audioProcessedMs": 26860, "turnId": 6}
+{"type": "transcript", "transcript": " Your", "final": false, "audioProcessedMs": 27360}
+{"type": "transcript", "transcript": " Your reference", "final": false, "audioProcessedMs": 27760}
+{"type": "transcript", "transcript": " Your reference number", "final": false, "audioProcessedMs": 28160}
+{"type": "transcript", "transcript": " Your reference number is", "final": false, "audioProcessedMs": 28400}
+{"type": "transcript", "transcript": " Your reference number is 48213.", "final": false, "audioProcessedMs": 29440}
+{"type": "transcript", "transcript": " Your reference number is 48213. We", "final": false, "audioProcessedMs": 29760}
+{"type": "transcript", "transcript": " Your reference number is 48213. We will", "final": false, "audioProcessedMs": 30000}
+{"type": "transcript", "transcript": " Your reference number is 48213. We will review the", "final": false, "audioProcessedMs": 30400}
+{"type": "transcript", "transcript": " Your reference number is 48213. We will review the account", "final": false, "audioProcessedMs": 30640}
+{"type": "transcript", "transcript": " Your reference number is 48213. We will review the account within", "final": false, "audioProcessedMs": 31120}
+{"type": "transcript", "transcript": " Your reference number is 48213. We will review the account within 10", "final": false, "audioProcessedMs": 31200}
+{"type": "transcript", "transcript": " Your reference number is 48213. We will review the account within 10 business", "final": false, "audioProcessedMs": 31760}
+{"type": "transcript", "transcript": " Your reference number is 48213. We will review the account within 10 business days.", "final": false, "audioProcessedMs": 32080}
+{"type": "transcript", "transcript": " Your reference number is 48213. We will review the account within 10 business days. ", "final": false, "audioProcessedMs": 33040}
+{"type": "speaker", "label": "A", "audioProcessedMs": 33040}
+{"type": "speechEnd", "audioProcessedMs": 32540, "turnId": 6}
+{"type": "speechComplete", "audioProcessedMs": 32540, "turnId": 6, "transcript": " Your reference number is 48213. We will review the account within 10 business days. "}
+{"type": "transcript", "transcript": "", "final": true, "audioProcessedMs": 33040}

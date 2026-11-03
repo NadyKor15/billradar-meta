@@ -1,0 +1,39 @@
+STATEMENT
+THIS IS A STATEMENT OF SERVICES RENDERED BY PROVIDER(S)
+WHO ARE MEMBERS OF:
+Seaside Regional Hospital (IP) 300
+[ADDR_1]
+PATIENT NAME
+[PATIENT_1]
+BILL DATE ACCOUNT NO. AMOUNT PAID
+Mar 23, 2025 [ACCT_6]
+[PATIENT_1]
+[ADDR_2]
+[ADDR_1]
+This is a statement for professional services rendered by your
+physician. You may receive a separate bill from the hospital for
+its services.
+DATE OF SERVICE DESCRIPTION OF SERVICE CHARGES PMT/ADJ/ WITHHELD AMOUNT
+Dec 08, 2024 [CLAIM_12] Provider: Marit Halversen, MD
+Dec 08, 2024 99213 Office Visit, Est Pt., Level 3 $215.00
+Dec 30, 2024 Primary Insurance Payment $41.28
+Dec 30, 2024 Primary Insurance Adjustment $148.72
+Mar 23, 2025 Your Balance Due On These Services
+Mar 23, 2025
+Your Payment is now due. Thank you for your
+Your Balance Due On These Services... $25.00
+Jan 06, 2025 [CLAIM_13] Provider: Marit Halversen, MD
+Jan 06, 2025 76815 OB US, LIMITED, 1+ FETUSES $298.00
+Jan 06, 2025 Patient Copay Collected $25.00
+Jan 21, 2025 Primary Insurance Payment $88.93
+Jan 21, 2025 Primary Insurance Adjustment $184.07
+Mar 23, 2025 Your Balance Due On These Services
+Your Balance Due On These Services... $0.00
+DATE PATIENT NAME ACCOUNT NO. PAY THIS AMOUNT
+[PATIENT_1] [ACCT_6] $792.01
+MAKE CHECK PAYABLE TO : 300 Women First OB/GYN Care, LLC
+IMPORTANT MESSAGE REGARDING YOUR ACCOUNT
+We are pleased to offer you the option of credit card payment. Please indicate your method below.
+Payment Method: CHECK
+Signature:
+SAMPLE - FICTIONAL TEST DOCUMENT - not a real bill. All names, numbers and organizations are invented.

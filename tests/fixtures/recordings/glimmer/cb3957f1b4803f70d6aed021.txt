@@ -1,0 +1,9 @@
+Page 3 of 3
+Your bill summary
+Total billed $9,888.00
+Insurance adjusted -$7,919.78
+The discounted amount applied by your insurance.
+Insurance paid -$1,574.58
+The benefit amount your insurance has paid based on your plan.
+Total due $393.64
+SAMPLE - FICTIONAL TEST DOCUMENT - not a real bill. All names, numbers and organizations are invented.

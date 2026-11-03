@@ -1,0 +1,29 @@
+Anesthesiology services
+Page 2 of 3
+[PATIENT_1] visit on April 19, 2025 Insurance applied
+Due date: Jun 26, 2025
+Location: Seaside Regional Hosp | Clinician: Oswin Tremayne MD
+Bill details
+Service Total billed
+Anesthesia For Vaginal Delivery Only $4,146.00
+CPT/HCPCS code: 01960
+Additional information
+Your insurance plan determines how much you owe according to your benefit
+plan design. The balance may be due to deductible, co-pay, co insurance. This
+bill is the portion you owe for care provided.
+Subtotal billed $4,146.00
+Insurance adjusted -$3,332.22
+Insurance paid -$651.02
+Amount you owe (subtotal) $162.76
+Continued on next page
+FOLD OR CUT AND DETACH AREA BELOW TO SEND WITH PAYMENT
+Mail this slip with check
+Account [PATIENT_1]
+Account [ACCT_5]
+Bill Amount: $162.76
+MAKE CHECK PAYABLE & MAIL TO:
+BRIGHTWATER HEALTHCORP INC
+Meridian
+PHYSICIAN SERVICES
+[MAIL_7]
+SAMPLE - FICTIONAL TEST DOCUMENT - not a real bill. All names, numbers and organizations are invented.

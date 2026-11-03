@@ -1,0 +1,11 @@
+205|Lab, Other Hosp IP
+206|0379
+207|Anesthesia, Other Hosp IP
+208|0637
+209|Self-Administered Drugs Hosp IP
+210|0722
+211|Delivery Room Hosp IP
+212|Page 1 of 1
+213|52
+214|April 8, 2025
+215|SAMPLE - FICTIONAL TEST DOCUMENT - not a real bill. All names, numbers and organizations are invented.

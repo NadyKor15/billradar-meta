@@ -1,0 +1,12 @@
+Page 3 of 3
+Your bill summary
+Meridian
+PHYSICIAN SERVICES
+Total billed $8,216.00
+Insurance adjusted -$6,441.88
+The discounted amount applied by your insurance.
+Insurance paid -$1,419.30
+The benefit amount your insurance has paid based on your plan.
+Total due $354.82
+DB3559 19
+SAMPLE - FICTIONAL TEST DOCUMENT - not a real bill. All names, numbers and organizations are invented.

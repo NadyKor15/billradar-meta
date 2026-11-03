@@ -1,0 +1,28 @@
+171|$0.00
+172|$0.00
+173|$0.00
+174|$162.76
+175|$651.02
+176|CDA
+177|04/19/2025
+178|Claim Totals
+179|$4,146.00
+180|$3,332.22
+181|$813.78
+182|$0.00
+183|$0.00
+184|$0.00
+185|$0.00
+186|$0.00
+187|$162.76
+188|$651.02
+189|Other Carrier Adjustments: $0.00
+190|Patient Responsibility: $162.76
+191|Total Payment Amount: $651.02
+192|
+193|Your Responsibility: $162.76
+194|
+195|Page 1 of 4
+196|224
+197|May 26, 2025
+198|SAMPLE - FICTIONAL TEST DOCUMENT - not a real bill. All names, numbers and organizations are invented.

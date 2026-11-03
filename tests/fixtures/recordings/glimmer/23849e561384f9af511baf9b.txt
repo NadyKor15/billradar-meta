@@ -1,0 +1,31 @@
+35|Your Payment is now due. Thank you for your
+36|prompt response.
+37|Your Balance Due On These Services...
+38|$712.31
+39|Mar 18, 2025
+40|Balance Transfered To Payment Plan
+41|($712.31)
+42|Your Balance Due On These Services...
+43|$0.00
+44|PATIENT NAME
+45|ACCOUNT NO
+46|PAY THIS
+47|DATE
+48|| Mar 18,
+49|Mar 18, 2025
+50|18, 2025 |
+51|Castillo , Daniela
+52|30955
+53|AMOUNT | $7
+54|$719.03
+55|9.03 |
+56|MAKE CHECK PAYABLE TO : 300_Women First OB/GYN Care, LLC
+57|IMPORTANT MESSAGE REGARDING YOUR ACCOUN
+58|We are pleased to offer you the option of credit card payment. Please indicate your method below.
+59|□ VISA
+60|□ MASTER CARD
+61|□ DISCOVER
+62|□ AMEX
+63|□ CHECK
+64|Payment Method:
+65|Card No.: Exp.: Signature:

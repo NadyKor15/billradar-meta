@@ -1,0 +1,34 @@
+1|Page 2 of 3
+2|Anesthesiology services
+3|Due date: Apr 26, 2025
+4|Maria's visit on February 17, 2025 Insurance applied
+5|Location: Seaside Regional Hosp | Clinician: Oswin Tremayne MD
+6|Bill details
+7|Total billed
+8|Service
+9|$4,108.00
+10|Anesthesia For Vaginal Delivery Only
+11|CPT/HCPCS code: 01960
+12|$4,108.00
+13|Anesthesia For Vaginal Delivery Only
+14|CPT/HCPCS code: 01960
+15|Additional information
+16|Subtotal billed
+17|$8,216.00
+18|Your insurance plan determines how much you owe according to your benefit
+19|Insurance adjusted
+20|-$6,441.88
+21|plan design. The balance may be due to deductible, co-pay, co insurance. This
+22|bill is the portion you owe for care provided.
+23|Insurance paid
+24|-$1,419.30
+25|Amount you owe (subtotal)
+26|$354.82
+27|Continued on next page
+28|FOLD OR CUT AND DETACH AREA BELOW TO SEND WITH PAYMENT
+29|FOLD OR CUT AND DETACH AREA BELOW TO SEND WITH PAYMENT
+30|Mail this slip with check
+31|Account Holder: Maria Ortega
+32|Account Number: 77472701
+33|Bill Amount: $354.82
+34|MAKE CHECK PAYABLE & MAIL TO:

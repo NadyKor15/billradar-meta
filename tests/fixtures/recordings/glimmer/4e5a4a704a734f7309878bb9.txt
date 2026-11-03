@@ -1,0 +1,59 @@
+Harborlight Health Next
+A Product of Harborlight Health Florida, Inc.
+Harborlight Health
+Next
+A product of Harborlight Health Florida, Inc.
+Explanation of Benefits
+RETAIN FOR TAX PURPOSES
+THIS IS NOT A BILL
+[CODE] E
+[MAIL_2]
+[PATIENT_1]
+[ADDR_3]
+[ADDR_2]
+Customer Service
+For Member Service, please call the number on the back of
+Participant Information
+Group Number:
+Group Name: Harborlight Health Next
+Member: [PATIENT_1]
+Date: 06/08/2025
+Page 1 of 1
+Claim [CLAIM_9]
+[PATIENT_1]
+Provider: SEASIDE REGIONAL HOSPITAL
+Member ID: [MEMBER_1]
+Dates of Service Service Code Total Charge Discount Amount Allowed Amount Other Adjustments Other Plan Payments Not Covered Co-Pay Amount Deductible Amount Co-Insurance Amount Benefit Amount Reason Code
+04/19/2025- 0112 $4,952.00 $2,433.45 $2,518.55 $0.00 $0.00 $0.00 $0.00 $750.00 $353.71 $1,414.84 CPA
+04/21/2025
+04/19/2025- 0722 $3,686.00 $2,061.73 $1,624.27 $0.00 $0.00 $0.00 $0.00 $0.00 $324.85 $1,299.42 CPA
+04/21/2025
+04/19/2025- 0379 $1,516.00 $746.67 $769.33 $0.00 $0.00 $0.00 $0.00 $0.00 $153.87 $615.46 CPA
+04/21/2025
+04/19/2025- 0251 $761.00 $386.37 $374.63 $0.00 $0.00 $0.00 $0.00 $0.00 $74.93 $299.70 CPA
+04/21/2025
+04/19/2025- 0637 $19.00 $9.17 $9.83 $0.00 $0.00 $0.00 $0.00 $0.00 $1.97 $7.86 CPA
+04/21/2025
+04/19/2025- 0272 $305.00 $170.13 $134.87 $0.00 $0.00 $0.00 $0.00 $0.00 $26.97 $107.90 CPA
+04/21/2025
+04/19/2025- 0302 $974.00 $486.39 $487.61 $0.00 $0.00 $0.00 $0.00 $0.00 $97.52 $390.09 CPA
+04/21/2025
+04/19/2025- 0309 $759.00 $435.49 $323.51 $0.00 $0.00 $0.00 $0.00 $0.00 $64.70 $258.81 CPA
+04/21/2025
+Claim Totals $12,972.00 $6,729.40 $6,242.60 $0.00 $0.00 $0.00 $0.00 $750.00 $1,098.52 $4,394.08
+Patient Responsibility: $1,848.52 $0.00
+Total Payment Amount: $4,394.08
+Your Responsibility: $1,848.52
+Service Code Description
+0112 Private Room, Maternity Hosp IP
+0251 Drugs, Generic Hosp IP
+0272 Sterile Supplies Hosp IP
+0302 Lab, Immunology Hosp IP
+0309 Lab, Other Hosp IP
+0379 Anesthesia, Other Hosp IP
+0637 Self-Administered Drugs Hosp IP
+0722 Delivery Room Hosp IP
+Reason Code Description
+CPA Paid at the contracted rate; member share applied per plan design
+Page 1 of 1
+SAMPLE - FICTIONAL TEST DOCUMENT - not a real bill. All names, numbers and organizations are invented.

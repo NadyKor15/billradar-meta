@@ -1,0 +1,3 @@
+69|Scan to pay online.
+70|Just point your phone's camera at the code to scan. Some phones may
+71|require a QR code app.

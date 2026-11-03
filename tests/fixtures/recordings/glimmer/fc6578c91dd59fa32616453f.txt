@@ -1,0 +1,34 @@
+35|Insurance paid
+36|-$1,419.30
+37|
+38|due by Apr 26, 2025.
+39|COMMERCIAL
+40|-$1,419.30
+41|SELF PAY AFTER
+42|-$0.00
+43|INSURANCE
+44|Additional information about your bill or insurance coverage can be found
+45|online or on your statement details. Visit pay.meridianhealth.example for more
+46|Total due
+47|$354.82
+48|information.
+49|FOLD OR CUT AND DETACH AREA BELOW TO SEND WITH PAYMENT
+50|FOLD OR CUT AND DETACH AREA BELOW TO SEND WITH PAYMENT
+51|Need Help?
+52|Ways to Pay
+53|Online
+54|Phone
+55|Mail
+56|Call our team toll-free (Mon to Fri 8AM to 6PM EDT)
+57|Pay via desktop or mobile:
+58|To pay by our automated
+59|Mail check or money order
+60|(888) 555-0131
+61|pay.meridianhealth.example
+62|phone system, call toll-free
+63|with this part of the bill to the
+64|24/7:
+65|address on the reverse side.
+66|Live Chat
+67|(888) 555-0129
+68|Do not send cash.

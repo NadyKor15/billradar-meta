@@ -1,0 +1,42 @@
+STATEMENT
+THIS IS A STATEMENT OF SERVICES RENDERED BY PROVIDER(S)
+WHO ARE MEMBERS OF:
+Seaside Regional Hospital (IP) 300
+4820 MARINER BLVD
+CORAL HAVEN, FL 33019-4417
+PATIENT NAME
+Ortega , Maria
+BILL DATE ACCOUNT NO. AMOUNT PAID
+Mar 23, 2025 51502
+Ortega , Maria
+7843 Coral Reef Way
+Apt 441
+Coral Haven FL 33019
+This is a statement for professional services rendered by your
+physician. You may receive a separate bill from the hospital for
+its services.
+DATE OF SERVICE DESCRIPTION OF SERVICE CHARGES PMT/ADJ/ WITHHELD AMOUNT
+Dec 08, 2024 Claim:4219125, Provider: Marit Halversen, MD
+Dec 08, 2024 99213 Office Visit, Est Pt., Level 3 $215.00
+Dec 30, 2024 Primary Insurance Payment $41.28
+Dec 30, 2024 Primary Insurance Adjustment $148.72
+Mar 23, 2025 Your Balance Due On These Services
+Mar 23, 2025
+Your Payment is now due. Thank you for your
+prompt response.
+Your Balance Due On These Services... $25.00
+Jan 06, 2025 Claim:4516815, Provider: Marit Halversen, MD
+Jan 06, 2025 76815 OB US, LIMITED, 1+ FETUSES $298.00
+Jan 06, 2025 Patient Copay Collected $25.00
+Jan 21, 2025 Primary Insurance Payment $88.93
+Jan 21, 2025 Primary Insurance Adjustment $184.07
+Mar 23, 2025 Your Balance Due On These Services
+Your Balance Due On These Services... $0.00
+DATE PATIENT NAME ACCOUNT NO. PAY THIS
+Mar 23, 2025 Ortega , Maria 51502 AMOUNT $792.01
+MAKE CHECK PAYABLE TO : 300_Women First OB/GYN Care, LLC
+IMPORTANT MESSAGE REGARDING YOUR ACCOUNT
+We are pleased to offer you the option of credit card payment. Please indicate your method below.
+Payment Method: □ VISA □ MASTER CARD □ DISCOVER □ AMEX □ CHECK
+Card No.: ________________ Exp.: ______ Signature: ________________
+SAMPLE - FICTIONAL TEST DOCUMENT - not a real bill. All names, numbers and organizations are invented.

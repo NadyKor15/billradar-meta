@@ -1,0 +1,8 @@
+103|59410 Delivery and P
+104|Delivery and Postpartum Care Med IP
+105|| CDA Allowed amount
+106|Allowed amount reflects the provider's contract with the pian
+107|99222 Hospital Admis
+108|Hospital Admission Visit Med IP
+109|112
+110|Page 1 of 1 March 11, 2025

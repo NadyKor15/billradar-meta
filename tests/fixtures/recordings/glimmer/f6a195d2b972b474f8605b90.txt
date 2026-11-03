@@ -1,0 +1,38 @@
+For Credit by mail, fill in below
+Healthcare System
+Patient
+[ADDR_1]
+Signature: Exp. date:
+Statement Due Date Guarantor
+Date Paid
+04/09/25 [ACCT_2] $1,795.25
+Guarantor Send Payment To:
+[PATIENT_1] Seaside Healthcare System
+[ADDR_2]
+[ADDR_1]
+Use the coupon above to pay by mail. If you have a balance due with both areas the payment will be split 50/50
+between your Hospital and Physician Balances
+[PHONE_11]
+If you would like to apply for financial assistance please call us at the number above. To view our Financial
+Hospital Services Detail:
+Description Charges Insurance Patient Insurance Patient
+Pmts/Adjs Pmts/Adjs Balance Balance
+Acct [ACCT_1] [PATIENT_1] Hospital: SEASIDE REGIONAL
+HOSPITAL 02/17/25 to 02/19/25
+Charges $13,019.00
+Insurance Payments and Adjustments -$11,223.75
+Seaside Hospital Services Totals $13,019.00 -$11,223.75 $0.00 $1,795.25
+Patient Balance $1,795.25
+Hospital Services Balance Due $1,795.25
+Summary Charges Insurance Patient Balance Insurance Patient
+Pmts/Adjs Pmts/Adjs Balance Balance
+Hospital Services $13,019.00 -$11,223.75 $0.00 $1,795.25 $0.00 $1,795.25
+Totals $13,019.00 -$11,223.75 $0.00 $1,795.25 $0.00 $1,795.25
+Questions?
+Email [MAIL_9]
+[PHONE_1]
+If you do not agree with the patient balance due, please contact your HMO or Insurance Carrier directly to discuss
+If you had services provided by the following specialty providers, they will bill you separately. Below is their billing
+contact information
+Company Name Provider Telephone Number
+SAMPLE - FICTIONAL TEST DOCUMENT - not a real bill. All names, numbers and organizations are invented.

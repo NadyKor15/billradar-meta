@@ -1,0 +1,34 @@
+1|THIS IS A STATEMENT OF SERVICES RENDERED BY PROVIDER(S)
+2|PATIENT NAME
+3|WHO ARE MEMBERS OF
+4|Castillo , Daniela
+5|Seaside Regional Hospital (IP) 300
+6|AMOUNT PAID
+7|BILL DATE
+8|ACCOUNT NO
+9|4820 MARINER BLVD
+10|CORAL HAVEN, FL 33019-4417
+11|Mar 18,
+12|Mar 18, 2025
+13|
+14|30955
+15|
+16|Castillo , Daniela
+17|9349 Seagrape Ln
+18|This is a statement for professional services rendered by your
+19|physician. You may receive a separate bill from the hospital for
+20|Apt 717
+21|its services.
+22|Bayside FL 33067
+23|DATE OF SERVICE
+24|DESCRIPTION OF SERVICE
+25|CHARGES
+26|PMT/ADJ WITHHELD
+27|AMOUNT
+28|Nov 25, 2024
+29|Claim:4106685, Provider: Marit Halversen, MD
+30|Nov 25, 2024
+31|99213 Office Visit, Est Pt., Level 3
+32|$240.00
+33|Dec 16, 2024
+34|Primary Insurance Payment

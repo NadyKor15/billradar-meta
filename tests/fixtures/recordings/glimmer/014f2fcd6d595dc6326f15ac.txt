@@ -1,0 +1,34 @@
+1|Cradleview-Obstetrix Medical Group
+2|cradleview
+3|77953
+4|PO BOX 740990
+5|MEDICAL GROUP
+6|ATLANTA GA 30374-0990
+7|04/01/25
+8| ||| ||| ||| ||| ||| ||| ||| ||| ||| ||| ||| ||| ||| ||| ||| |||
+9|77953
+10| ||| ||| ||| ||| ||| ||| ||| ||| ||| ||| ||| ||| ||| ||| |||
+11|DANIELA CASTILLO
+12|CRADLEVIEW-OBSTETRIX MEDICAL GROUP
+13|
+14|9349 Seagrape Ln Apt 717
+15|PO BOX 740990
+16|Bayside FL `33067-4632
+17|ATLANTA GA 30374-0990
+18|Account Number:
+19|CVX 418153782
+20|Account Balance:
+21|$275.00
+22|Patient Name:
+23|CASTILLO, ADRIAN
+24|Please note,
+25|this letter is not a bill.
+26|Dear Patient or Responsible Party:
+27|Our physicians cared for the patient named above during a recent hospital
+28|stay.
+29|Our group bills separately from the hospital,
+30|so you may also receive
+31|statements from the hospital for its own services.
+32|We sent a claim for our services to the insurance plan on file,
+33|and the plan
+34|did not accept it.

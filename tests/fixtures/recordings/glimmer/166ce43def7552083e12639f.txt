@@ -1,0 +1,35 @@
+Page 3 of 4
+Your Responsibility: $0.00
+Claim #: 731410973800
+Patient: DANIELA MORENO
+Provider: SHORELINE CLINICAL PATHOLOGY GROUP INC
+Member ID: 16791689883
+Dates of Service Service Code Total Charge Discount Amount Allowed Amount Other Adjustments Other Plan Payments Not Covered Co-Pay Amount Deductible Amount Co-Insurance Amount Benefit Amount Reason Code
+04/19/2025-04/19/2025 80048 $84.00 $74.78 $9.22 $0.00 $0.00 $0.00 $0.00 $0.00 $0.92 $8.30 FS1
+04/19/2025-04/19/2025 83735 $51.00 $42.18 $8.82 $0.00 $0.00 $0.00 $0.00 $0.00 $0.88 $7.94 FS1
+04/19/2025-04/19/2025 84132 $31.00 $27.74 $3.26 $0.00 $0.00 $0.00 $0.00 $0.00 $0.33 $2.93 FS1
+04/19/2025-04/19/2025 82947 $81.00 $71.42 $9.58 $0.00 $0.00 $0.00 $0.00 $0.00 $0.96 $8.62 FS1
+04/20/2025-04/20/2025 85610 $28.00 $23.23 $4.77 $0.00 $0.00 $0.00 $0.00 $0.00 $0.48 $4.29 FS1
+04/20/2025-04/20/2025 85730 $73.00 $64.43 $8.57 $0.00 $0.00 $0.00 $0.00 $0.00 $0.86 $7.71 FS1
+04/20/2025-04/20/2025 80048 $45.00 $39.24 $5.76 $0.00 $0.00 $0.00 $0.00 $0.00 $0.58 $5.18 FS1
+04/20/2025-04/20/2025 83735 $58.00 $48.04 $9.96 $0.00 $0.00 $0.00 $0.00 $0.00 $1.00 $8.96 FS1
+04/21/2025-04/21/2025 84132 $80.00 $65.01 $14.99 $0.00 $0.00 $0.00 $0.00 $0.00 $1.50 $13.49 FS1
+04/21/2025-04/21/2025 82947 $34.00 $28.73 $5.27 $0.00 $0.00 $0.00 $0.00 $0.00 $0.53 $4.74 FS1
+Claim Totals $565.00 $484.80 $80.20 $0.00 $0.00 $0.00 $0.00 $0.00 $8.04 $72.16
+Patient Responsibility: $8.04 Other Carrier Adjustments: $0.00 Total Payment Amount: $72.16
+Your Responsibility: $8.04
+Claim #: 731417352000
+Patient: DANIELA MORENO
+Provider: MBEKI-HOLLOWAY, TAMSIN R.
+Member ID: 16791689883
+Dates of Service Service Code Total Charge Discount Amount Allowed Amount Other Adjustments Other Plan Payments Not Covered Co-Pay Amount Deductible Amount Co-Insurance Amount Benefit Amount Reason Code
+04/20/2025-04/20/2025 99231 $250.00 $150.08 $99.92 $0.00 $0.00 $0.00 $0.00 $0.00 $19.98 $79.94 CDA
+04/21/2025-04/21/2025 99238 $231.00 $146.69 $84.31 $0.00 $0.00 $0.00 $0.00 $0.00 $16.86 $67.45 CDA
+Claim Totals $481.00 $296.77 $184.23 $0.00 $0.00 $0.00 $0.00 $0.00 $36.84 $147.39
+Patient Responsibility: $36.84 Other Carrier Adjustments: $0.00 Total Payment Amount: $147.39
+Your Responsibility: $36.84
+HLNX - HSPX366M - 009338 - 001 OF 001
+Page 3 of 4
+May 26, 2025
+224
+SAMPLE - FICTIONAL TEST DOCUMENT - not a real bill. All names, numbers and organizations are invented.

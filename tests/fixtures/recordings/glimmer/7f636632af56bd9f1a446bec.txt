@@ -1,0 +1,25 @@
+Providers Associated with your Care for this account 5052487726
+Admitting Physician:	VANTERPOOL, GRETA ISOLDE	Pediatrics
+Attending Physician:	VANTERPOOL, GRETA ISOLDE	Pediatrics
+Anesthesiologist:			
+Procedure Performing Provider(s):			
+(The physician name will appear			
+multiple times if he/she performed			
+multiple services)			
+Consultants and other Providers			
+For more Provider contact information, please go to our website to Find a Physician at
+https://www.seasidehs.example/physicians
+If you had services provided by the following specialty providers, they will bill you separately. Below is
+their billing contact information
+Company Name	Professional Service	Telephone Number
+Shoreline ER Physicians	Emergency Room	888-555-0175
+Pathology Partners of S. Coral	Laboratory	866-555-0188
+Harbor Imaging Radiology	Radiology/CT/MRI/Nuc Med/Imaging	904-555-0123
+Brightwater Healthcare Group NEO	Neonatology	866-555-0164
+Brightwater Healthcare Group ANE	Anesthesiology	800-555-0137
+Pediatric Critical Care Partners	Intensive Care	954-555-0119
+Coastal EKG Associates	Cardiology/Pulmonary	954-555-0158
+Seaside Physician Group Practices	Seaside Physician/Specialist	954-555-0103
+Eastshore/Westshore Hospitalists	Managed Care Hospitalist	888-555-0196
+Account Number: 5052487726	Print Date 6/12/2025	Page 4 of 4
+SAMPLE - FICTIONAL TEST DOCUMENT - not a real bill. All names, numbers and organizations are invented.

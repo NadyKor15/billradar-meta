@@ -1,0 +1,34 @@
+35|Primary Insurance Payment
+36|$53.12
+37|Dec 16, 2024
+38|Primary Insurance Adjustment
+39|$166.88
+40|Mar 18, 2025
+41|Your Balance Due On These Services
+42|Mar 18, 2025
+43|Your Payment is now due. Thank you for your
+44|prompt response.
+45|Your Balance Due On These Services...
+46|$20.00
+47|Dec 22, 2024
+48|Claim:4506663, Provider: Marit Halversen, MD
+49|Dec 22, 2024
+50|76815 OB US, LIMITED, 1+ FETUSES
+51|$332.00
+52|Dec 22, 2024
+53|Patient Copay Collected
+54|$90.00
+55|Jan 06, 2025
+56|Primary Insurance Payment
+57|$85.57
+58|Jan 06, 2025
+59|Primary Insurance Adjustment
+60|$196.43
+61|Mar 18, 2025
+62|Your Balance Due On These Services
+63|Your Balance Due On These Services...
+64|($40.00)
+65|DATE
+66|PATIENT NAME
+67|ACCOUNT NO.
+68|ACCOUNT NO.

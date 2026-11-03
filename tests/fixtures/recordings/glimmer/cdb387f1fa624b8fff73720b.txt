@@ -1,0 +1,33 @@
+SEASIDE REGIONAL HOSPITAL
+Seaside Regional Hospital
+[PHONE_1]
+PATIENT NAME      [PATIENT_2]
+ADMIT DATE        4/19/2025
+DISCHARGE DATE:   4/20/2025
+[PATIENT_1]                               Guarantor ID:           [ACCT_2]
+[ADDR_1]                                  Account Number:         [ACCT_3]
+[ADDR_2]
+Hospital Charges
+Svc Dt    Rev Code    Px Code    Description                         Qty        Amt
+04/19/2025 0170 017553861 HC NEWBORN ROUTINE CARE LEVEL 1           1      3,201.00
+04/19/2025 0251 025685169 BACITRACIN 500 UNIT/GM OINT 1 GM           1         14.00
+04/19/2025 0251 025801160 SUCROSE 24% ORAL SOLN 2 ML                1         16.00
+04/19/2025 0302 03063018218 HC NEWBORN BLOOD TYPE DIRECT            1        214.00
+04/20/2025 0170 017553861 HC NEWBORN ROUTINE CARE LEVEL 1           1      3,201.00
+04/20/2025 0471 047662486 HC HEARING SCREEN OAE NEWBORN             1        321.00
+04/20/2025 0306 030756117 HC BILIRUBIN TOTAL TRANSCUTANEOUS         1        123.00
+                               Total Charges                              7,090.00
+Hospital Payments and Adjustments
+Description                                                      Amount
+Insurance Payments and Adjustments                              -5,664.94
+Current Account Balance                                         1,425.06
+Summary by Rev Code                                             Dollars by Rev Code
+PHARMACY - GENERIC DRUGS                                        $30.00
+LABORATORY - IMMUNOLOGY                                         214.00
+NURSERY - GENERAL CLASSIFICATION                                6,402.00
+AUDIOLOGY - DIAGNOSTIC                                          321.00
+LABORATORY - BACTERIOLOGY & MICROBIOLOGY                        123.00
+Account Number [ACCT_3]                 Print Date 6/12/2025           Page 1 of 4
+Please refer to the account number for all inquiries and correspondence.
+A PUBLIC HOSPITAL LICENSED BY THE STATE OF FLORIDA
+SAMPLE - FICTIONAL TEST DOCUMENT - not a real bill. All names, numbers and organizations are invented.

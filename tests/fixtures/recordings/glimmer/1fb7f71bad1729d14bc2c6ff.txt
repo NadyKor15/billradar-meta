@@ -1,0 +1,36 @@
+RETURN SERVICE REQUESTED
+Guarantor Name Patient Account Num Statement Date Due Date Amount Due
+[PATIENT_1] [ACCT_4] 09/20/2025 Upon Receipt 18.00
+MAKE CHECKS PAYABLE TO:
+Little Harbor Pediatrics - PA
+[CODE]
+[PATIENT_1]
+[ADDR_1]
+[ADDR_2] [CODE]
+Please check box here if above address is incorrect or insurance information has
+PLEASE DETACH AND RETURN ABOVE WITH YOUR PAYMENT
+STATEMENT
+Guarantor Name Statement Date
+[PATIENT_1] 09/20/2025
+Date Description Charges Payments /Adjustments Amount Due
+[PATIENT_2] Account Num:
+[ACCT_4]
+[CLAIM_13] Provider: Greta I . V Vanterpool, MD
+05/30/2025 OFFICE VISIT-EST PAT LEVEL 2 177.00
+05/30/2025 Patient Copay 20.00
+06/20/2025 Insurance Payment 63.34
+06/20/2025 Insurance Adjustment 75.66
+06/20/2025 Your Balance Due On These Services ... 18.00
+Your Account may be subject to Collections. You can resolve
+this by making an immediate payment.
+PAYMENT OPTIONS
+Make a secure online payment at
+PAY THIS AMOUNT 18.00 Upon Receipt
+Please Pay By
+[CODE] [E]
+[CODE]
+Billing Phone: By Mail:
+[PHONE_12] Use coupon above
+SCAN TO PAY
+[MAIL_5]
+SAMPLE - FICTIONAL TEST DOCUMENT - not a real bill. All names, numbers and organizations are invented.

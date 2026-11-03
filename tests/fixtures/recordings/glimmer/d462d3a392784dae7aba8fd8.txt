@@ -1,0 +1,13 @@
+22|Patient Name:
+23|MORENO, MATEO
+24|Please note,
+25|this letter is not a bill.
+26|Dear Patient or Responsible Party:
+27|Our physicians cared for the patient named above during a recent hospital
+28|stay. Our group bills separately from the hospital,
+29|so you may also receive
+30|statements from the hospital for its own services.
+31|We sent a claim for our services to the insurance plan on file,
+32|and the plan
+33|did not accept it.
+34|The plan reports that it cannot match the patient to the

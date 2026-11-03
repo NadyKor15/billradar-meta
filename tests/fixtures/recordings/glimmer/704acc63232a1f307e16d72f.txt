@@ -1,0 +1,17 @@
+69|
+70|Please Pay By
+71|Make a secure online payment at
+72|PAY THIS AMOUNT
+73|PAY THIS AMOUN
+74|27.00
+75|Upon Receipt
+76|https://payclinic24.example by using your personal
+77|statement code - PXVEVrdx
+78|Billing Phone:
+79|By Mail:
+80|954-555-0177
+81|Use coupon above
+82|SCAN TO PAY
+83|
+84|292006-143-69524025
+85|SAMPLE - FICTIONAL TEST DOCUMENT - not a real bill. All names, numbers and organizations are invented.

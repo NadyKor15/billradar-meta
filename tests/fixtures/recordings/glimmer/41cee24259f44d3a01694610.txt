@@ -1,0 +1,34 @@
+171|CPA
+172|02/13/2025
+173|Claim Totals $12,529.00
+174|$6,752.89
+175|$5,776.11
+176|$0.00
+177|$0.00
+178|$0.00
+179|$0.00
+180|$500.00
+181|$1,055.23
+182|$4,220.88
+183|Patient Responsibility: $1,555.23
+184|Other Carrier Adjustments: $0.00
+185|Total Payment Amount: $4,220.88
+186|
+187|Your Responsibility: $1,555.23
+188|Service Code Description
+189|
+190|Reason Code Description
+191|
+192|0112
+193|Private Room, Maternity Hosp IP
+194|CPA Paid at the contra
+195|Paid at the contracted rate; member share applied per plan design
+196|0251
+197|Drugs, Generic Hosp IP
+198|0272
+199|Sterile Supplies Hosp IP
+200|0302
+201|Lab, Immunology Hosp IP
+202|0309
+203|Lab, Other Hosp IP
+204|0379

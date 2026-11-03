@@ -1,0 +1,33 @@
+35|Your Balance Due On These Services
+36|Mar 23, 2025
+37|Your Payment is now due. Thank you for your
+38|prompt response.
+39|Your Balance Due On These Services...
+40|$741.42
+41|DATE
+42|PATIENT NAME
+43|ACCO
+44|ACCOUNT NO.
+45|NO.
+46|PAY THIS
+47|  Mar 2
+48|Mar 23, 2025
+49|]
+50|Ortega , Maria
+51|51502
+52|AMOUNT |      $79
+53|$792.01
+54|92.01  |
+55|MAKE CHECK PAYABLE TO : 300_Women First OB/GYN Care, LLC
+56|IMPORTANT MESSAGE REGARDING YOUR ACCOUNT
+57|We are pleased to offer you the option of credit card payment. Please indicate your method below.
+58|Payment Method:
+59|□ VISA
+60|□ MASTER CARD
+61|□ DISCOVER
+62|□ AMEX
+63|□ CHECK
+64|Card No.:
+65|Exp.: _______
+66|Signature:
+67|SAMPLE - FICTIONAL TEST DOCUMENT - not a real bill. All names, numbers and organizations are invented.

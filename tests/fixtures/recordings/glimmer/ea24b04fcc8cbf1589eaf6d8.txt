@@ -1,0 +1,34 @@
+137|Member ID: 16791689883
+138|Dates of
+139|Service
+140|Total
+141|Discount
+142|Allowed
+143|Other
+144|Other Plan
+145|Not
+146|Co-Pay
+147|Deductible
+148|Co-Insurance
+149|Benefit
+150|Reason
+151|Service
+152|Code
+153|Charge
+154|Amount
+155|Amount
+156|Adjustments
+157|Payments
+158|Covered
+159|Amount
+160|Amount
+161|Amount
+162|Amount
+163|Code
+164|04/19/2025-
+165|01960
+166|$4,146.00
+167|$3,332.22
+168|$813.78
+169|$0.00
+170|$0.00

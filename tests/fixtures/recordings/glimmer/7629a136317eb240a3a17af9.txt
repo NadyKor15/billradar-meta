@@ -1,0 +1,34 @@
+171|FS1
+172|04/21/2025
+173|Claim Totals
+174|$565.00
+175|$484.80
+176|$80.20
+177|$0.00
+178|$0.00
+179|$0.00
+180|$0.00
+181|$0.00
+182|$8.04
+183|$72.16
+184|Patient
+185|Other Carrier Adjustments: $0.00
+186|$8.04
+187|Responsibility:
+188|Total Payment Amount: $72.16
+189|
+190|Your Responsibility: $8.04
+191|
+192|Claim #: 731417352000
+193|Provider: MBEKI-HOLLOWAY, TAMSIN R.
+194|Patient: DANIELA MORENO
+195|Member ID: 16791689883
+196|Dates of
+197|Service
+198|Total
+199|Discount
+200|Allowed
+201|Other
+202|Other Plan
+203|Not
+204|Co-Pay

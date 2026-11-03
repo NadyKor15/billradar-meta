@@ -1,0 +1,17 @@
+205|Drugs, Generic Hosp IP
+206|0272
+207|Sterile Supplies Hosp IP
+208|0302
+209|Lab, Immunology Hosp IP
+210|0309
+211|Lab, Other Hosp IP
+212|0379
+213|Anesthesia, Other Hosp IP
+214|0637
+215|Self-Administered Drugs Hosp IP
+216|0722
+217|Delivery Room Hosp IP
+218|Page 1 of 1
+219|35
+220|April 1, 2025
+221|SAMPLE - FICTIONAL TEST DOCUMENT - not a real bill. All names, numbers and organizations are invented.

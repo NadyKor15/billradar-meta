@@ -1,0 +1,21 @@
+69| |  Mar 18, 202
+70|Mar 18, 2025
+71|2025  |
+72|Castillo , Daniela
+73|30955  |
+74|30955
+75|AMOUNT  |
+76|$719.03
+77|.03  |
+78|MAKE CHECK PAYABLE TO: 300_Women First OB/GYN Care, LLC
+79|IMPORTANT MESSAGE REGARDING YOUR ACCOUNT
+80|We are pleased to offer you the option of credit card payment. Please indicate your method below.
+81|Payment Method:
+82|□ VISA
+83|□ MASTER CARD
+84|□ DISCOVER
+85|□ AMEX
+86|□ CHECK
+87|Card No.:
+88|Exp.: ________
+89|Signature:

@@ -1,0 +1,21 @@
+69|30955
+70|30955
+71|AMOUNT
+72|$719.03
+73|19.03
+74|Mar 18, 2025
+75|Mar 18, 2025
+76|18, 2025
+77|MAKE CHECK PAYABLE TO : 300_Women First OB/GYN Care, LLC
+78|IMPORTANT MESSAGE REGARDING YOUR ACCOUN
+79|
+80|We are pleased to offer you the option of credit card payment. Please indicate your method below.
+81|□ VISA
+82|□ MASTER CARD
+83|□ DISCOVER
+84|□ AMEX
+85|□ CHECK
+86|Payment Method:
+87|Card No.: ______
+88|_____ Exp.:
+89|Signature: ________

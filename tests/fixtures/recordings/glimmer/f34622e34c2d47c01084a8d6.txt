@@ -1,0 +1,15 @@
+1|Page 3 of 3
+2|Your bill summary
+3|Meridian
+4|Total billed
+5|$9,888.00
+6|
+7|Insurance adjusted
+8|- $7,919.78
+9|
+10|The discounted amount applied by your insurance.
+11|Insurance paid
+12|- $1,574.58
+13|The benefit amount your insurance has paid based on your plan.
+14|Total due
+15|$393.64

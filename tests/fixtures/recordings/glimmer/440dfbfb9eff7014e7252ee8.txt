@@ -1,0 +1,34 @@
+35|12M
+36|Patient: DANIELA CASTILLO
+37|Member ID: 39132817396
+38|HSP31
+39|Dates of
+40|Dates of
+41|Service
+42|Total
+43|Discount
+44|Allowed
+45|Other
+46|Other Plan
+47|Not
+48|Deductible
+49|Co-Insurance
+50|Benefit
+51|Reason
+52|Co-Pay
+53|Service
+54|Service
+55|Code
+56|Charge
+57|Amount
+58|Amount
+59|Adjustments
+60|Payments
+61|Covered
+62|Amount
+63|Amount
+64|Amount
+65|Amount
+66|Code
+67|NX
+68|02/11/2025-

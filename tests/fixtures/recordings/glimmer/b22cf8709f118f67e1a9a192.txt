@@ -1,0 +1,82 @@
+Harborlight Health Next
+A Product of Harborlight Health Florida, Inc.
+Harborlight Health
+Next
+A product of Harborlight Health Florida, Inc.
+Explanation of Benefits
+RETAIN FOR TAX PURPOSES
+THIS IS NOT A BILL
+[CODE]
+]
+[MAIL_1]
+Customer Service
+[PATIENT_1]
+For Member Service, please call the number on the back of
+[ADDR_4]
+Participant Information
+[ADDR_1]
+Group Number:
+Group Name: Harborlight Health Next
+Member: [PATIENT_1]
+Date: 03/26/2025
+Page 1 of 4
+Claim [CLAIM_1]
+Provider: QUILLFORD, AUGUSTINE P.
+[PATIENT_1]
+Member ID: [MEMBER_1]
+Dates of Service
+Service Code
+Total Charge
+Discount Amount
+Allowed Amount
+Other Adjustments
+Other Plan Payments
+Not Covered
+Co-Pay Amount
+Deductible Amount
+Co-Insurance Amount
+Benefit Amount
+Reason Code
+02/17/2025- 85610 $73.00 $61.09 $11.91 $0.00 $0.00 $0.00 $0.00 $0.00 $1.19 $10.72 FS1
+02/17/2025
+02/17/2025- 85730 $38.00 $31.25 $6.75 $0.00 $0.00 $0.00 $0.00 $0.00 $0.68 $6.07 FS1
+02/17/2025
+02/17/2025- 85384 $95.00 $80.36 $14.64 $0.00 $0.00 $0.00 $0.00 $0.00 $1.46 $13.18 FS1
+02/17/2025
+02/17/2025- 86880 $52.00 $45.43 $6.57 $0.00 $0.00 $0.00 $0.00 $0.00 $0.66 $5.91 FS1
+02/17/2025
+Claim Totals $258.00 $218.13 $39.87 $0.00 $0.00 $0.00 $0.00 $0.00 $3.99 $35.88
+Patient
+Other Carrier Adjustments: $0.00
+Responsibility: $3.99
+Total Payment Amount: $35.88
+Your Responsibility: $3.99
+Claim [CLAIM_2]
+Provider: TREMAYNE, OSWIN K.
+[PATIENT_1]
+[MEMBER_1]
+Dates of Service
+Service Code
+Total Charge
+Discount Amount
+Allowed Amount
+Other Adjustments
+Other Plan Payments
+Not Covered
+Co-Pay Amount
+Deductible Amount
+Co-Insurance Amount
+Benefit Amount
+Reason Code
+02/17/2025- 01960 $4,108.00 $3,220.94 $887.06 $0.00 $0.00 $0.00 $0.00 $0.00 $177.41 $709.65 CDA
+02/17/2025
+02/17/2025- 01960 $4,108.00 $3,220.94 $887.06 $0.00 $0.00 $0.00 $0.00 $0.00 $177.41 $709.65 CDA
+02/17/2025
+Claim Totals $8,216.00 $6,441.88 $1,774.12 $0.00 $0.00 $0.00 $0.00 $0.00 $354.82 $1,419.30
+Patient
+Other Carrier Adjustments: $0.00
+Responsibility: $354.82
+Total Payment Amount: $1,419.30
+Your Responsibility: $354.82
+Page 1 of 4
+SAMPLE - FICTIONAL TEST DOCUMENT - not a real bill. All names, numbers and organizations are invented.

@@ -1,0 +1,10 @@
+103|Service Code Description
+104|Reason Code Description
+105|55410 Delivery and P
+106|Delivery and Postpartum Care Med IP
+107|CDA Allowed amount
+108|Allowed amount reflects the provider's contract with the plan
+109|98222 Hospital Admis
+110|Hospital Admission Visit Med IP
+111|Page 1 of 1 March 11, 2025
+112|112

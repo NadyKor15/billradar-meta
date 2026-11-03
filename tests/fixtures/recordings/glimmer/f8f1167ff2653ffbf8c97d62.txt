@@ -1,0 +1,7 @@
+69|Do not send cash.
+70|pay.meridianhealth.example
+71|Bill ID: 9156 - 1804 - 1030
+72|Scan to pay online.
+73|Just point your phone's camera at the code to scan. Some phones may
+74|require a QR code app.
+75|SAMPLE - FICTIONAL TEST DOCUMENT - not a real bill. All names, numbers and organizations are invented.

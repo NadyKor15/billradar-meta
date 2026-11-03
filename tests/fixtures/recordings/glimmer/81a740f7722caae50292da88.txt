@@ -1,0 +1,24 @@
+STATEMENT
+DATE OF SERVICE DESCRIPTION OF SERVICE CHARGES PMT/ADJ/ WITHHELD AMOUNT
+Apr 19, 2025 [CLAIM_16] Provider: Marit Halversen, MD
+Apr 19, 2025 99222 INIT HOSP CARE-MOD CPLX $338.00
+May 23, 2025 Primary Insurance Payment $109.20
+May 23, 2025 Primary Insurance Adjustment $201.50
+May 27, 2025 Your Balance Due On These Services
+Your Balance Due On These Services... $27.30
+Apr 19, 2025 [CLAIM_17] Provider: Marit Halversen, MD
+Apr 19, 2025 59410 VAG DELIV & PP CARE (04/19/2025) $5,462.00
+May 23, 2025 Primary Insurance Payment $1,922.86
+May 23, 2025 Primary Insurance Adjustment $2,908.42
+May 27, 2025 Your Balance Due On These Services
+May 27, 2025
+Your Payment is now due. Thank you for your
+Your Balance Due On These Services... $630.72
+DATE PATIENT NAME ACCOUNT NO. PAY THIS
+[PATIENT_1] [ACCT_6] AMOUNT $683.02
+MAKE CHECK PAYABLE TO : 300_Women First OB/GYN Care, LLC
+IMPORTANT MESSAGE REGARDING YOUR ACCOUNT
+We are pleased to offer you the option of credit card payment. Please indicate your method below.
+Payment Method: □ CHECK
+Signature:
+SAMPLE - FICTIONAL TEST DOCUMENT - not a real bill. All names, numbers and organizations are invented.

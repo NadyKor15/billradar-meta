@@ -1,0 +1,24 @@
+69|PAY THIS
+70||   May 27,
+71|May 27, 2025
+72||          More
+73|Moreno , Daniela
+74|] [
+75|76161
+76|$161  |
+77|AMOUNT |       $683.0
+78|$683.02
+79|
+80|MAKE CHECK PAYABLE TO : 300_Women First OB/GYN Care, LLC
+81|IMPORTANT MESSAGE REGARDING YOUR ACCOUNT
+82|We are pleased to offer you the option of credit card payment. Please indicate your method below.
+83|Payment Method:
+84|□ VISA
+85|□ MASTER CARD
+86|□ DISCOVER
+87|□ AMEX
+88|□ CHECK
+89|Card No.:
+90|Exp.: _______
+91|Signature:
+92|SAMPLE - FICTIONAL TEST DOCUMENT - not a real bill. All names, numbers and organizations are invented.

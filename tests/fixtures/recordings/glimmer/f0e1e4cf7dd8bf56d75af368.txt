@@ -1,0 +1,6 @@
+Company Name    Provider    Telephone Number
+Shoreline ER Physicians    Emergency Dept. Physician    888-555-0175
+Pathology Partners of S. Coral    Pathologist    866-555-0188
+Harbor Imaging Radiology    Radiologist    904-555-0123
+Brightwater Healthcare Group ANE    Anesthesiologist    800-555-0137
+SAMPLE - FICTIONAL TEST DOCUMENT - not a real bill. All names, numbers and organizations are invented.

@@ -1,0 +1,34 @@
+1|Page 3 of 4
+2|Your Responsibility: $0.00
+3|Claim #: 731410973800
+4|Provider: SHORELINE CLINICAL PATHOLOGY GROUP INC
+5|Patient: DANIELA MORENO
+6|Member ID: 16791689883
+7|Dates of
+8|Service
+9|Total
+10|Discount
+11|Allowed
+12|Other
+13|Other Plan
+14|Not
+15|Co-Pay
+16|Deductible
+17|Co-Insurance
+18|Benefit
+19|Reason
+20|Service
+21|Code
+22|Charge
+23|Amount
+24|Amount
+25|Adjustments
+26|Payments
+27|Covered
+28|Amount
+29|Amount
+30|Amount
+31|Amount
+32|Code
+33|04/19/2025-
+34|80048

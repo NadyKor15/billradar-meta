@@ -1,0 +1,17 @@
+35|85730
+36|Thromboplastin Time, Partial Med IP
+37|86880
+38|Antihuman Globulin Test, Direct Med IP
+39|99231
+40|Hospital Follow-up Visit Med IP
+41|99238
+42|Hospital Discharge Day Med IP
+43|99460
+44|Newborn Initial Care Med IP
+45|99462
+46|Newborn Follow-up Care Med IP
+47|
+48|Page 4 of 4
+49|169
+50|March 21, 2025
+51|SAMPLE - FICTIONAL TEST DOCUMENT - not a real bill. All names, numbers and organizations are invented.

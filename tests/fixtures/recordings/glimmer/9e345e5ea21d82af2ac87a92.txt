@@ -1,0 +1,33 @@
+SEASIDE REGIONAL HOSPITAL
+Seaside Regional Hospital
+[PHONE_1]
+PATIENT NAME      [PATIENT_2]
+ADMIT DATE      2/11/2025
+DISCHARGE DATE: 2/12/2025
+[PATIENT_1]                      Guarantor ID:            [ACCT_2]
+[ADDR_1]                         Account Number:          [ACCT_3]
+[ADDR_2]
+Hospital Charges
+Svc Dt  Rev Code  Px Code  Description                     Qty          Amt
+02/11/2025 0170 017374795 HC NEWBORN ROUTINE CARE LEVEL 1 1          2,909.00
+02/11/2025 0251 025959182 BACITRACIN 500 UNIT/GM OINT 1 GM 1          21.00
+02/11/2025 0251 025136262 SUCROSE 24% ORAL SOLN 2 ML 1          11.00
+02/11/2025 0302 03040340245 HC NEWBORN BLOOD TYPE DIRECT 1          235.00
+02/12/2025 0170 017374795 HC NEWBORN ROUTINE CARE LEVEL 1 1          2,909.00
+02/12/2025 0471 047900700 HC HEARING SCREEN OAE NEWBORN 1          248.00
+02/12/2025 0306 030524332 HC BILIRUBIN TOTAL TRANSCUTANEOUS 1          104.00
+Total Charges                                                      6,437.00
+Hospital Payments and Adjustments
+Description                                                    Amount
+Insurance Payments and Adjustments                             -4,946.75
+Current Account Balance                                        1,490.25
+Summary by Rev Code                                            Dollars by Rev Code
+PHARMACY - GENERIC DRUGS                                       $32.00
+LABORATORY - IMMUNOLOGY                                        235.00
+NURSERY - GENERAL CLASSIFICATION                               5,818.00
+AUDIOLOGY - DIAGNOSTIC                                         248.00
+LABORATORY - BACTERIOLOGY & MICROBIOLOGY                       104.00
+Account Number [ACCT_3]                     Print Date 4/7/2025              Page 1 of 4
+Please refer to the account number for all inquiries and correspondence.
+A PUBLIC HOSPITAL LICENSED BY THE STATE OF FLORIDA
+SAMPLE - FICTIONAL TEST DOCUMENT - not a real bill. All names, numbers and organizations are invented.

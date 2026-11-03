@@ -1,0 +1,34 @@
+1|LITTLE HARBOR 1200 HARBOR POINT BLVD
+2|Pay Online at https://payclinic24.example using your personal
+3|STE 400
+4|statement code below.
+5|PORT CORAL FL 33018-2207
+6|RETURN SERVICE REQUESTED
+7|Guarantor Name
+8|Patient Account Num
+9|Statement Date
+10|Due Date
+11|Amount Due
+12|DANIELA CASTILLO
+13|4788416
+14|07/06/2025
+15|Upon Receipt
+16|
+17|27.00
+18|ADDRESS
+19|ADDRESSEE:
+20|
+21|MAKE CHECKS PAYABLE TO:
+22|
+23|480004 - 440
+24|Little Harbor Pediatrics - PA
+25|
+26|DANIELA CASTILLO
+27|1200 HARBOR POINT BLVD STE 400
+28|
+29|9349 SEAGRAPE LN
+30|PORT CORAL FL 33018-2207
+31|4744 500976 BAYSIDE FL 33067-4632
+32|
+33|Please check box here if above address is incorrect or insurance information has
+34|changed, and indicate change(s) on reverse side.

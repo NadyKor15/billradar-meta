@@ -1,0 +1,18 @@
+Page 2 of 2
+Service Code Description
+Reason Code Description
+76815 Ultrasound, Pregnant Uterus, Limited Med Office
+CDA Allowed amount reflects the provider's contract with the plan
+80055 Lab Panel, Obstetric Med OP
+FS1 Allowed according to the plan's laboratory fee schedule
+81003 Urinalysis, Automated Med OP
+86762 Rubella Antibody Med OP
+86780 Treponema Pallidum Antibody Med OP
+87086 Urine Culture, Colony Count Med OP
+87491 Chlamydia, Amplified Probe Med OP
+87591 Gonorrhea, Amplified Probe Med OP
+HLNX - H2PX392M - 007003 - 001 OF 001
+Page 2 of 2
+January 23, 2025
+40
+SAMPLE - FICTIONAL TEST DOCUMENT - not a real bill. All names, numbers and organizations are invented.

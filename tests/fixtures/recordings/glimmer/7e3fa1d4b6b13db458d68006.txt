@@ -1,0 +1,46 @@
+Page 1 of 3
+DO NOT MAIL PAYMENTS HERE
+This bill covers anesthesiology services rendered at
+SEASIDE REGIONAL HOSP
+Patient: [PATIENT_1]
+Account number: [ACCT_5]
+Bill ID: [MAIL_6]
+Mar 27, 2025
+[STMT_1]
+[PATIENT_1]
+[ADDR_5]
+[ADDR_1]
+Difficulty paying your bill?
+payment plan and see more ways to resolve your
+balance.
+Your total is $354.82
+You have one bill that is ready to pay. The total amount is
+due by Apr 26, 2025.
+Additional information about your bill or insurance coverage can be found
+information.
+See back for details
+Total billed $8,216.00
+Insurance adjusted -$6,441.88
+Insurance paid -$1,419.30
+COMMERCIAL -$1,419.30
+SELF PAY AFTER -$0.00
+INSURANCE
+Total due $354.82
+FOLD OR CUT AND DETACH AREA BELOW TO SEND WITH PAYMENT
+Online
+Phone
+Mail
+To pay by our automated
+phone
+24/7:
+[PHONE_14]
+with this part of the bill to the
+address
+Do not send cash.
+[PHONE_13]
+Bill [MEMBER_2]
+Scan to pay online.
+[CODE]
+[CODE]
+require a QR code app.
+SAMPLE - FICTIONAL TEST DOCUMENT - not a real bill. All names, numbers and organizations are invented.

@@ -1,0 +1,12 @@
+Page 2 of 2
+Service Code Description
+Reason Code Description
+76815 Ultrasound, Pregnant Uterus, Limited Med Office
+CDA Allowed amount reflects the provider's contract with the plan
+80055 Lab Panel, Obs
+Allowed according to the plan's laboratory fee schedule
+86762
+87491 Chlamydia, Amplified Probe Med OP
+87591 Gonorrhea, Amplified Probe Med OP
+Page 2 of 2
+January 8, 2025

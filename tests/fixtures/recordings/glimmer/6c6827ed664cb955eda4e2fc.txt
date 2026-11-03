@@ -1,0 +1,34 @@
+35|Provider: COASTLINE DIAGNOSTICS REFERENCE LABORATORY SERVICES
+36|IM
+37|Patient: DANIELA CASTILLO
+38|Member ID: 39132817396
+39|*X301
+40|HSP)
+41|Dates of
+42|Service
+43|Total
+44|Discount
+45|Allowed
+46|Other
+47|Other Plan
+48|Not
+49|Co-Pay
+50|Deductible
+51|Co-Insurance
+52|Benefit
+53|Reason
+54|Service
+55|Code
+56|Charge
+57|Amount
+58|Amount
+59|Adjustments
+60|Payments
+61|Covered
+62|Amount
+63|Amount
+64|Amount
+65|Amount
+66|Code
+67|INX
+68|12/05/2024-

@@ -1,0 +1,34 @@
+35|Dates of
+36|Service
+37|Total
+38|Discount
+39|Allowed
+40|Other
+41|Other Plan
+42|Not
+43|Co-Pay
+44|Deductible
+45|Co-Insurance
+46|Benefit
+47|Reason
+48|Service
+49|Code
+50|Charge
+51|Amount
+52|Amount
+53|Adjustments
+54|Payments
+55|Covered
+56|Amount
+57|Amount
+58|Amount
+59|Amount
+60|Code
+61|04/19/2025-
+62|59410
+63|$5,462.00
+64|$2,908.42
+65|$2,553.58
+66|$0.00
+67|$0.00
+68|$0.00

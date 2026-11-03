@@ -1,0 +1,34 @@
+239|Patient: DANIELA CASTILLO
+240|Member ID: 39132817396
+241|Dates of Servi
+242|Dates of
+243|Service
+244|Total
+245|Discount
+246|Allowed
+247|Other
+248|Other Plan
+249|
+250|Not
+251|Co-Pay
+252|Deductible
+253|Service
+254|Code
+255|Charge
+256|Amount
+257|Amount
+258|Adjustments
+259|Payments
+260|Covered
+261|Amount
+262|Amount
+263|Co-Insurance
+264|Benefit
+265|Reason
+266|Reason
+267|Amount
+268|Amount
+269|Code
+270|Code
+271|02/12/2025-
+272|99238

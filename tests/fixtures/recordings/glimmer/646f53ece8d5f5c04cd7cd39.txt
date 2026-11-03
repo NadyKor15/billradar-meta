@@ -1,0 +1,16 @@
+103|Other Carrier Adjustments: $0.00
+104|Patient Responsibility: $739.03
+105|Total Payment Amount: $1,956.08
+106|Your Responsibility: $739.03
+107|Service Code Description
+108|
+109|Reason Code Description
+110|
+111|59410 Delivery and Po
+112|Delivery and Postpartum Care Med IP
+113|Allowed amount reflects the provider's contract with the plan
+114|99222 Hospital Admiss
+115|Hospital Admission Visit Med IP
+116|Page 1 of 1
+117|112
+118|March 11, 2025

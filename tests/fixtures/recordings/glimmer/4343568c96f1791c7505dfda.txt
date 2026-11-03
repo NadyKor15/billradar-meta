@@ -1,0 +1,34 @@
+239|$0.00
+240|Responsibility:
+241|Total Payment Amount: $0.00
+242|
+243|Your Responsibility: $0.00
+244|Claim #: 731408711700
+245|Provider: CALLOWAY, ROSAMUND J.
+246|Patient: DANIELA CASTILLO
+247|Member ID: 39132817396
+248|Dates of
+249|Service
+250|Total
+251|Discount
+252|Allowed
+253|Other
+254|Other Plan
+255|Not
+256|Co-Pay
+257|Deductible
+258|Co-Insurance
+259|Benefit
+260|Reason
+261|Service
+262|Code
+263|Charge
+264|Amount
+265|Amount
+266|Adjustments
+267|Payments
+268|Covered
+269|Amount
+270|Amount
+271|Amount
+272|Amount

@@ -1,0 +1,34 @@
+1|Page 1 of 3
+2|Meridian
+3|DO NOT MAIL PAYMENTS HERE
+4|This bill covers anesthesiology services rendered at
+5|PO Box 5521
+6|Coral Springs, FL 33075-5521
+7|SEASIDE REGIONAL HOSP
+8|Patient:
+9|Maria Ortega
+10|
+11|Account number:
+12|77472701
+13|Bill ID:
+14|3531 - 4841 - 6673
+15|Printed on:
+16|Mar 27, 2025
+17|STMT ▲ 9 9 2 1 4 H8
+18|Maria Ortega
+19|7843 Coral Reef Way Apt 441
+20|Difficulty paying your bill?
+21|Coral Haven FL 33019-2745
+22|Visit pay.meridianhealth.example to set up an affordable
+23|payment plan and see more ways to resolve your
+24|balance.
+25|See back for details
+26|→
+27|Your total is $354.82
+28|| Total bill
+29|Total billed
+30|$8,216.00
+31|You have one bill that is ready to pay. The total amount is
+32|| Insuranc
+33|Insurance adjusted
+34|-$6,441.88

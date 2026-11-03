@@ -1,0 +1,34 @@
+35|$53.12
+36|Dec 16, 2024
+37|Primary Insurance Adjustment
+38|$166.88
+39|Mar 18, 2025
+40|Your Balance Due On These Services
+41|Mar 18, 2025
+42|Your Payment is now due. Thank you for your
+43|prompt response.
+44|Your Balance Due On These Services...
+45|- $20.00
+46|Dec 22, 2024
+47|Claim:4506663, Provider: Marit Halversen, MD
+48|Dec 22, 2024
+49|76815 OB US, LIMITED, 1+ FETUSES
+50|$332.00
+51|Dec 22, 2024
+52|Patient Copay Collected
+53|$90.00
+54|Jan 06, 2025
+55|Primary Insurance Payment
+56|$85.57
+57|Jan 06, 2025
+58|Primary Insurance Adjustment
+59|$196.43
+60|Mar 18, 2025
+61|Your Balance Due On These Services
+62|Your Balance Due On These Services...
+63|($40.00)
+64|PATIENT NAME
+65|ACCOUNT NO
+66|PAY THIS
+67|DATE
+68|Castillo , Daniela

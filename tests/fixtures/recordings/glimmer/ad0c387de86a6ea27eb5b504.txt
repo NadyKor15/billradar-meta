@@ -1,0 +1,55 @@
+Seaside
+Healthcare System
+Patient Financial Services
+4820 Mariner Blvd, Suite 200
+Coral Haven, FL 33019
+For Credit by mail, fill in below
+Card
+Card Number:		CVV code	
+Name on card:
+Signature:						Exp. date:
+Statement Due Date Guarantor # Amount Due Amount
+Date			Paid
+04/09/25	05/09/25	847673833	$1,795.25	
+Guarantor		Send Payment To:
+Maria Ortega	Seaside Healthcare System
+7843 Coral Reef Way	PO Box 740318
+Apt 441	Atlanta, GA 30374-0318
+CORAL HAVEN, FL 33019
+
+How can I pay my balance?
+• Sign in to Your MyChart account
+• Online https://www.seasidehs.example and click on Pay My Bill
+• Use the coupon above to pay by mail. If you have a balance due with both areas the payment will be split 50/50
+between your Hospital and Physician Balances
+• Call us at (954) 555-0142
+• Payments Plans can be set up in MyChart, online or by phone
+• If you would like to apply for financial assistance please call us at the number above. To view our Financial
+Assistance Policy, visit our website: www.seasidehs.example/financialaid.
+
+Hospital Services Detail:
+
+Description	Charges	Insurance Patient	Insurance Patient
+Pmts/Adjs Pmts/Adjs Balance Balance
+Acct #: 5058164046 Patient: ORTEGA,MARIA Service: Inpatient Hospital: SEASIDE REGIONAL
+HOSPITAL 02/17/25 to 02/19/25
+Charges	$13,019.00
+Insurance Payments and Adjustments		-$11,223.75
+Seaside Hospital Services Totals	$13,019.00	-$11,223.75		$0.00	$1,795.25
+Patient Balance									$1,795.25
+Hospital Services Balance Due							$1,795.25
+Summary	Charges	Insurance Patient	Outstanding Insurance Patient
+Pmts/Adjs Pmts/Adjs Balance Balance Balance
+Hospital Services	$13,019.00	-$11,223.75	$0.00	$1,795.25	$0.00	$1,795.25
+Totals	$13,019.00	-$11,223.75	$0.00	$1,795.25	$0.00	$1,795.25
+
+Questions?
+• Sign in to Your MyChart account to review your detail charges and current balance
+• Email us at Mybill@seasidehs.example, we will respond within one business day
+• Call us (954) 555-0142
+• If you do not agree with the patient balance due, please contact your HMO or Insurance Carrier directly to discuss
+
+If you had services provided by the following specialty providers, they will bill you separately. Below is their billing
+contact information
+Company Name	Provider	Telephone Number
+SAMPLE - FICTIONAL TEST DOCUMENT - not a real bill. All names, numbers and organizations are invented.

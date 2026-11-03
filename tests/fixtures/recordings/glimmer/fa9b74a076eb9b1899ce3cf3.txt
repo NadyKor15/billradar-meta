@@ -1,0 +1,34 @@
+1|Page 2 of 4
+2|Claim #: 731402274400
+3|Provider: VOSKUIJLEN, PETRA
+4|Patient: MATEO MORENO
+5|Member ID: 85291284617
+6|Dates of
+7|Service
+8|Total
+9|Discount
+10|Allowed
+11|Other
+12|Other Plan
+13|Not
+14|Co-Pay
+15|Deductible
+16|Co-Insurance
+17|Benefit
+18|Reason
+19|Service
+20|Code
+21|Charge
+22|Amount
+23|Amount
+24|Adjustments
+25|Payments
+26|Covered
+27|Amount
+28|Amount
+29|Amount
+30|Amount
+31|Code
+32|04/19/2025-
+33|99460
+34|$341.00

@@ -1,0 +1,20 @@
+35|Potassium, Serum Med IP
+36|85384
+37|Fibrinogen Activity Med IP
+38|85610
+39|Prothrombin Time Med IP
+40|85730
+41|Thromboplastin Time, Partial Med IP
+42|86880
+43|Antihuman Globulin Test, Direct Med IP
+44|99231
+45|Hospital Follow-up Visit Med IP
+46|99238
+47|Hospital Discharge Day Med IP
+48|99460
+49|Newborn Initial Care Med IP
+50|99462
+51|Newborn Follow-up Care Med IP
+52|Page 4 of 4
+53|169
+54|March 21, 2025

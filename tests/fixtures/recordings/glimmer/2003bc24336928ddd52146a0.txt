@@ -1,0 +1,34 @@
+205|01/06/2025-
+206|76815
+207|$298.00
+208|$184.07
+209|$113.93
+210|$0.00
+211|$0.00
+212|$0.00
+213|$25.00
+214|$0.00
+215|$0.00
+216|$88.93
+217|CDA
+218|01/06/2025
+219|Claim Totals
+220|$298.00
+221|$184.07
+222|1.07 $113.93
+223|$0.00
+224|$0.00
+225|$0.00
+226|$25.00
+227|$0.00
+228|$0.00
+229|$88.93
+230|Patient Responsibility: $25.00
+231|Other Carrier Adjustments: $0.00
+232|Total Payment Amount: $88.93
+233|Your Responsibility: $25.00
+234|Your Responsibility: $25.00
+235|Page 1 of 2
+236|40
+237|January 23, 2025
+238|SAMPLE - FICTIONAL TEST DOCUMENT - not a real bill. All names, numbers and organizations are invented.

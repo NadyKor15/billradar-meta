@@ -1,0 +1,18 @@
+69|
+70|Please Pay By
+71|P
+72|Make a secure online payment at
+73|PAY THIS AMOUNT
+74|PAY
+75|27.00
+76|| Upon Receipt |
+77|https://payclinic24.example by using your personal
+78|statement code - HGQMGKfm
+79|Billing Phone:
+80|By Mail:
+81|954-555-0177
+82|Use coupon above
+83|SCAN TO PAY
+84|
+85|457022-777-46464258
+86|SAMPLE - FICTIONAL TEST DOCUMENT - not a real bill. All names, numbers and organizations are invented.

@@ -1,0 +1,32 @@
+171|$0.00
+172|$0.00
+173|$500.00
+174|$1,055.23
+175|$4,220.88
+176|Patient $1,555.23
+177|Other Carrier Adjustments: $0.00
+178|Total Payment Amount: $4,220.88
+179|Your Responsibility: $1,555.23
+180|Service Code Description
+181|Reason Code Description
+182|0112
+183|Private Room, Maternity Hosp IP
+184|CPA Paid at the contrac
+185|Paid at the contracted rate; member share applied per plan design
+186|0251
+187|Drugs, Generic Hosp IP
+188|0272
+189|Sterile Supplies Hosp IP
+190|0302
+191|Lab, Immunology Hosp IP
+192|0309
+193|Lab, Other Hosp IP
+194|0379
+195|Anesthesia, Other Hosp IP
+196|0637
+197|Self-Administered Drugs Hosp IP
+198|0722
+199|Delivery Room Hosp IP
+200|Page 1 of 1
+201|35
+202|April 1, 2025

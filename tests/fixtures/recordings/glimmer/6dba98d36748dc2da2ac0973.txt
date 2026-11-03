@@ -1,0 +1,34 @@
+1|Page 4 of 4
+2|Service Code Description
+3|
+4|Reason Code Description
+5|
+6|0170
+7|Newborn Nursery Hosp IP
+8|A27
+9|Service is not consistent with the age of the member on file. Please check the
+10|0251
+11|Drugs, Generic Hosp IP
+12|member's information.
+13|0302
+14|Lab, Immunology Hosp IP
+15|CDA
+16|Allowed amount reflects the provider's contract with the plan
+17|0306
+18|Lab, Microbiology Hosp IP
+19|FS1
+20|Allowed according to the plan's laboratory fee schedule
+21|0471
+22|Audiology, Diagnostic Hosp IP
+23|01960
+24|Anesthesia, Vaginal Delivery Med IP
+25|80048
+26|Lab Panel, Basic Metabolic Med IP
+27|82947
+28|Glucose, Quantitative Med IP
+29|83735
+30|Magnesium Med IP
+31|84132
+32|Potassium, Serum Med IP
+33|85384
+34|Fibrinogen Activity Med IP

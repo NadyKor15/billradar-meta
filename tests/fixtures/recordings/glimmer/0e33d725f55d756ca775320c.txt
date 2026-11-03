@@ -1,0 +1,30 @@
+Page 4 of 4
+Service Code Description
+0170 Newborn Nursery Hosp IP
+0251 Drugs, Generic Hosp IP
+0302 Lab, Immunology Hosp IP
+0306 Lab, Microbiology Hosp IP
+0471 Audiology, Diagnostic Hosp IP
+01960 Anesthesia, Vaginal Delivery Med IP
+80048 Lab Panel, Basic Metabolic Med IP
+82947 Glucose, Quantitative Med IP
+83735 Magnesium Med IP
+84132 Potassium, Serum Med IP
+85384 Fibrinogen Activity Med IP
+85610 Prothrombin Time Med IP
+85730 Thromboplastin Time, Partial Med IP
+86880 Antihuman Globulin Test, Direct Med IP
+99231 Hospital Follow-up Visit Med IP
+99238 Hospital Discharge Day Med IP
+99460 Newborn Initial Care Med IP
+99462 Newborn Follow-up Care Med IP
+Reason Code Description
+A27 Service is not consistent with the age of the member on file. Please check the
+member's information.
+CDA Allowed amount reflects the provider's contract with the plan
+FS1 Allowed according to the plan's laboratory fee schedule
+HLUX - H2PX735M - 007494 - 001 OF 001
+Page 4 of 4
+March 21, 2025
+169
+SAMPLE - FICTIONAL TEST DOCUMENT - not a real bill. All names, numbers and organizations are invented.

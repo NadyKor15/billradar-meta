@@ -1,0 +1,26 @@
+35|The plan reports that it cannot match the patient to the
+36|member ID or coverage we have on record.
+37|WHAT TO DO: Please check the insurance details we have for the patient.
+38|If the
+39|coverage or member ID has changed,
+40|send the new details through
+41|www.cradleview.example/insuranceform or call us at
+42|(888)
+43|555-0107.
+44|Insurance plans accept claims only for a limited time,
+45|so a quick reply helps.
+46|If we do not receive updated coverage,
+47|or the plan does not pay,
+48|within 30 days
+49|of the date of this letter,
+50|the balance shown above becomes your
+51|responsibility.
+52|Sincerely,
+53|Patient Accounts Team
+54|*NOTE: A payment made in the last 14 days may not be shown in the balance above.
+55|Para recibir esta informacion en Espanol,
+56|llame al
+57|(888)
+58|555-0107. Gracias.
+59|CRADLVIEW1-9919929-0000000-32609105-001-063425-#102131-7951
+60|SAMPLE - FICTIONAL TEST DOCUMENT - not a real bill. All names, numbers and organizations are invented.

@@ -1,0 +1,42 @@
+STATEMENT
+THIS IS A STATEMENT OF SERVICES RENDERED BY PROVIDER(S)
+WHO ARE MEMBERS OF:
+Seaside Regional Hospital (IP) 300
+4820 MARINER BLVD
+CORAL HAVEN, FL 33019-4417
+PATIENT NAME
+Moreno , Daniela
+BILL DATE ACCOUNT NO. AMOUNT PAID
+May 27, 2025 76161
+Moreno , Daniela
+4089 Coral Reef Way
+Apt 400
+Bayside FL 33067
+This is a statement for professional services rendered by your
+physician. You may receive a separate bill from the hospital for
+its services.
+DATE OF SERVICE DESCRIPTION OF SERVICE CHARGES PMT/ADJ/ WITHHELD AMOUNT
+Jan 27, 2025 Claim:4488997, Provider: Marit Halversen, MD
+Jan 27, 2025 99213 Office Visit, Est Pt., Level 3 $215.00
+Feb 19, 2025 Primary Insurance Payment $50.43
+Feb 19, 2025 Primary Insurance Adjustment $139.57
+May 27, 2025 Your Balance Due On These Services
+May 27, 2025
+Your Payment is now due. Thank you for your
+prompt response.
+Your Balance Due On These Services... $25.00
+Mar 03, 2025 Claim:4542363, Provider: Marit Halversen, MD
+Mar 03, 2025 76815 OB US, LIMITED, 1+ FETUSES $294.00
+Mar 03, 2025 Patient Copay Collected $50.00
+Mar 18, 2025 Primary Insurance Payment $67.64
+Mar 18, 2025 Primary Insurance Adjustment $176.36
+May 27, 2025 Your Balance Due On These Services
+Your Balance Due On These Services... $0.00
+DATE PATIENT NAME ACCOUNT NO. PAY THIS
+May 27, 2025 Moreno , Daniela 76161 AMOUNT $683.02
+MAKE CHECK PAYABLE TO : 300_Women First OB/GYN Care, LLC
+IMPORTANT MESSAGE REGARDING YOUR ACCOUNT
+We are pleased to offer you the option of credit card payment. Please indicate your method below.
+Payment Method: □ VISA □ MASTER CARD □ DISCOVER □ AMEX □ CHECK
+Card No.: ________________ Exp.: ______ Signature: _________________________
+SAMPLE - FICTIONAL TEST DOCUMENT - not a real bill. All names, numbers and organizations are invented.

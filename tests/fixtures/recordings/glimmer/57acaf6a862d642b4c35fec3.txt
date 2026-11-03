@@ -1,0 +1,47 @@
+Meridian
+PHYSICIAN SERVICES
+DO NOT MAIL PAYMENTS HERE
+Page 1 of 3
+This bill covers anesthesiology services rendered at
+SEASIDE REGIONAL HOSP
+Patient: [PATIENT_1]
+Account number: [ACCT_5]
+Bill ID: [MAIL_6]
+May 27, 2025
+[STMT_1]
+[PATIENT_1]
+[ADDR_4]
+[ADDR_2]
+Difficulty paying your bill?
+payment plan and see more ways to resolve your
+balance.
+Your total is $162.76
+You have one bill that is ready to pay. The total amount is
+due by Jun 26, 2025.
+Additional information about your bill or insurance coverage can be found
+information.
+See back for details
+Total billed $4,146.00
+Insurance adjusted -$3,332.22
+Insurance paid -$651.02
+COMMERCIAL -$651.02
+SELF PAY AFTER -$0.00
+INSURANCE
+Total due $162.76
+FOLD OR CUT AND DETACH AREA BELOW TO SEND WITH PAYMENT
+Online
+Phone
+Mail
+To pay by our automated
+phone
+24/7:
+[PHONE_14]
+with this part of the bill to the
+address
+Do not send cash.
+[PHONE_13]
+Bill [MEMBER_3]
+Scan to pay online.
+[CODE]
+require a QR code app.
+SAMPLE - FICTIONAL TEST DOCUMENT - not a real bill. All names, numbers and organizations are invented.

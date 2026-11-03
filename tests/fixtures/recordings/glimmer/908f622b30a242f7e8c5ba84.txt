@@ -1,0 +1,35 @@
+1|Page 1 of 3
+2|Meridian
+3|DO NOT MAIL PAYMENTS HERE
+4|This bill covers anesthesiology services rendered at
+5|PO Box 5521
+Coral Springs, FL 33075-5521
+6|SEASIDE REGIONAL HOSP
+7|Patient:
+8|Daniela Castillo
+9|
+10|44932556
+11|Account number:
+12|
+13|4684 - 8934 - 8146
+14|Bill ID:
+15|Printed on:
+16|Mar 22, 2025
+17|
+18|STMT ▲ 2 3 7 8 5 1 G7
+19|Daniela Castillo
+20|9349 Seagrape Ln Apt 717
+21|Difficulty paying your bill?
+22|Bayside FL 33067-4632
+23|Visit pay.meridianhealth.example to set up an affordable
+24|payment plan and see more ways to resolve your
+25|balance.
+26|See back for details
+27|Your total is $393.64
+28|Total billed
+29|$9,888.00
+30|Insurance adjusted
+31|- $7,919.78
+32|
+33|You have one bill that is ready to pay. The total amount is
+34|Insurance paid

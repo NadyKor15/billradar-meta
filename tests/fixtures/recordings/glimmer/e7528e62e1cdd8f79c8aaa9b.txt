@@ -1,0 +1,15 @@
+103|Your Responsibility: $767
+104|Your Responsibility: $767.01
+105|Service Code Description
+106|Reason Code Description
+107|
+108|| 59410 Delivery and Po
+109|Delivery and Postpartum Care Med IP
+110|e Med IP | | CDA Allowed amount
+111|Allowed amount reflects the provider's contract with the plan
+112|| 99222 Hospital Admiss
+113|Hospital Admission Visit Med IP
+114|Page 1 of 1
+115|191
+116|March 16, 2025
+117|SAMPLE - FICTIONAL TEST DOCUMENT - not a real bill. All names, numbers and organizations are invented.

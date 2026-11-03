@@ -1,0 +1,34 @@
+1|PMT/ADJ/
+2|DATE OF SERVICE
+3|DESCRIPTION OF SERVICE
+4|CHARGES
+5|WITHHELD
+6|AMOUNT
+7|Feb 11, 2025
+8|Claim:4867208, Provider: Marit Halversen, MD
+9|Feb 11, 2025
+10|99222 INIT HOSP CARE-MOD CPLX
+11|$314.00
+12|Mar 14, 2025
+13|Primary Insurance Payment
+14|$106.86
+15|Mar 14, 2025
+16|Primary Insurance Adjustment
+17|$180.42
+18|Mar 18, 2025
+19|Your Balance Due On These Services
+20|Your Balance Due On These Services...
+21|$26.72
+22|Feb 11, 2025
+23|Claim:5143606, Provider: Marit Halversen, MD
+24|Feb 11, 2025
+25|59410 VAG DELIV & PP CARE (02/11/2025)
+26|$5,346.00
+27|Mar 14, 2025
+28|Primary Insurance Payment
+29|$1,849.22
+30|Mar 14, 2025
+31|Primary Insurance Adjustment
+32|$2,784.47
+33|Mar 18, 2025
+34|Your Balance Due On These Services

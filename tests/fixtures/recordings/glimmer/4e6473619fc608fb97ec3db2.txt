@@ -1,0 +1,35 @@
+35|- $1,574.58
+36|
+37|COMMERCIAL
+38|- $1,574.58
+39|SELF PAY AFTER
+40|- $0.00
+41|INSURANCE
+42|
+43|Additional information about your bill or insurance coverage can be found
+44|online or on your statement details. Visit pay.meridianhealth.example for more
+45|information.
+46|Total due
+47|$393.64
+48|
+49|FOLD OR CUT AND DETACH AREA BELOW TO SEND WITH PAYMENT
+50|FOLD OR CUT AND DETACH AREA BELOW TO SEND WITH PAYMENT
+51|Ways to Pay
+52|Need Help?
+53|Online
+54|Phone
+55|Mail
+56|Call our team toll-free
+(Mon to Fri 8AM to 6P
+57|Pay via desktop or mobile:
+58|To pay by our automated
+59|Mail check or money order
+60|(Mon to Fri 8AM to 6PM EDT)
+61|pay.meridianhealth.example
+62|phone system, call toll-free
+63|with this part of the bill to the
+64|(888) 555-0131
+65|24/7:
+66|address on the reverse side.
+67|Live Chat
+68|(888) 555-0129

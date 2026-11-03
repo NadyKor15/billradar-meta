@@ -1,0 +1,34 @@
+171|Patient Responsibility: $15.59
+172|Total Payment Amount: $140.27
+173|Your Responsibility $15
+174|Your Responsibility: $15.59
+175|Claim #: 731391014800
+176|Provider: HALVERSEN, MARIT
+177|Patient: DANIELA CASTILLO
+178|Member ID: 39132817396
+179|Dates of
+180|Service
+181|Total
+182|Discount
+183|Allowed
+184|Other
+185|Other Plan
+186|Not
+187|Co-Pay
+188|Deductible
+189|Co-Insurance
+190|Benefit
+191|Reason
+192|Service
+193|Code
+194|Charge
+195|Amount
+196|Amount
+197|Adjustments
+198|Payments
+199|Covered
+200|Amount
+201|Amount
+202|Amount
+203|Amount
+204|Code

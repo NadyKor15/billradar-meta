@@ -1,0 +1,43 @@
+STATEMENT
+THIS IS A STATEMENT OF SERVICES RENDERED BY PROVIDER(S)
+WHO ARE MEMBERS OF:
+Seaside Regional Hospital (IP) 300
+4820 MARINER BLVD
+CORAL HAVEN, FL 33019-4417
+PATIENT NAME
+Castillo , Daniela
+BILL DATE ACCOUNT NO. AMOUNT PAID
+Mar 18, 2025 30955
+Castillo , Daniela
+9349 Seagrape Ln
+Apt 717
+Bayside FL 33067
+This is a statement for professional services rendered by your
+physician. You may receive a separate bill from the hospital for
+its services.
+DATE OF SERVICE DESCRIPTION OF SERVICE CHARGES PMT/ADJ/
+WITHHELD AMOUNT
+Nov 25, 2024 Claim:4106685, Provider: Marit Halversen, MD
+Nov 25, 2024 99213 Office Visit, Est Pt., Level 3 $240.00
+Dec 16, 2024 Primary Insurance Payment $53.12
+Dec 16, 2024 Primary Insurance Adjustment $166.88
+Mar 18, 2025 Your Balance Due On These Services
+Mar 18, 2025
+Your Payment is now due. Thank you for your
+prompt response.
+Your Balance Due On These Services... $20.00
+Dec 22, 2024 Claim:4506663, Provider: Marit Halversen, MD
+Dec 22, 2024 76815 OB US, LIMITED, 1+ FETUSES $332.00
+Dec 22, 2024 Patient Copay Collected $90.00
+Jan 06, 2025 Primary Insurance Payment $85.57
+Jan 06, 2025 Primary Insurance Adjustment $196.43
+Mar 18, 2025 Your Balance Due On These Services
+Your Balance Due On These Services... ($40.00)
+DATE PATIENT NAME ACCOUNT NO. PAY THIS
+Mar 18, 2025 Castillo , Daniela 30955 AMOUNT $719.03
+MAKE CHECK PAYABLE TO : 300_Women First OB/GYN Care, LLC
+IMPORTANT MESSAGE REGARDING YOUR ACCOUNT
+We are pleased to offer you the option of credit card payment. Please indicate your method below.
+Payment Method: □ VISA □ MASTER CARD □ DISCOVER □ AMEX □ CHECK
+Card No.: ________________ Exp.: ______ Signature: ________________
+SAMPLE - FICTIONAL TEST DOCUMENT - not a real bill. All names, numbers and organizations are invented.

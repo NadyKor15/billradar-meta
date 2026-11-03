@@ -1,0 +1,34 @@
+171|Total Payment Amount: $178.92
+172|
+173|Your Responsibility: $19.88
+174|Claim #: 731386765100
+175|Provider: HALVERSEN, MARIT
+176|Patient: DANIELA MORENO
+177|Member ID: 16791689883
+178|Dates of
+179|Service
+180|Total
+181|Discount
+182|Allowed
+183|Other
+184|Other Plan
+185|Not
+186|Co-Pay
+187|Deductible
+188|Co-Insurance
+189|Benefit
+190|Reason
+191|Service
+192|Code
+193|Charge
+194|Amount
+195|Amount
+196|Adjustments
+197|Payments
+198|Covered
+199|Amount
+200|Amount
+201|Amount
+202|Amount
+203|Code
+204|03/03/2025-

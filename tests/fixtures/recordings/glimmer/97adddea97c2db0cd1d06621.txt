@@ -1,0 +1,34 @@
+239|Responsibility:
+240|Total Payment Amount: $0.00
+241|
+242|Your Responsibility: $0.00
+243|Claim #: 731830134600
+244|Provider: CALLOWAY, ROSAMUND J.
+245|Patient: MARIA ORTEGA
+246|Member ID: 33901862407
+247|Dates of
+248|Service
+249|Total
+250|Discount
+251|Allowed
+252|Other
+253|Other Plan
+254|Not
+255|Co-Pay
+256|Deductible
+257|Co-Insurance
+258|Benefit
+259|Reason
+260|Service
+261|Code
+262|Charge
+263|Amount
+264|Amount
+265|Adjustments
+266|Payments
+267|Covered
+268|Amount
+269|Amount
+270|Amount
+271|Amount
+272|Code

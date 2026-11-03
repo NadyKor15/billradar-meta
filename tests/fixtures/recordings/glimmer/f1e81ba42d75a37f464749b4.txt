@@ -1,0 +1,105 @@
+Page 2 of 4
+Claim #: 731824842800
+Patient: MARIA  ORTEGA
+Provider: VOSKUIJLEN, PETRA
+Member ID: 33901862407
+Dates of Service
+Service Code
+Total Charge
+Discount Amount
+Allowed Amount
+Other Adjustments
+Other Plan Payments
+Not Covered
+Co-Pay Amount
+Deductible Amount
+Co-Insurance Amount
+Benefit Amount
+Reason Code
+02/17/2025- 99460 $484.00 $484.00 $0.00 $0.00 $0.00 $0.00 $0.00 $0.00 $0.00 $0.00 A27
+02/17/2025
+Claim Totals $484.00 $484.00 $0.00 $0.00 $0.00 $0.00 $0.00 $0.00 $0.00 $0.00
+Patient Other Carrier Adjustments: $0.00
+Responsibility: $0.00 Total Payment Amount: $0.00
+Your Responsibility: $0.00
+Claim #: 731837417100
+Patient: MARIA  ORTEGA
+Provider: SEASIDE REGIONAL HOSPITAL
+Member ID: 33901862407
+Dates of Service
+Service Code
+Total Charge
+Discount Amount
+Allowed Amount
+Other Adjustments
+Other Plan Payments
+Not Covered
+Co-Pay Amount
+Deductible Amount
+Co-Insurance Amount
+Benefit Amount
+Reason Code
+02/17/2025- 0170 $6,102.00 $6,102.00 $0.00 $0.00 $0.00 $0.00 $0.00 $0.00 $0.00 $0.00 A27
+02/18/2025
+02/17/2025- 0251 $34.00 $34.00 $0.00 $0.00 $0.00 $0.00 $0.00 $0.00 $0.00 $0.00 A27
+02/18/2025
+02/17/2025- 0302 $226.00 $226.00 $0.00 $0.00 $0.00 $0.00 $0.00 $0.00 $0.00 $0.00 A27
+02/18/2025
+02/17/2025- 0471 $319.00 $319.00 $0.00 $0.00 $0.00 $0.00 $0.00 $0.00 $0.00 $0.00 A27
+02/18/2025
+02/17/2025- 0306 $113.00 $113.00 $0.00 $0.00 $0.00 $0.00 $0.00 $0.00 $0.00 $0.00 A27
+02/18/2025
+Claim Totals $6,794.00 $6,794.00 $0.00 $0.00 $0.00 $0.00 $0.00 $0.00 $0.00 $0.00
+Patient Other Carrier Adjustments: $0.00
+Responsibility: $0.00 Total Payment Amount: $0.00
+Your Responsibility: $0.00
+HLAX - H2PX3ISM - 003619 - 001 OF 001
+Claim #: 731828950500
+Patient: MARIA  ORTEGA
+Provider: OYELARAN, BENEDICT T.
+Member ID: 33901862407
+Dates of Service
+Service Code
+Total Charge
+Discount Amount
+Allowed Amount
+Other Adjustments
+Other Plan Payments
+Not Covered
+Co-Pay Amount
+Deductible Amount
+Co-Insurance Amount
+Benefit Amount
+Reason Code
+02/18/2025- 99462 $457.00 $457.00 $0.00 $0.00 $0.00 $0.00 $0.00 $0.00 $0.00 $0.00 A27
+02/18/2025
+Claim Totals $457.00 $457.00 $0.00 $0.00 $0.00 $0.00 $0.00 $0.00 $0.00 $0.00
+Patient Other Carrier Adjustments: $0.00
+Responsibility: $0.00 Total Payment Amount: $0.00
+Your Responsibility: $0.00
+Claim #: 731830134600
+Patient: MARIA  ORTEGA
+Provider: CALLOWAY, ROSAMUND J.
+Member ID: 33901862407
+Dates of Service
+Service Code
+Total Charge
+Discount Amount
+Allowed Amount
+Other Adjustments
+Other Plan Payments
+Not Covered
+Co-Pay Amount
+Deductible Amount
+Co-Insurance Amount
+Benefit Amount
+Reason Code
+02/18/2025- 99238 $268.00 $268.00 $0.00 $0.00 $0.00 $0.00 $0.00 $0.00 $0.00 $0.00 A27
+02/18/2025
+Claim Totals $268.00 $268.00 $0.00 $0.00 $0.00 $0.00 $0.00 $0.00 $0.00 $0.00
+Patient Other Carrier Adjustments: $0.00
+Responsibility: $0.00 Total Payment Amount: $0.00
+Page 2 of 4
+March 26, 2025
+171
+SAMPLE - FICTIONAL TEST DOCUMENT - not a real bill. All names, numbers and organizations are invented.

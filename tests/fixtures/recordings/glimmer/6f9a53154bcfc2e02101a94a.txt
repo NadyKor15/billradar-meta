@@ -1,0 +1,34 @@
+1|Page 4 of 4
+2|Service Code Description
+3|
+4|Reason Code Description
+5|
+6|0170
+7|Newborn Nursery Hosp IP
+8|CDA
+9|Allowed amount reflects the provider's contract with the plan
+10|0251
+11|Drugs, Generic Hosp IP
+12|CPA
+13|Paid at the contracted rate; member share applied per plan design
+14|0302
+15|Lab, Immunology Hosp IP
+16|FS1
+17|Allowed according to the plan's laboratory fee schedule
+18|0306
+19|Lab, Microbiology Hosp IP
+20|0471
+21|Audiology, Diagnostic Hosp IP
+22|01960
+23|Anesthesia, Vaginal Delivery Med IP
+24|80048
+25|Lab Panel, Basic Metabolic Med IP
+26|82947
+27|Glucose, Quantitative Med IP
+28|83735
+29|Magnesium Med IP
+30|84132
+31|Potassium, Serum Med IP
+32|85384
+33|Fibrinogen Activity Med IP
+34|85610

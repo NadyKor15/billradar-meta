@@ -1,0 +1,5 @@
+69|□ CHECK
+70|Card No.:
+71|Exp.: _______
+72|Signature:
+73|SAMPLE - FICTIONAL TEST DOCUMENT - not a real bill. All names, numbers and organizations are invented.

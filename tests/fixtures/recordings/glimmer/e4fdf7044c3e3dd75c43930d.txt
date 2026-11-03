@@ -1,0 +1,34 @@
+1|Meridian
+2|Page 1 of 3
+3|DO NOT MAIL PAYMENTS HERE
+4|PO Box 5521
+5|This bill covers anesthesiology services rendered at
+6|Coral Springs, FL 33075-5521
+7|SEASIDE REGIONAL HOSP
+8|Patient:
+9|Daniela Moreno
+10|
+11|Account number:
+12|21476630
+13|Bill ID:
+14|9156 - 1804 - 1030
+15|Printed on:
+16|May 27, 2025
+17|
+18|STMT ▲ 6 8 1 2 4 6 F9
+19|Daniela Moreno
+20|4089 Coral Reef Way Apt 400
+21|Bayside FL 33067-8030
+22|Difficulty paying your bill?
+23|Visit pay.meridianhealth.example to set up an affordable
+24|payment plan and see more ways to resolve your
+25|balance.
+26|See back for details
+27|→
+28|Your total is $162.76
+29| |
+30|Total billed
+31|$4,146.00
+32|You have one bill that is ready to pay. The total amount is
+33|Insurance adjusted
+34|- $3,332.22

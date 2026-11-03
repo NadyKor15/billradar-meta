@@ -1,0 +1,10 @@
+205|$0.00
+206|$393.64 $1,574.58
+207|Re
+208|Patient Responsibility: $393.64
+209|Other Carrier Adjustments: $0.00
+210|Total Payment Amount: $1,574.58
+211|Your Responsibility: $393.64
+212|Page 1 of 4
+213|169
+214|March 21, 2025

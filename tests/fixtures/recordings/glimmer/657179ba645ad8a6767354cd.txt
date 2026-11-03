@@ -1,0 +1,34 @@
+1|Page 2 of 4
+2|Claim #: 731404958900
+3|Provider: VOSKUIJLEN, PETRA
+4|Patient: DANIELA CASTILLO
+5|Member ID: 39132817396
+6|Dates of
+7|Service
+8|Total
+9|Discount
+10|Allowed
+11|Other
+12|Other Plan
+13|Not
+14|Co-Pay
+15|Deductible
+16|Co-Insurance
+17|
+18|Benefit
+19|Reason
+20|Reason
+21|
+22|Service
+23|Code
+24|Charge
+25|Amount
+26|Amount
+27|Adjustments
+28|Payments
+29|Covered
+30|Amount
+31|Amount
+32|Amount
+33|Amount
+34|Code

@@ -1,0 +1,34 @@
+1|
+2|Cradleview-Obstetrix Medical Group
+3|cradleview
+4|76252
+5|PO BOX 740990
+6|MEDICAL GROUP
+7|ATLANTA GA 30374-0990
+8|04/04/25
+9|
+10|76252
+11|
+12|MARIA ORTEGA
+13|
+14|CRADLEVIEW-OBSTETRIX MEDICAL GROUP
+15|7843 Coral Reef Way Apt 441
+16|PO BOX 740990
+17|Coral Haven FL 33019-2745
+18|ATLANTA GA 30374-0990
+19|Account Number:
+20|CVX 458456996
+21|Account Balance:
+22|$250.00
+23|Patient Name:
+24|ORTEGA,
+25|NOAH
+26|Please note,
+27|this letter is not a bill.
+28|Dear Patient or Responsible Party:
+29|Our physicians cared for the patient named above during a recent hospital
+30|stay. Our group bills separately from the hospital,
+31|so you may also receive
+32|statements from the hospital for its own services.
+33|We sent a claim for our services to the insurance plan on file, and the plan
+34|did not accept it.

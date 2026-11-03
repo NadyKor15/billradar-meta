@@ -1,0 +1,29 @@
+Cradleview-Obstetrix Medical Group
+[CODE]
+[CODE]
+[PATIENT_1]
+[ADDR_4]
+[ADDR_2]
+CRADLEVIEW-OBSTETRIX MEDICAL GROUP
+Account Number: [ACCT_7]
+Account Balance: $275.00
+Patient Name: [PATIENT_2]
+this letter is not a bill.
+Our physicians cared for the patient named above during a recent hospital
+Our group bills separately from the hospital, so you may also receive
+statements from the hospital for its own services.
+We sent a claim for our services to the insurance plan on file, and the plan
+did not accept it. The plan reports that it cannot match the patient to the
+member
+WHAT TO DO: Please check the insurance details we have for the patient. If the
+coverage or member ID has changed, send the new details through
+(888) ___
+Insurance plans accept claims only for a limited time,
+If we do not receive updated coverage, or the plan does not pay, within 30 days
+of the date of this letter, the balance shown above becomes your
+responsibility.
+Patient
+*NOTE: A payment made in the last 14 days may not be shown in the balance above.
+(888)
+[MAIL_8]
+SAMPLE - FICTIONAL TEST DOCUMENT - not a real bill. All names, numbers and organizations are invented.

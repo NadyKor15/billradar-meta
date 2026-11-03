@@ -1,0 +1,19 @@
+69|Mar 23, 2025
+70|[
+71|Ortega , Maria
+72|51502
+73|AMOUNT  |
+74|$792.01
+75|MAKE CHECK PAYABLE TO : 300_Women First OB/GYN Care, LLC
+76|IMPORTANT MESSAGE REGARDING YOUR ACCOUNT
+77|We are pleased to offer you the option of credit card payment. Please indicate your method below.
+78|Payment Method:
+79|☐ VISA
+80|☐ MASTER CARD
+81|☐ DISCOVER
+82|☐ AMEX
+83|☐ CHECK
+84|Card No.:
+85|Exp.: ________
+86|Signature:
+87|SAMPLE - FICTIONAL TEST DOCUMENT - not a real bill. All names, numbers and organizations are invented.

@@ -1,0 +1,15 @@
+Hospital Payments and Adjustments
+Description Amount
+Insurance Payments and Adjustments -10,973.77
+Current Account Balance 1,555.23
+Summary by Rev Code Dollars by Rev Code
+PHARMACY - GENERIC DRUGS $853.00
+PHARMACY - EXTENSION OF 063X - SELF-ADMINISTRABLE DRUGS 17.00
+LABORATORY - IMMUNOLOGY 904.00
+LABORATORY - OTHER LABORATORY 696.00
+MEDICAL/SURGICAL SUPPLIES AND DEVICES - STERILE SUPPLY 265.00
+ROOM & BOARD - PRIVATE (ONE BED) - OB 4,364.00
+LABOR ROOM/DELIVERY - DELIVERY ROOM 3,755.00
+ANESTHESIA - OTHER ANESTHESIA 1,675.00
+Account [ACCT_1] Print Date 4/7/2025 Page 2 of 4
+SAMPLE - FICTIONAL TEST DOCUMENT - not a real bill. All names, numbers and organizations are invented.

@@ -1,0 +1,76 @@
+Harborlight Health Next
+A Product of Harborlight Health Florida, Inc.
+Harborlight Health
+Next
+A product of Harborlight Health Florida, Inc.
+Explanation of Benefits
+RETAIN FOR TAX PURPOSES
+THIS IS NOT A BILL
+Customer Service
+[CODE] ]E
+]
+[MAIL_1]
+For Member Service, please call the number on the back of
+[PATIENT_1]
+[ADDR_3]
+[ADDR_2]
+Participant Information
+Group Number:
+Group Name: Harborlight Health Next
+Member: [PATIENT_1]
+Date: 05/26/2025
+Page 1 of 4
+Claim [CLAIM_1]
+Provider: QUILLFORD, AUGUSTINE P.
+[PATIENT_1]
+Member ID: [MEMBER_1]
+Dates of Service
+Service Code
+Total Charge
+Discount Amount
+Allowed Amount
+Other Adjustments
+Other Plan Payments
+Not Covered
+Co-Pay Amount
+Deductible Amount
+Co-Insurance Amount
+Benefit Amount
+Reason Code
+04/19/2025- 85610 $111.00 $94.13 $16.87 $0.00 $0.00 $0.00 $0.00 $0.00 $1.69 $15.18 FS1
+04/19/2025
+04/19/2025- 85730 $117.00 $98.28 $18.72 $0.00 $0.00 $0.00 $0.00 $0.00 $1.87 $16.85 FS1
+04/19/2025
+04/19/2025- 85384 $69.00 $57.48 $11.52 $0.00 $0.00 $0.00 $0.00 $0.00 $1.15 $10.37 FS1
+04/19/2025
+04/19/2025- 86880 $89.00 $74.67 $14.33 $0.00 $0.00 $0.00 $0.00 $0.00 $1.43 $12.90 FS1
+04/19/2025
+Claim Totals $386.00 $324.56 $61.44 $0.00 $0.00 $0.00 $0.00 $0.00 $6.14 $55.30
+Patient Other Carrier Adjustments: $0.00
+Responsibility: $6.14 Total Payment Amount: $55.30
+Your Responsibility: $6.14
+Claim [CLAIM_2]
+Provider: TREMAYNE, OSWIN K.
+[PATIENT_1]
+Member ID: [MEMBER_1]
+Dates of Service
+Service Code
+Total Charge
+Discount Amount
+Allowed Amount
+Other Adjustments
+Other Plan Payments
+Not Covered
+Co-Pay Amount
+Deductible Amount
+Co-Insurance Amount
+Benefit Amount
+Reason Code
+04/19/2025- 01960 $4,146.00 $3,332.22 $813.78 $0.00 $0.00 $0.00 $0.00 $0.00 $162.76 $651.02 CDA
+04/19/2025
+Claim Totals $4,146.00 $3,332.22 $813.78 $0.00 $0.00 $0.00 $0.00 $0.00 $162.76 $651.02
+Patient Other Carrier Adjustments: $0.00
+Responsibility: $162.76 Total Payment Amount: $651.02
+Your Responsibility: $162.76
+Page 1 of 4
+SAMPLE - FICTIONAL TEST DOCUMENT - not a real bill. All names, numbers and organizations are invented.

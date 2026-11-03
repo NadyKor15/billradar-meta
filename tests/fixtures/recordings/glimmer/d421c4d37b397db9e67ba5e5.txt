@@ -1,0 +1,34 @@
+1|112
+2|
+3|Harborlight Health Next
+4|Harborlight Health
+5|A Product of Harborlight Health Florida, Inc.
+6|Next
+7|1450 Lighthouse Parkway
+8|A product of Harborlight Health Florida, Inc.
+9|Tampa Bay, FL 33699
+10|
+11|
+12|Explanation of Benefits
+13|RETAIN FOR TAX PURPOSES
+14|THIS IS NOT A BILL
+15|H2PX325M004583 HLNX
+16|Customer Service
+17|DANIELA CASTILLO
+18|9349 SEAGRAPE LN # 717
+19|For Member Service, please call the number on the back of
+20|BAYSIDE, FL 33067
+21|your ID card
+22|Participant Information
+23|Group N
+24|Group Number:
+25|HHNX
+26|Group Name:
+27|Harborlight Health Next
+28|Member:
+29|DANIELA CASTILLO
+30|Date:
+31|03/11/2025
+32|Page 1 of 1
+33|Claim #: 731392317200
+34|Provider: HALVERSEN, MARIT
