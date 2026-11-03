@@ -1,0 +1,8 @@
+# Copy to wrangler.toml for deployment. Values come from the vault, never from the repo.
+name = "billradar-email-intake"
+main = "worker.js"
+compatibility_date = "2026-10-01"
+
+[vars]
+# INTAKE_URL = "https://<demo host>/intake/email"   # the path is BILLRADAR_INTAKE_PATH on the app side
+# INTAKE_SECRET is a secret: wrangler secret put INTAKE_SECRET   (same value as BILLRADAR_INTAKE_SECRET)

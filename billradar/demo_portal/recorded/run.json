@@ -1,0 +1,15 @@
+{
+ "steps": 14,
+ "filled": {
+  "patient_name": "Maria Sample",
+  "member_id": "SHP-000-4417",
+  "claim_number": "CLM-7765301",
+  "service_dates": "07/14/2026",
+  "provider": "Lakeview Demo Hospital",
+  "denial_date": "10/15/2026",
+  "denial_codes": "P31",
+  "amount": "6,840.00",
+  "reason": "Please see the attached appeal letter. It quotes the plan document for each point.",
+  "phone": "(555) 010-0199"
+ }
+}
