@@ -1,0 +1,34 @@
+{
+ "policy_id": "memorial-2026-05",
+ "letterhead": "Saltgrass Bay Hospital",
+ "today": "2026-03-01",
+ "fictional": true,
+ "profile": {
+  "household_size": 2,
+  "annual_income": "47000",
+  "liquid_assets": "5100",
+  "insured": true,
+  "people": [
+   {
+    "token": "PATIENT_1",
+    "role": "patient",
+    "name": "Gideon Nakagawa",
+    "birth_date": "01/19/1962",
+    "relationship": "Self",
+    "employer": "Tamarind Street Hardware"
+   }
+  ],
+  "local": {
+   "street": "6605 Sea Hibiscus Way Apt 511",
+   "city": "Sandpiper Heights",
+   "state": "FL",
+   "zip": "34293",
+   "phone": "(954) 555-0124",
+   "tokens": {
+    "ACCT_1": "5045967237",
+    "ACCT_2": "6146847800",
+    "MEMBER_1": "24719568217"
+   }
+  }
+ }
+}

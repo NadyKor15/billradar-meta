@@ -1,0 +1,42 @@
+{
+ "policy_id": "memorial-2026-05",
+ "letterhead": "Lantern Key Medical Center",
+ "today": "2026-02-02",
+ "fictional": true,
+ "profile": {
+  "household_size": 3,
+  "annual_income": "70000",
+  "liquid_assets": "2600",
+  "insured": true,
+  "people": [
+   {
+    "token": "PATIENT_1",
+    "role": "mother",
+    "name": "Fatima Osei",
+    "birth_date": "07/16/1987",
+    "relationship": "Self",
+    "employer": "Bayline Veterinary Clinic"
+   },
+   {
+    "token": "PATIENT_2",
+    "role": "newborn",
+    "name": "Silas Rowan Osei",
+    "birth_date": "11/17/2025",
+    "relationship": "Son"
+   }
+  ],
+  "local": {
+   "street": "3341 Wading Bird Ln Apt 709",
+   "city": "Marlin Cove",
+   "state": "FL",
+   "zip": "33951",
+   "phone": "(954) 555-0175",
+   "tokens": {
+    "ACCT_1": "7269364262",
+    "ACCT_2": "7273405325",
+    "MEMBER_1": "21846367734",
+    "MEMBER_2": "46014282832"
+   }
+  }
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "policy_id": "memorial-2026-05",
+ "letterhead": "Lantern Key Medical Center",
+ "today": "2026-02-24",
+ "fictional": true,
+ "profile": {
+  "household_size": 2,
+  "annual_income": "186000",
+  "liquid_assets": "41000",
+  "insured": true,
+  "people": [
+   {
+    "token": "PATIENT_1",
+    "role": "patient",
+    "name": "Otis Haskell",
+    "birth_date": "11/25/1978",
+    "relationship": "Self",
+    "employer": "Commodore Way Consulting"
+   }
+  ],
+  "local": {
+   "street": "7947 Mariners Cove Ln Apt 202",
+   "city": "Marlin Cove",
+   "state": "FL",
+   "zip": "33951",
+   "phone": "(954) 555-0122",
+   "tokens": {
+    "ACCT_1": "7298474850",
+    "MEMBER_1": "77620506597"
+   }
+  }
+ }
+}

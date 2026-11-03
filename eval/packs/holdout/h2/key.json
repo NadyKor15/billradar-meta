@@ -1,0 +1,57 @@
+{
+ "pack_id": "h2",
+ "split": "holdout",
+ "items": [
+  {
+   "cls": "F3",
+   "sheets": [
+    "D1",
+    "D2",
+    "D3"
+   ],
+   "amount": "878.69",
+   "deadline": null,
+   "note": "same stay: the mother's account shows the assistance discount, the newborn's $1,033.75 has none; 256.2% of the 2026 guideline, tier 85%; listed as F3 only, not also as F1"
+  },
+  {
+   "cls": "F2",
+   "sheets": [
+    "D1",
+    "D3",
+    "S5"
+   ],
+   "amount": null,
+   "deadline": "2027-01-06",
+   "note": "latest of discharge + 365 days, last hospital EOB + 12 months, first bill + 240 days; here last hospital EOB+12m"
+  },
+  {
+   "cls": "E3",
+   "sheets": [
+    "S15"
+   ],
+   "amount": "30.00",
+   "deadline": null,
+   "note": "office collected $50.00, EOB co-pay $20.00; credit left on the account, nothing to pay"
+  },
+  {
+   "cls": "E4",
+   "sheets": [
+    "S14"
+   ],
+   "amount": null,
+   "deadline": null,
+   "note": "'Your Balance Due ... $0.00' after the payment plan transfer and PAY THIS AMOUNT $850.35 on one sheet"
+  },
+  {
+   "cls": "E2",
+   "sheets": [
+    "S11",
+    "S1",
+    "S5"
+   ],
+   "amount": "208.22",
+   "deadline": null,
+   "note": "01961 on two claims, same date and amount; the second claim's co-insurance is the overcharge"
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "policy_id": "memorial-2026-05",
+ "letterhead": "Pelican Reach Regional Hospital",
+ "today": "2026-02-20",
+ "fictional": true,
+ "profile": {
+  "household_size": 4,
+  "annual_income": "92000",
+  "liquid_assets": "3900",
+  "insured": true,
+  "people": [
+   {
+    "token": "PATIENT_1",
+    "role": "mother",
+    "name": "Corinne Pruitt",
+    "birth_date": "10/15/1992",
+    "relationship": "Self",
+    "employer": "Bayline Veterinary Clinic"
+   },
+   {
+    "token": "PATIENT_2",
+    "role": "newborn",
+    "name": "Julian Rowan Pruitt",
+    "birth_date": "12/09/2025",
+    "relationship": "Son"
+   }
+  ],
+  "local": {
+   "street": "1408 Tamarind Walk Apt 692",
+   "city": "Egret Point",
+   "state": "FL",
+   "zip": "33436",
+   "phone": "(954) 555-0175",
+   "tokens": {
+    "ACCT_1": "7237584759",
+    "ACCT_2": "7294387438",
+    "MEMBER_1": "36352155021",
+    "MEMBER_2": "81724216996"
+   }
+  }
+ }
+}

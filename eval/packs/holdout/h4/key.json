@@ -1,0 +1,61 @@
+{
+ "pack_id": "h4",
+ "split": "holdout",
+ "items": [
+  {
+   "cls": "E1",
+   "sheets": [
+    "S12",
+    "S3",
+    "S4"
+   ],
+   "amount": "64.75",
+   "deadline": null,
+   "note": "lab statement asks 80.47; the EOB gives $15.72 as the member's share"
+  },
+  {
+   "cls": "F2",
+   "sheets": [
+    "D1",
+    "D2",
+    "D3",
+    "S5",
+    "S6"
+   ],
+   "amount": null,
+   "deadline": "2027-01-25",
+   "note": "latest of discharge + 365 days, last hospital EOB + 12 months, first bill + 240 days; here last hospital EOB+12m"
+  },
+  {
+   "cls": "F1",
+   "sheets": [
+    "D1"
+   ],
+   "amount": "528.33",
+   "deadline": null,
+   "note": "217.2% of the 2026 guideline, tier 90%; the pre-admission testing account, no discount"
+  },
+  {
+   "cls": "F1",
+   "sheets": [
+    "D2",
+    "D3"
+   ],
+   "amount": "1722.09",
+   "deadline": null,
+   "note": "217.2% of the 2026 guideline, tier 90%; the surgical stay, no discount"
+  },
+  {
+   "cls": "E2",
+   "sheets": [
+    "S10",
+    "S11",
+    "S1",
+    "S4"
+   ],
+   "amount": "17.00",
+   "deadline": null,
+   "note": "73562 on two claims in two EOB mailings, same date and amount; the second co-insurance is the overcharge"
+  }
+ ]
+}

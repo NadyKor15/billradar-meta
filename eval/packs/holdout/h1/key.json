@@ -1,0 +1,57 @@
+{
+ "pack_id": "h1",
+ "split": "holdout",
+ "items": [
+  {
+   "cls": "E3",
+   "sheets": [
+    "S9",
+    "S1"
+   ],
+   "amount": "15.00",
+   "deadline": null,
+   "note": "desk collected $65.00, EOB co-pay $50.00; credit left on the account, nothing to pay"
+  },
+  {
+   "cls": "F1",
+   "sheets": [
+    "D1",
+    "D2"
+   ],
+   "amount": "1288.18",
+   "deadline": null,
+   "note": "169.2% of the 2026 guideline, tier 100%; no discount on the hospital account"
+  },
+  {
+   "cls": "P1",
+   "sheets": [
+    "S1",
+    "S2"
+   ],
+   "amount": null,
+   "deadline": null,
+   "note": "EOB page 3 of 3 is not in the pack"
+  },
+  {
+   "cls": "E4",
+   "sheets": [
+    "S10"
+   ],
+   "amount": null,
+   "deadline": null,
+   "note": "tear-off table says Amount Due 18.45, the ledger and Please Pay say 30.42"
+  },
+  {
+   "cls": "F2",
+   "sheets": [
+    "D1",
+    "D2",
+    "S3",
+    "S4"
+   ],
+   "amount": null,
+   "deadline": "2026-09-25",
+   "note": "latest of discharge + 365 days, last hospital EOB + 12 months, first bill + 240 days; here first bill+240d"
+  }
+ ]
+}

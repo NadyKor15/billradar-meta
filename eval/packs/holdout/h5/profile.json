@@ -1,0 +1,33 @@
+{
+ "policy_id": "memorial-2026-05",
+ "letterhead": "Osprey Landing Community Hospital",
+ "today": "2026-03-21",
+ "fictional": true,
+ "profile": {
+  "household_size": 5,
+  "annual_income": "72000",
+  "liquid_assets": "2700",
+  "insured": true,
+  "people": [
+   {
+    "token": "PATIENT_1",
+    "role": "patient",
+    "name": "Curtis Mirabal",
+    "birth_date": "05/12/1989",
+    "relationship": "Self",
+    "employer": "Bonefish Marine Supply"
+   }
+  ],
+  "local": {
+   "street": "8412 Driftwood Trace Apt 121",
+   "city": "Heron Lake",
+   "state": "FL",
+   "zip": "32759",
+   "phone": "(954) 555-0139",
+   "tokens": {
+    "ACCT_1": "7259090620",
+    "MEMBER_1": "58669612533"
+   }
+  }
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "policy_id": "memorial-2026-05",
+ "letterhead": "Marlowe Point Hospital",
+ "today": "2026-02-24",
+ "fictional": true,
+ "profile": {
+  "household_size": 1,
+  "annual_income": "27000",
+  "liquid_assets": "1900",
+  "insured": true,
+  "people": [
+   {
+    "token": "PATIENT_1",
+    "role": "patient",
+    "name": "Yolanda Wojcik",
+    "birth_date": "11/09/1979",
+    "relationship": "Self",
+    "employer": "Sea Oat Property Care"
+   }
+  ],
+  "local": {
+   "street": "5120 Sea Oat Ter Apt 367",
+   "city": "Tarpon Flats",
+   "state": "FL",
+   "zip": "34684",
+   "phone": "(954) 555-0170",
+   "tokens": {
+    "ACCT_1": "5030281355",
+    "MEMBER_1": "40696429914"
+   }
+  }
+ }
+}

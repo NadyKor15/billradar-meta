@@ -1,0 +1,69 @@
+{
+ "pack_id": "h6",
+ "split": "holdout",
+ "items": [
+  {
+   "cls": "F1",
+   "sheets": [
+    "D1",
+    "D2"
+   ],
+   "amount": "1573.10",
+   "deadline": null,
+   "note": "278.8% of the 2026 guideline, tier 85%; no discount on the mother's account; the newborn account is billed to the plan, not to the family"
+  },
+  {
+   "cls": "E3",
+   "sheets": [
+    "S12",
+    "S5"
+   ],
+   "amount": null,
+   "deadline": null,
+   "note": "ultrasound co-pay collected $75.00, EOB co-pay $30.00; the credit is already taken off PAY THIS AMOUNT, so no money comes back"
+  },
+  {
+   "cls": "B1",
+   "sheets": [
+    "S1",
+    "S2",
+    "S14"
+   ],
+   "amount": null,
+   "deadline": null,
+   "note": "newborn care filed on the mother's member ID (A27 denials); the doctors' letter asks $1,294.00 within 30 days of 2026-01-25"
+  },
+  {
+   "cls": "F2",
+   "sheets": [
+    "D1",
+    "D2",
+    "S4"
+   ],
+   "amount": null,
+   "deadline": "2027-01-30",
+   "note": "latest of discharge + 365 days, last hospital EOB + 12 months, first bill + 240 days; here last hospital EOB+12m"
+  },
+  {
+   "cls": "P1",
+   "sheets": [
+    "S1",
+    "S2",
+    "S3"
+   ],
+   "amount": null,
+   "deadline": null,
+   "note": "EOB page 3 of 4 is not in the pack"
+  },
+  {
+   "cls": "E1",
+   "sheets": [
+    "S13",
+    "S7"
+   ],
+   "amount": "74.39",
+   "deadline": null,
+   "note": "delivery line shows $858.05 due; the EOB gives $783.66 as the member's share"
+  }
+ ]
+}

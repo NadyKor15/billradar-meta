@@ -1,0 +1,37 @@
+{
+ "pack_id": "h5",
+ "split": "holdout",
+ "items": [
+  {
+   "cls": "E2",
+   "sheets": [
+    "S7",
+    "S2"
+   ],
+   "amount": "16.61",
+   "deadline": null,
+   "note": "74177 listed twice on one claim, same date and amount; the second co-insurance is the overcharge"
+  },
+  {
+   "cls": "P1",
+   "sheets": [
+    "S4",
+    "S5"
+   ],
+   "amount": null,
+   "deadline": null,
+   "note": "ER physician bill page 3 of 3 is not in the pack"
+  },
+  {
+   "cls": "E1",
+   "sheets": [
+    "D1",
+    "D2",
+    "S3"
+   ],
+   "amount": "79.40",
+   "deadline": null,
+   "note": "hospital asks $229.40; the EOB gives $150.00 as the member's share"
+  }
+ ]
+}
