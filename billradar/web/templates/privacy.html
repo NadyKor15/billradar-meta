@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block title %}Privacy · BillRadar{% endblock %}
+{% block body %}
+<section class="how agents-page privacy-page">
+  <h1>Privacy</h1>
+  <p class="lead">What BillRadar keeps, what leaves it, and who gets it. This page describes what the code does.</p>
+  <div class="facts agents">
+    <div class="fact"><span class="ic"><b>1</b></span><div><h3>What this public link collects</h3>
+      <p>No account, no email and no payment. Uploading is off here, so nobody's own papers reach this copy: every case is a made-up example.</p>
+      <ul>
+        <li>The server writes an ordinary request log: address, page and time.</li>
+        <li>When live model runs are limited, your address is counted in the server's memory for an hour. It is not written down.</li>
+        <li>Your browser keeps the Larger text choice and the list of cases you opened, on your computer.</li>
+        <li>A cookie is set only when you create your own case, so that browser can delete it.</li>
+      </ul></div></div>
+    <div class="fact"><span class="ic"><b>2</b></span><div><h3>What goes to Meta</h3>
+      <p>BillRadar runs on Meta's models, through <code>api.meta.ai</code>. Text requests are sent with <code>store</code> set to false. Meta's own terms apply to what it receives.</p>
+      <ul>
+        <li>Questions: what you type, along with the case, its names and numbers covered. Please don't type real names or numbers.</li>
+        <li>Voice: your voice goes to Meta to be turned into text, after your yes. Live voice is off on this public link unless its owner switched it on; the recorded samples send nothing.</li>
+        <li>A video of your table, when you run BillRadar yourself: the video stays on your computer. A small, blurred, silent copy goes to Meta so SAM 3.1 can find the sheets, and only after a check on your computer finds nothing readable on it.</li>
+        <li>A hospital's public policy, once it is found: Muse Spark reads it to copy its income tiers.</li>
+        <li>A state law: Meta's search gets only the state and the topic of the law, no family data.</li>
+        <li>Your own papers, when you run BillRadar yourself: your family's names, IDs, addresses, phone numbers and account numbers are covered on this computer. Doctors and hospitals stay visible because the checks and letters need them, and so do dates, codes and amounts. Before you press Send, only a heavily blurred copy with no readable text goes to Meta's SAM 3.1, to find the sheets. The sheets themselves go only when you press Send, and you check every covered sheet first. PDF pages never go to SAM.</li>
+      </ul></div></div>
+    <div class="fact"><span class="ic"><b>3</b></span><div><h3>What goes elsewhere</h3>
+      <ul>
+        <li>Tavily, a web search: to find a hospital's policy, its name, city or ZIP, state and website; Tavily also fetches the policy page. A state law Meta's search does not answer goes to Tavily the same way. A question about a specific hospital that your papers don't answer goes there too, with names, numbers, amounts and dates taken out.</li>
+        <li>Google Fonts: your browser loads this site's fonts from Google, which sees your address.</li>
+      </ul>
+      <p>BillRadar sends your information nowhere else.</p></div></div>
+    <div class="fact"><span class="ic"><b>4</b></span><div><h3>How long it stays</h3>
+      <p>A case you create stays until you delete it. Delete removes the case and everything made for it: photos, sheets, letters and forms. Your originals and real names stay with that case. A log of model calls keeps the time, the model, the size and the cost of each call, not its content.</p></div></div>
+  </div>
+  <p class="small">More on the covered copy: <a href="/safe">Is it safe?</a> The <a href="{{ repo_tree }}">code is on GitHub</a>.</p>
+</section>
+{% endblock %}

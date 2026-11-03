@@ -1,0 +1,189 @@
+{
+  "rows": [
+    {
+      "step": "Find sheets",
+      "model": "sam-3.1",
+      "seconds": 0.0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "reasoning_tokens": 0,
+      "usd": 0.0025,
+      "live": false,
+      "request_id": "resp_6ae8a1450728e0838d0747b7"
+    },
+    {
+      "step": "Find sheets",
+      "model": "sam-3.1",
+      "seconds": 0.0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "reasoning_tokens": 0,
+      "usd": 0.0025,
+      "live": false,
+      "request_id": "resp_6ae8a1c9685bd898213c4425"
+    },
+    {
+      "step": "Find sheets",
+      "model": "sam-3.1",
+      "seconds": 0.0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "reasoning_tokens": 0,
+      "usd": 0.0025,
+      "live": false,
+      "request_id": "resp_6ae8a289fc7fc494b5604136"
+    },
+    {
+      "step": "Find sheets",
+      "model": "sam-3.1",
+      "seconds": 0.0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "reasoning_tokens": 0,
+      "usd": 0.0025,
+      "live": false,
+      "request_id": "resp_6ae8a2b754b845042eb649b4"
+    },
+    {
+      "step": "Find sheets",
+      "model": "sam-3.1",
+      "seconds": 0.0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "reasoning_tokens": 0,
+      "usd": 0.0025,
+      "live": false,
+      "request_id": "resp_6ae8a341bd0f58e479e343ad"
+    },
+    {
+      "step": "Find sheets",
+      "model": "sam-3.1",
+      "seconds": 0.0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "reasoning_tokens": 0,
+      "usd": 0.0025,
+      "live": false,
+      "request_id": "resp_6ae8a485460e686cc2914b54"
+    },
+    {
+      "step": "Find sheets",
+      "model": "sam-3.1",
+      "seconds": 0.0,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "reasoning_tokens": 0,
+      "usd": 0.0025,
+      "live": false,
+      "request_id": "resp_6ae8a4f7e77e0c10d5d540e0"
+    },
+    {
+      "step": "Read every sheet",
+      "model": "muse-spark-1.3",
+      "seconds": 0.0,
+      "input_tokens": 63620,
+      "output_tokens": 13292,
+      "reasoning_tokens": 3427,
+      "usd": 0.136016,
+      "live": false,
+      "request_id": "resp_6ae92eb041c710cb1256403a"
+    },
+    {
+      "step": "Read every sheet again",
+      "model": "muse-spark-1.3",
+      "seconds": 0.0,
+      "input_tokens": 63620,
+      "output_tokens": 13798,
+      "reasoning_tokens": 3746,
+      "usd": 0.138166,
+      "live": false,
+      "request_id": "resp_6ae92f10c247a45738f1443b"
+    },
+    {
+      "step": "Read a sheet a third time",
+      "model": "muse-spark-1.3",
+      "seconds": 0.0,
+      "input_tokens": 4097,
+      "output_tokens": 4662,
+      "reasoning_tokens": 3803,
+      "usd": 0.024935,
+      "live": false,
+      "request_id": "resp_6ae92fa57c17ac8d1a484037"
+    },
+    {
+      "step": "Read a sheet a third time",
+      "model": "muse-spark-1.3",
+      "seconds": 0.0,
+      "input_tokens": 3997,
+      "output_tokens": 2582,
+      "reasoning_tokens": 2214,
+      "usd": 0.01597,
+      "live": false,
+      "request_id": "resp_6ae92fd499580527a957459c"
+    },
+    {
+      "step": "Read a sheet a third time",
+      "model": "muse-spark-1.3",
+      "seconds": 0.0,
+      "input_tokens": 4203,
+      "output_tokens": 1762,
+      "reasoning_tokens": 1555,
+      "usd": 0.012742,
+      "live": false,
+      "request_id": "resp_6ae92fed09bb8091f7ba4f26"
+    },
+    {
+      "step": "Read a sheet a third time",
+      "model": "muse-spark-1.3",
+      "seconds": 0.0,
+      "input_tokens": 4203,
+      "output_tokens": 1837,
+      "reasoning_tokens": 1073,
+      "usd": 0.013061,
+      "live": false,
+      "request_id": "resp_6ae92ffd1a209a0188884869"
+    },
+    {
+      "step": "Read a sheet a third time",
+      "model": "muse-spark-1.3",
+      "seconds": 0.0,
+      "input_tokens": 4203,
+      "output_tokens": 1393,
+      "reasoning_tokens": 1211,
+      "usd": 0.011174,
+      "live": false,
+      "request_id": "resp_6ae949a5106f2f7b54e54ecb"
+    },
+    {
+      "step": "Read every sheet",
+      "model": "muse-spark-1.3",
+      "seconds": 0.0,
+      "input_tokens": 4349,
+      "output_tokens": 2678,
+      "reasoning_tokens": 1793,
+      "usd": 0.016818,
+      "live": false,
+      "request_id": "resp_6ae9300ffe233ebd9c44407b"
+    },
+    {
+      "step": "Second read of the case",
+      "model": "muse-wonder-1.0",
+      "seconds": 0.0,
+      "input_tokens": 12030,
+      "output_tokens": 2992,
+      "reasoning_tokens": 2476,
+      "usd": 0.10796,
+      "live": false,
+      "request_id": "resp_6ae94a0cda6404a9096f4d21"
+    }
+  ],
+  "total_usd": 0.494342,
+  "total_seconds": 0.0,
+  "prices": {
+    "ours": 0.494342,
+    "all_spark": 0.414135,
+    "all_wonder": 1.574708,
+    "note": "Same tokens, other price: every text step at Muse Spark's or Muse Wonder's published price. SAM 3.1 and speech have no token price, so they stay what they cost."
+  },
+  "replayed": true
+}

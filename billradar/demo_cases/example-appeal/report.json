@@ -1,0 +1,179 @@
+{
+  "case_id": "example-appeal",
+  "policy_id": "memorial-2026-05",
+  "fpl_pct": "223.3",
+  "findings": [
+    {
+      "kind": "F1",
+      "title": "You likely qualify for financial assistance",
+      "detail": "Household of 3, income $61,000: 223.3% of the poverty guideline. The policy gives 90% off at this level. Sheet S1 has no discount yet.",
+      "amount": "6527.07",
+      "deadline": null,
+      "evidence": [
+        {
+          "doc_id": "S1",
+          "line_no": null,
+          "note": "no discount"
+        }
+      ],
+      "policy_refs": [
+        "memorial-2026-05#scale-mrh",
+        "memorial-2026-05#insured-balances"
+      ],
+      "math": {
+        "balance": "7252.30",
+        "minus_overcharge": "0",
+        "fpl_pct": "223.3",
+        "discount_pct": "90",
+        "saving": "6527.07"
+      },
+      "trace": [
+        {
+          "doc_id": "S1",
+          "line_no": null,
+          "field": "patient_balance",
+          "printed": "7252.30",
+          "role": "what the papers ask"
+        }
+      ],
+      "severity": "high",
+      "confidence": 1.0,
+      "laws": [
+        "federal-501r-5#agb-limit",
+        "federal-501r-6#refund-overpaid",
+        "federal-501r-6#reverse-eca"
+      ],
+      "explain": "Your income fits the hospital's financial assistance policy, but no discount is on the bill."
+    },
+    {
+      "kind": "A1",
+      "title": "Appeal the denial by Apr 13, 2027",
+      "detail": "Insurance statement S2 (Oct 15, 2026) paid nothing on 1 line (code P31). An employer health plan must give you at least 180 days to appeal.",
+      "amount": null,
+      "deadline": "2027-04-13",
+      "evidence": [
+        {
+          "doc_id": "S2",
+          "line_no": 1,
+          "note": "denied"
+        }
+      ],
+      "policy_refs": [
+        "erisa-2560-503-1#appeal-180-days"
+      ],
+      "math": {
+        "notice_date": "2026-10-15",
+        "days": "180"
+      },
+      "trace": [],
+      "severity": "high",
+      "confidence": 1.0,
+      "laws": [
+        "erisa-2560-503-1#appeal-180-days",
+        "erisa-2560-503-1#decide-post-service-60"
+      ],
+      "explain": "This is the last day to appeal what your insurance refused to pay."
+    }
+  ],
+  "no_money": [
+    {
+      "kind": "NM",
+      "title": "Sheet 1 line 2 matches your insurance statement",
+      "detail": "Both say $412.30. Nothing to dispute here.",
+      "amount": null,
+      "deadline": null,
+      "evidence": [
+        {
+          "doc_id": "S1",
+          "line_no": 2,
+          "note": ""
+        },
+        {
+          "doc_id": "S2",
+          "line_no": 2,
+          "note": ""
+        }
+      ],
+      "policy_refs": [],
+      "math": {
+        "bill_patient_responsibility": "412.30",
+        "eob_patient_responsibility": "412.30",
+        "difference": "0.00"
+      },
+      "trace": [],
+      "severity": null,
+      "confidence": null,
+      "laws": [],
+      "explain": null
+    }
+  ],
+  "held_back": [],
+  "total_may_come_off": "6527.07",
+  "apply_by": "2027-10-15",
+  "worth_asking": [
+    {
+      "kind": "F2",
+      "title": "Apply by Oct 15, 2027",
+      "detail": "First bill after discharge: sheet S1, Oct 20, 2026. No sheet says 'first bill', so we used the earliest hospital bill we have. This date is 12 months after Oct 15, 2026 (sheet S2).",
+      "amount": null,
+      "deadline": "2027-10-15",
+      "evidence": [
+        {
+          "doc_id": "S1",
+          "line_no": null,
+          "note": "first bill after discharge"
+        }
+      ],
+      "policy_refs": [
+        "memorial-2026-05#window",
+        "federal-501r#application-period"
+      ],
+      "math": {
+        "policy: one year after service": "2027-07-16",
+        "policy: 12 months after last insurance payment": "2027-10-15",
+        "federal: 240 days after first bill": "2027-06-17",
+        "paid_on": "2026-10-15",
+        "paid_sheet": "S2",
+        "why_unsure": "no paper prints the payment date: this counts from the date of your plan's statement on S2. Check the date with the hospital"
+      },
+      "trace": [],
+      "severity": "borderline",
+      "confidence": 0.5,
+      "laws": [
+        "federal-501r#application-period"
+      ],
+      "explain": "This is the last day to apply for the hospital's financial assistance."
+    },
+    {
+      "kind": "I1",
+      "title": "Ask for the itemized bill",
+      "detail": "Sheet S1 shows a total without every charge. Line-by-line errors can hide there. A Florida hospital must send the itemized bill within 7 days of your request.",
+      "amount": null,
+      "deadline": null,
+      "evidence": [
+        {
+          "doc_id": "S1",
+          "line_no": null,
+          "note": "no itemized bill"
+        }
+      ],
+      "policy_refs": [
+        "fl-395-301#itemized-on-request",
+        "fl-395-301#itemized-7-days"
+      ],
+      "math": {
+        "letter": "itemized"
+      },
+      "trace": [],
+      "severity": "borderline",
+      "confidence": 0.5,
+      "laws": [
+        "fl-395-301#itemized-on-request",
+        "fl-395-301#itemized-7-days"
+      ],
+      "explain": "Ask for the itemized bill to see every charge; errors often hide in the total."
+    }
+  ],
+  "apply_by_sure": false,
+  "not_sent": []
+}

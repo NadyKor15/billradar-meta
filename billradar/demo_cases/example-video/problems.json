@@ -1,0 +1,64 @@
+{
+  "problems": [
+    "SAM: object 0.0: never whole in the frame",
+    "SAM: object 0.2: never whole in the frame",
+    "SAM: object 0.4: never whole in the frame",
+    "SAM: object 0.7: never whole in the frame",
+    "SAM: object 0.8: never whole in the frame",
+    "SAM: object 1.4: never whole in the frame",
+    "SAM: object 1.5: never whole in the frame",
+    "SAM: object 1.6: never whole in the frame",
+    "SAM: object 2.0: seen for 2 frames only",
+    "SAM: object 2.1: never whole in the frame",
+    "SAM: object 2.3: never whole in the frame",
+    "SAM: object 1.8: never whole in the frame",
+    "SAM: object 2.4: never whole in the frame",
+    "SAM: object 2.6: never whole in the frame",
+    "SAM: object 1.10: never whole in the frame",
+    "SAM: object 2.8: never whole in the frame",
+    "SAM: object 2.11: never whole in the frame",
+    "SAM: object 3.0: never whole in the frame",
+    "SAM: object 3.2: never whole in the frame",
+    "SAM: object 3.3: never whole in the frame",
+    "SAM: object 3.4: never whole in the frame",
+    "SAM: object 3.7: never whole in the frame",
+    "SAM: object 1.0: the same sheet as an earlier one",
+    "SAM: object 0.9: the same sheet as an earlier one",
+    "SAM: object 2.2: the same sheet as an earlier one",
+    "SAM: object 1.9: the same sheet as an earlier one",
+    "SAM: object 3.1: the same sheet as an earlier one",
+    "S4: third read settled line 1",
+    "S9: third read settled line 1",
+    "D2.1: third read settled line 7; line 8",
+    "S7: date of service 2025-02-11 from the sheet's heading, read on this device"
+  ],
+  "timings": {
+    "sam": 0.0,
+    "spark": 0.0
+  },
+  "replayed": true,
+  "redacted": true,
+  "provider": "meta",
+  "unreadable": [
+    "S8",
+    "S12",
+    "S13",
+    "D3"
+  ],
+  "checker": {
+    "checked": 8,
+    "ok": true,
+    "issues": [
+      {
+        "subject": "B1 #1 on S2",
+        "severity": "note",
+        "what": "Muse Wonder: D3 shows due_from_insurance $1,490.25, not $0.00; D3 also notes patient_balance printed as both 0.00 and 1490.25, so the $0.00 baby balance is not settled."
+      }
+    ],
+    "review": {
+      "confirmed": 6,
+      "problem": 1,
+      "cannot_tell": 1
+    }
+  }
+}

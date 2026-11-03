@@ -1,0 +1,96 @@
+{% extends "base.html" %}
+{# A caption and its input: on two lines, or in one line inside a .row cell. Any other HTML attribute comes as a keyword (true = bare, like `required`). #}
+{% macro field(name, text, inline=false) -%}
+<label for="{{ name }}">{{ text|safe }}</label>{{ "" if inline else "\n  " }}<input id="{{ name }}" name="{{ name }}"
+  {%- for attr, value in kwargs.items() %} {{ attr }}{% if value is not true %}="{{ value }}"{% endif %}{% endfor %}>
+{%- endmacro %}
+{% macro check(name, text) -%}
+<label class="check"><input type="checkbox" name="{{ name }}" value="true" checked> {{ text }}</label>
+{%- endmacro %}
+{% block body %}
+{% if public %}
+<section class="upload demo-pick">
+  <h1>Try it on a made-up family's bills</h1>
+  <p class="notice warn-note">This public demo takes no real bills, so nobody's medical papers reach a public page. Pick an example: every name and number in it is made up.</p>
+  <div class="pick">
+    <a class="ncard link" href="/example"><span><b>A birth, every kind of error</b><small>A finished case: the findings, the letters, the hospital's own form and the call cheat sheet.</small></span><i>›</i></a>
+    <a class="ncard link" href="/cases/example-video"><span><b>The same papers, filmed on a phone</b><small>A video of the table instead of a photo: the same findings and the same sum.</small></span><i>›</i></a>
+    <a class="ncard link" href="/cases/example-appeal"><span><b>A denied claim and an appeal</b><small>The letter to the insurer and the tracker of what was sent.</small></span><i>›</i></a>
+  </div>
+  <p><a class="btn primary" href="/example">See the example case →</a></p>
+  <p class="small">{% if voice.live %}On each example you can ask questions by voice or by typing, answered live by {{ mdl.ask }}.{% else %}On each example you can ask questions, answered by {{ mdl.ask }}.{% endif %} To check your own papers, run the app from the <a href="{{ repo_tree }}">code on GitHub</a>.</p>
+</section>
+{% elif static %}
+<section class="upload">
+  <h1>Put your hospital papers in one place</h1>
+  <p class="notice warn-note">This is a read-only copy of BillRadar: the example case below is a replay of a recorded run on {{ mdl.platform }}. Uploading papers is off here, so nobody's medical bills reach a public page.</p>
+  <p>To check papers yourself, run the app from the <a href="{{ repo_tree }}">code on GitHub</a> with your own Meta Model API key (README, "Run it"). Live model calls are allowed only on fictional sample packs.</p>
+  <p><a class="btn primary" href="/example">See the example case →</a></p>
+</section>
+{% else %}
+<form class="upload" method="post" action="/cases" enctype="multipart/form-data">
+  <h1>Put your hospital papers in one place</h1>
+  {% if error %}<p class="notice warn-note" role="alert">{{ error }} <a href="/example">See the example →</a></p>{% endif %}
+  <p>Lay the paper sheets on a table without overlap and take one photo from above. Add PDFs or screenshots from the hospital portal.{% if not live %} <span class="replay">replay mode</span>{% endif %}</p>
+
+  {{ field("photos", "Photo of the table", type="file", accept="image/*", multiple=true) }}
+  <label for="video">Or a video of the table</label>
+  <input id="video" name="video" type="file" accept="video/mp4,video/quicktime">
+  {{ field("files", "PDF files", type="file", accept="application/pdf", multiple=true) }}
+
+  <fieldset class="ctx">
+    <legend>What happened? <span class="small">Each one switches on the rules and laws that fit.</span></legend>
+    {% for c in chips %}<label class="ctx-chip" title="{{ rules[c.id].laws|length }} protection(s), checks: {{ rules[c.id].checks|join(', ') or 'none' }}"><input type="checkbox" name="context" value="{{ c.id }}"{% if c.id in chosen %} checked{% endif %}> {{ c.label }}</label>{% endfor %}
+  </fieldset>
+
+  <label for="policy_id">Hospital policy to check against</label>
+  <select id="policy_id" name="policy_id">
+    {% for p in policies %}<option value="{{ p.policy_id }}"{{ ' selected' if p.policy_id.startswith('memorial') }}>{{ p.hospital }} · {{ p.title }}</option>{% endfor %}
+  </select>
+  {{ field("letterhead", "Name printed on the bills", placeholder="Lakeview Demo Hospital") }}
+
+  <div class="row">
+    <div>{{ field("household_size", "People in your household", inline=true, type="number", min=1, value=4, required=true) }}</div>
+    <div>{{ field("annual_income", "Yearly household income, $", inline=true, type="number", min=0, step=1, required=true) }}</div>
+  </div>
+  <div class="row">
+    <div><label for="mother_name">Your first name (stays on your computer)</label><input id="mother_name" name="mother_name"></div>
+    <div>{{ field("baby_name", "Baby's first name, if this is a birth", inline=true) }}</div>
+  </div>
+  {{ field("liquid_assets", "Savings, $ (optional)", type="number", min=0, step=1) }}
+  {{ check("insured", "I have health insurance") }}
+  {{ check("fictional", "These are sample papers with fictional data (required while real-paper privacy is being built)") }}
+
+  <button class="btn primary" type="submit" id="upload-go">Check my papers</button>
+  <p class="upload-busy" id="upload-busy" aria-live="polite" hidden><i aria-hidden="true"></i>Covering your papers on this computer. This takes a few minutes.</p>
+  <p class="notice warn-note" id="upload-refused" role="alert" hidden></p>
+  <p class="small">BillRadar helps with bills and insurance statements. Not legal or medical advice. You review and sign every letter.</p>
+</form>
+{% endif %}
+{% endblock %}
+{% block scripts %}{% if not public and not static %}<script>
+// The check runs on the server until it is done: say so while the page waits, and give the page back if it is refused.
+(() => {
+  const form = document.querySelector("form.upload"), go = document.getElementById("upload-go");
+  const busy = document.getElementById("upload-busy"), refused = document.getElementById("upload-refused");
+  if (!form || !go || !window.fetch) return;
+  const label = go.textContent;
+  const idle = () => { go.disabled = false; go.textContent = label; busy.hidden = true; };
+  const refuse = (words) => { idle(); refused.textContent = words; refused.hidden = false; refused.scrollIntoView({ block: "center" }); };
+  const said = async (r) => {
+    const body = await r.text();
+    try { const j = JSON.parse(body), words = j.detail || j.error; return typeof words === "string" ? words : ""; } catch (e) { /* a page, not JSON */ }
+    return new DOMParser().parseFromString(body, "text/html").querySelector("[role=alert]")?.textContent.trim();
+  };
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    refused.hidden = true; go.disabled = true; go.textContent = "Covering your papers"; busy.hidden = false;
+    try {
+      const r = await fetch(form.action, { method: "POST", body: new FormData(form) });
+      if (r.ok && r.redirected) { location.href = r.url; return; }
+      refuse((await said(r)) || "That did not work. Your papers were not sent.");
+    } catch (err) { refuse("The connection dropped, so your papers were not sent. Try again."); }
+  });
+  addEventListener("pageshow", idle);
+})();
+</script>{% endif %}{% endblock %}

@@ -1,0 +1,51 @@
+{
+ "photo": {
+  "width": 3000,
+  "height": 3710
+ },
+ "boxes": [
+  {
+   "sheet": "S5",
+   "box": [
+    135,
+    140,
+    1380,
+    1743
+   ]
+  },
+  {
+   "sheet": "S6",
+   "box": [
+    1570,
+    152,
+    2826,
+    1768
+   ]
+  },
+  {
+   "sheet": "S7",
+   "box": [
+    140,
+    1949,
+    1401,
+    3565
+   ]
+  },
+  {
+   "sheet": "S8",
+   "box": [
+    1570,
+    1945,
+    2814,
+    3553
+   ]
+  }
+ ],
+ "find_model": "sam-3.1",
+ "find_recording": "sam-3.1-77d09735a9d09dbe56a2.jsonl",
+ "sent": {
+  "model": "muse-wonder-1.0",
+  "recording": "muse-wonder-1.0-8d8e41ff3c2a7b08a682.jsonl",
+  "excerpt": "\"people\": [{\"token\": \"PATIENT_1\", \"role\": \"mother\", \"name\": \"\", \"birth_date\": \"\", \"relationship\": \"Self\", \"employer\": \"\"}, {\"token\": \"PATIENT_2\", \"role\": \"newborn\", \"name\": \"\", \"birth_date\": \"\", \"relationship\": \"Son\", \"employer\": \"\"}], \"context\": [], \"plan\": null}, \"documents\": [{\"doc_id\": \"S1\", \"source\": \"paper\", \"kind\": \"eob\", \"patient\": \"PATIENT_1\", \"provider\": \"QUILLFORD, AUGUSTINE P.\", \"account_ref\": \"\", \"claim_ref\": \"[CLAIM_1]\", \u2026"
+ }
+}

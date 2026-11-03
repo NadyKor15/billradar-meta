@@ -1,0 +1,10 @@
+{# The voice helper in the corner of every page: on a case it answers about that case, elsewhere it asks what happened. #}
+{% set in_case = case_id is defined and case_id %}
+<aside class="vox-dock" id="vox-dock" aria-label="Voice helper">
+  <div class="vox-panel">
+    <h3>{{ "Ask about this case" if in_case else "What happened?" }}</h3>
+    <p class="small">{% if in_case %}Ask in your own words. The answer comes with its quote, from these papers or marked as from the web.{% else %}Say it in your own words. BillRadar picks the right checks.{% endif %} <span class="model">{{ mdl.voice or "Muse Voice Transcribe" }}</span></p>
+    {% set vox_url = ("/cases/" ~ case_id ~ "/ask/voice") if in_case else "/voice/intake" %}{% set vox_sample = voice.sample_ask if in_case else voice.sample_intake %}{% set vox_scope = "dock" %}{% include "_voice_card.html" %}
+  </div>
+  <button type="button" class="vox-open" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5.5 11.5a6.5 6.5 0 0013 0M12 18v3"/></svg>Ask by voice</button>
+</aside>

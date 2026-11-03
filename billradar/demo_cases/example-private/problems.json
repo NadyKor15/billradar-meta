@@ -1,0 +1,39 @@
+{
+  "problems": [
+    "reader: S10 line 1: a number larger than the line's charge came from a subtotal, not this line; left empty",
+    "D1.1: third read settled 0 lines or 2",
+    "D3.3: third read settled patient_balance None or 0.00",
+    "S2: read again on its own: the sheet prints your share for 0170, 0251, 0302, 0306, 0471, 99238, 99460, 99462, the reading has none",
+    "S12: billed by Women First OB/GYN Care, LLC (the coupon's payee, read on this device), not Seaside Regional Hospital (IP) 300",
+    "S13: billed by Women First OB/GYN Care, LLC (the coupon's payee, read on this device), not Seaside Regional Hospital (IP) 300"
+  ],
+  "timings": {
+    "sam": 0.0,
+    "spark": 0.0
+  },
+  "replayed": true,
+  "redacted": true,
+  "provider": "meta",
+  "unreadable": [
+    "S12",
+    "S13",
+    "D2",
+    "D3"
+  ],
+  "checker": {
+    "checked": 9,
+    "ok": true,
+    "issues": [
+      {
+        "subject": "B1 #1 on S2",
+        "severity": "note",
+        "what": "Muse Wonder: D3 shows due_from_insurance $1,490.25, not $0.00; $0.00 is patient_balance."
+      }
+    ],
+    "review": {
+      "confirmed": 7,
+      "problem": 1,
+      "cannot_tell": 1
+    }
+  }
+}

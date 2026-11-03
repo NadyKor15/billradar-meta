@@ -1,0 +1,12 @@
+{# One voice control. Set vox_url and vox_sample before the include. The microphone stays off when the model is not live; a recorded sample always works. #}
+<div class="vox" data-url="{{ vox_url }}" data-live="{{ 1 if voice.live else 0 }}"{% if vox_sample %} data-sample="{{ vox_sample }}"{% endif %}>
+  <div class="vox-row">
+    <button type="button" class="vox-mic" aria-label="Record your voice"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5.5 11.5a6.5 6.5 0 0013 0M12 18v3"/></svg></button>
+    <div class="vox-wave" aria-hidden="true">{% for i in range(24) %}<i style="--i:{{ i }}"></i>{% endfor %}</div>
+    <fieldset class="vox-lang"><legend>Language</legend>{% for code, name in voice.langs.items() %}<label><input type="radio" name="vox-lang-{{ vox_scope|default('card') }}-{{ vox_url|replace('/', '-') }}" value="{{ code }}"{{ ' checked' if loop.first }}><span>{{ name }}</span></label>{% endfor %}</fieldset>
+  </div>
+  <p class="vox-status" aria-live="polite">{% if not voice.live %}{% if vox_sample %}The microphone is off on this copy. Try the recorded sample.{% else %}The voice helper starts when the model is switched on.{% endif %}{% endif %}</p>
+  {% if vox_sample %}<button type="button" class="vox-sample">Try a sample</button>{% endif %}
+  <p class="vox-note">Your voice goes to Meta to be turned into text. BillRadar doesn't keep the audio. Please don't say real names or numbers.</p>
+  <div class="vox-out" aria-live="polite"></div>
+</div>

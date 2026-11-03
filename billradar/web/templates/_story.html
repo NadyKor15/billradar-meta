@@ -1,0 +1,183 @@
+{# The scroll story above the home page: six short episodes on the example case (fictional data). Each pins only
+   while it plays; with reduced motion every episode shows its end state. story.js sets --p (0..1) per episode. #}
+<div class="story" id="story" aria-label="How BillRadar works, in six steps">
+{% macro icon(name) %}<svg class="ic" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">{% if name == "baby" %}<circle cx="12" cy="9" r="5"/><path d="M10 8.5h.01M14 8.5h.01M10.5 11c.9.7 2.1.7 3 0M6 21c.8-3.5 3.2-5.5 6-5.5s5.2 2 6 5.5"/>{% elif name == "coin" %}<circle cx="15" cy="7" r="3.5"/><path d="M15 5.5v3M3 15h3l3.5-1.5c1-.4 2 .1 2.3 1l.2.5H16l3.5-2.5c.8-.5 1.8-.3 2.2.5l-6.2 5.5c-.6.5-1.3.7-2 .7H6M3 13v8"/>{% else %}<path d="M8 3.5h7l4 4v11a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2v-13a2 2 0 0 1 2-2z"/><path d="M15 3.5v4h4M9 12h6M9 15.5h6"/><path d="M4 7v12.5a2 2 0 0 0 2 2h9"/>{% endif %}</svg>{% endmacro %}
+{% from "_story_sheets.html" import SHEETS %}
+{% macro plate(img, n) %}<picture class="plate"><source media="(max-width: 760px)" srcset="{{ asset('/static/story/%s-900.webp' % img) }}"><img src="{{ asset('/static/story/%s-1600.webp' % img) }}" alt="" width="1600" height="900" {{ 'fetchpriority=high' if not n else 'loading=lazy' }}></picture>
+      {% if n %}<ol class="dots" aria-hidden="true">{% for i in range(1, 7) %}<li{% if i == n %} class="on" data-l="{{ n }} of 6"{% endif %}></li>{% endfor %}</ol>{% endif %}{% endmacro %}
+{% macro feed(rows) %}<aside class="mfeed" aria-hidden="true"><b>Model calls <span>recorded run</span></b>{% for who, what, state in rows %}<p class="{{ state }}"><i></i>{{ who }} · {{ what }}</p>{% endfor %}</aside>{% endmacro %}
+
+  <section class="ep0" aria-labelledby="ep0-h">
+    {{ plate("p0", 0) }}
+    <div class="ep0-in">
+      <p class="ep-kicker">BillRadar checks hospital bills and insurance for errors and financial help, on {{ mdl.platform }}.</p>
+      <h1 id="ep0-h">What happened?</h1>
+      {% set WAVE = [8,10,14,20,30,42,58,76,92,100,84,64,80,56,44,62,40,50,34,44,30,38,26,34,22,28,20,26,18,22,16,20,14,18,12,14,10,12,9,10,8,8,7,7,6,6,5,5,4,4,4,4,3,3,3,3] %}
+      <div class="vox vox-big" data-url="/voice/intake" data-live="{{ 1 if voice.live else 0 }}"{% if voice.sample_intake %} data-sample="{{ voice.sample_intake }}"{% endif %}>
+        <div class="vox-row">
+          <button type="button" class="vox-mic" aria-label="Tell BillRadar what happened"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5.5 11.5a6.5 6.5 0 0013 0M12 18v3"/></svg></button>
+          <div class="vox-main">
+            <div class="vox-wave" aria-hidden="true">{% for h in WAVE %}<i style="--i:{{ loop.index0 }};--h:{{ h }}"></i>{% endfor %}</div>
+            <p class="vox-demo" data-text="I had a baby and now I have a stack of bills.">I had a baby and now I have a stack of bills.</p>
+          </div>
+        </div>
+        <div class="vox-foot"><span class="vox-chip">{{ mdl.voice or "Muse Voice Transcribe" }}</span><fieldset class="vox-lang"><legend>Language</legend>{% for code, name in voice.langs.items() %}<label><input type="radio" name="ep0-lang" value="{{ code }}"{{ ' checked' if loop.first }}><span>{{ name }}</span></label>{% endfor %}</fieldset>{% if voice.sample_intake %}<button type="button" class="vox-sample">Try a sample</button>{% endif %}</div>
+        <p class="vox-status" aria-live="polite"></p>
+        <div class="vox-out" aria-live="polite"></div>
+      </div>
+      <p class="vox-note">Your voice goes to Meta to be turned into text. BillRadar doesn't keep the audio. Please don't say real names or numbers.</p>
+      <div class="chips-ctx" aria-label="What happened">{% for id, label in (("birth", "Birth"), ("er_visit", "ER visit"), ("planned_surgery", "Surgery"), ("rooming_in", "Child stayed with me"), ("hdhp", "High deductible")) %}<a data-chip="{{ id }}"{% if loop.first %} class="on"{% endif %} href="/upload?context={{ id }}">{{ label }}</a>{% endfor %}</div>
+      <p class="ep0-cta"><a class="btn primary" href="/upload">Check my bills</a> <a class="btn ghost" href="/example">See an example</a></p>
+    </div>
+    <p class="scroll-hint" aria-hidden="true">Scroll<i></i></p>
+  </section>
+
+  <section class="ep ep1" data-ep="1">
+    <div class="ep-stick">
+      {{ plate("p1", 1) }}
+      <div class="ep-text">
+        <h2>One photo<br>of the table.</h2>
+        <p class="ep-sub">Every sheet found, straightened and numbered.</p>
+        <span class="model find">{{ mdl.find }}</span>
+        {% if story.receipt %}<p class="receipt-line"><b class="calls" data-to="{{ story.receipt.calls }}">{{ story.receipt.calls }}</b> model calls · <b class="usd" data-to="{{ story.receipt.usd }}">${{ "%.3f"|format(story.receipt.usd) }}</b> <span>for the whole example case; letter translations not counted</span></p>{% endif %}
+      </div>
+      {{ feed(((mdl.find, "finding sheets", "now"), ("On your computer", "waiting", "wait"), (mdl.read, "waiting", "wait"))) }}
+      {% if story.found %}{% set f = story.found %}
+      <div class="ep-art stage" aria-hidden="true" style="--ar:{{ f.ar }}">
+        <figure class="photo" style="width:{{ f.card_w }}%;top:{{ f.card_top }}%;height:{{ f.card_h }}%"><img src="{{ asset('/static/story/table.webp') }}" alt="" loading="eager">
+          <svg viewBox="0 0 {{ f.w }} {{ f.h }}" preserveAspectRatio="none">{% for b in f.sheets %}<rect pathLength="1" style="--i:{{ loop.index0 }}" x="{{ b.box[0] }}" y="{{ b.box[1] }}" width="{{ b.box[2] - b.box[0] }}" height="{{ b.box[3] - b.box[1] }}" rx="30"/>{% endfor %}</svg>
+        </figure>
+        <p class="photo-cap">Boxes drawn by {{ mdl.find }} on the example photo</p>
+        {% for b in f.sheets %}<figure class="sheet2" style="--i:{{ loop.index0 }};--x0:{{ b.x0 }}%;--y0:{{ b.y0 }}%;--w0:{{ b.w0 }}%"><img src="{{ b.src }}" alt="" loading="lazy"><b>{{ b.n }}</b></figure>{% endfor %}
+      </div>
+      {% else %}
+      <div class="ep-art" aria-hidden="true">
+        <svg class="wave" viewBox="0 0 1000 300" preserveAspectRatio="none"><defs><linearGradient id="wg" x1="0" x2="1"><stop offset="0" stop-color="#f3d58b" stop-opacity="0"/><stop offset=".3" stop-color="#e2b453"/><stop offset="1" stop-color="#f6dc95"/></linearGradient></defs><path pathLength="1" d="M0 250 C 220 120, 420 60, 600 140 S 880 260, 1000 90"/></svg>
+        {% for src in story.sheets %}<figure class="sheet s{{ loop.index }}" style="--i:{{ loop.index0 }}"><img src="{{ src }}" alt="" loading="{{ 'eager' if loop.first else 'lazy' }}"><b>{{ loop.index }}</b></figure>{% endfor %}
+      </div>
+      {% endif %}
+    </div>
+  </section>
+
+  <section class="ep ep2" data-ep="2">
+    <div class="ep-stick">
+      {{ plate("p2", 2) }}
+      <div class="ep-text">
+        <h2>Names hidden before anything reaches the cloud.</h2>
+        <p class="ep-sub">On your computer, first. The cloud gets tokens, not names.</p>
+        <span class="model device">On your computer</span>
+      </div>
+      {{ feed(((mdl.find, "done", "done"), ("On your computer", "hiding names", "now"), (mdl.read, "waiting", "wait"))) }}
+      <div class="ep-art" aria-hidden="true">
+        <div class="bill">
+          <div class="bill-head"><b>Itemized bill</b><span>{{ story.hospital }}</span><em>SAMPLE</em></div>
+          <dl class="bill-ids">
+            <div style="--r:0"><dt>Patient name</dt><dd><span class="real">{{ story.patient }}</span><span class="tok">🔒 [PATIENT_1]</span></dd></div>
+            <div style="--r:1"><dt>Member ID</dt><dd><span class="real">{{ story.member }}</span><span class="tok">🔒 [MEMBER_1]</span></dd></div>
+            <div style="--r:2"><dt>Account number</dt><dd><span class="real">{{ story.account }}</span><span class="tok">🔒 [ACCT_1]</span></dd></div>
+            <div style="--r:3"><dt>Address</dt><dd><span class="real">{{ story.address }}</span><span class="tok">🔒 [ADDR_1]</span></dd></div>
+          </dl>
+          <table class="bill-lines">{% for d, a in story.lines %}<tr><td>{{ d }}</td><td>{{ a }}</td></tr>{% endfor %}</table>
+          <i class="beam"></i>
+        </div>
+        {% if story.found %}<aside class="sent"><p class="sent-h">What {{ mdl.review }} got for the second read</p>
+          <pre>{% for t, tok in story.found.sent_parts %}{% if tok %}<mark>{{ t }}</mark>{% else %}{{ t }}{% endif %}{% endfor %}</pre>
+          <p class="sent-f short">Word for word from the recorded request {{ story.found.sent_recording.rsplit('-', 1)[-1][:8] }}…: family names empty, people and claims as tokens, doctors' names readable. Sheet S1 is the insurer's statement (Harborlight); the bill is from Seaside.</p><p class="sent-f long">Cut word for word from the recorded request ({{ story.found.sent_recording.rsplit('-', 1)[-1][:8] }}…, the hash of that request). Family names stay empty; people, claims and accounts left your computer as tokens. Doctors' names on the sheets stay readable. Sheet S1 here is the insurer's statement (Harborlight Health); the bill above is from Seaside.</p></aside>{% endif %}
+      </div>
+    </div>
+  </section>
+
+  <section class="ep ep-spark" data-ep="3">
+    <div class="ep-stick">
+      {{ plate("p5", 3) }}
+      <div class="ep-text">
+        <h2>The whole<br>stack, read<br>at once.</h2>
+        <p class="ep-sub">{{ mdl.read }} connects sheets from different senders.</p>
+        <span class="ep-chip">{{ mdl.read }}</span>
+      </div>
+      {# where each of the 14 sheets stands, read off the approved frame: left %, bottom %, width %, tilt, turn #}
+      {% set ARC = [(12.6,84,11,-6,14,1.2),(22.4,79.5,10.8,-5,12,1.2),(29.4,71.5,9.2,-4,10,1.26),(35.4,66,8.2,-3,9,1.32),(40.8,61.6,7.2,-3,8,1.4),(45.3,58,6.4,-2,6,1.48),(49.6,54.8,5.6,-1,4,1.56),(54,51,5.3,0,0,1.62),(58.9,50,5.1,0,-3,1.62),(63.9,51.6,5.2,1,-5,1.6),(69.4,54.2,5.6,1.5,-7,1.54),(75.5,57.6,6.3,2,-9,1.46),(83,62,7.4,3,-12,1.36),(93.4,71.4,9.9,5,-15,1.24)] %}
+      {% set ids = story.sheet_ids or [] %}{% set link = story.link %}
+      <div class="arc" aria-hidden="true">
+        {% for sid in ids %}{% set pos = ARC[((loop.index0 * 13) / ((ids|length - 1) or 1))|round|int] %}{% set m = SHEETS.get(sid, {}) %}{% set linked = link and sid in (link.a.sheet, link.b.sheet) %}
+        <figure class="arc-sheet{{ ' lh' if 0 < loop.index0 < 7 }}" style="--i:{{ loop.index0 }};--x:{{ pos[0] }};--b:{{ pos[1] }};--w:{{ pos[2] }};--rz:{{ pos[3] }}deg;--ry:{{ pos[4] }}deg;--ar:{{ pos[5] }};z-index:{{ 40 - [loop.index0, loop.revindex0]|min }}"{% if linked %} data-link="{{ 'a' if sid == link.a.sheet else 'b' }}"{% endif %}>
+          <b class="as-n">{{ sid[1:] }}</b>
+          <p class="as-org">{{ m.org }}</p>{% if m.kind %}<p class="as-kind">{{ m.kind }}</p>{% endif %}
+          <ul class="as-rows">{% for c in (m.codes or [])[:4] %}<li{% if linked and loop.first %} class="hl"{% endif %}><code>{{ c }}</code><i></i></li>{% endfor %}{% if not m.codes %}<li{% if linked %} class="hl"{% endif %}><i></i></li><li><i></i></li><li><i></i></li>{% endif %}</ul>
+          <span class="as-stamp">SAMPLE</span>
+        </figure>{% endfor %}
+        {% if link %}<svg class="thread" viewBox="0 0 1600 900"><path pathLength="1" d="M 0 0"/></svg>
+        <div class="link-card"><b>{{ link.label }}</b><span>Sheets {{ link.a.sheet[1:] }} and {{ link.b.sheet[1:] }}</span></div>{% endif %}
+      </div>
+      {{ feed((("On your computer", "done", "done"), (mdl.read, "reading all sheets", "now"), (mdl.review, "waiting", "wait"))) }}
+    </div>
+  </section>
+
+  <section class="ep ep-wonder" data-ep="4">
+    <div class="ep-stick">
+      {{ plate("p6", 4) }}
+      <div class="ep-text">
+        <h2>Every finding<br>checked twice.</h2>
+        <p class="ep-sub">Code checks each quote and amount.<br>{{ mdl.review }} takes a read-only second look.</p>
+        <span class="ep-chip plain"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5M14 4l-4 16"/></svg>Code checker</span>
+        <span class="ep-chip gold"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l2.2 7.8L22 12l-7.8 2.2L12 22l-2.2-7.8L2 12l7.8-2.2z"/></svg>{{ mdl.review }}</span>
+      </div>
+      <div class="review" aria-hidden="true">
+        {% if story.quote %}<div class="policy">{% set real_policy = "Memorial Regional Hospital" if "mhs.net" in (story.quote.url or "") else "" %}<p class="p-org">{{ real_policy or story.hospital }}</p><p class="p-title">Financial Assistance Policy</p><span class="as-stamp">SAMPLE</span></div>{% endif %}
+        <ul class="rcards">{% for r in story.review %}{% set first = (r.sheets or [""])[0] %}{% set m = SHEETS.get(first, {}) %}<li class="{{ r.verdict }}" style="--i:{{ loop.index0 }}"><em></em><b>{{ r.title }}</b>
+          {% if r.verdict == "worth" %}<small>No amount yet</small>{% endif %}
+          {% if m %}<div class="rc-doc"><p>{{ m.org }}</p>{% for c in (m.codes or [])[:2] %}<span><code>{{ c }}</code><i></i></span>{% endfor %}{% if not m.codes %}<span><i></i></span><span><i></i></span>{% endif %}<span class="as-stamp">SAMPLE</span></div>{% endif %}</li>{% endfor %}</ul>
+        {% if story.quote %}<div class="lens"><img src="{{ asset('/static/story/lens.webp') }}" alt=""><div class="lens-q"><div>{% set lens_line = story.quote.text.split('. ')[0] %}<mark>{{ lens_line if lens_line.endswith('.') else lens_line ~ '.' }}</mark>{% if real_policy %}<small>{{ real_policy }}'s public policy, applied to this example</small>{% endif %}</div></div></div>{% endif %}
+      </div>
+      {{ feed(((mdl.read, "done", "done"), ("Code checker", "checking quotes", "now"), (mdl.review, "second look", "now"))) }}
+    </div>
+  </section>
+
+  <section class="ep ep3" data-ep="5">
+    <div class="ep-stick">
+      {{ plate("p3", 5) }}
+      <div class="ep-center">
+        <p class="ep-sub">Up to</p>
+        <p class="big" data-to="{{ story.amount }}">${{ "{:,}".format(story.amount) }}</p>
+        <p class="ep-sub after">may come off your bills</p>
+        <ul class="cards">{% for c in story.cards %}<li style="--i:{{ loop.index0 }}">{{ icon(c.icon) }}{{ c.label }}</li>{% endfor %}</ul>
+        <p class="ep-note">Example case · fictional data · checked by code against the hospital's own policy</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="ep ep4" data-ep="6">
+    <div class="ep-stick">
+      {{ plate("p4", 6) }}
+      <div class="ep-text">
+        <h2>Letters ready.</h2>
+        <p class="ep-sub">You read, you sign, you decide.</p>
+        <p class="ep-ctas"><a class="btn primary" href="/example">Explore the example case</a> <a class="btn ghost" href="/safe">Is it safe?</a></p>
+      </div>
+      <div class="ep-art">
+        <div class="letter-wrap">
+        <article class="letter-paper" aria-label="{{ story.letter_subject }}">
+          <p class="lp-to">To: {{ story.letter_to }}</p>
+          <h3>{{ story.letter_subject }}</h3>
+          <p class="lp-body"><span class="sr">{{ story.letter_body }}</span><span class="typed" aria-hidden="true">{{ story.letter_body }}</span></p>
+          <p class="lp-sign">Sincerely,</p>
+          <svg class="sig" viewBox="0 0 320 84" aria-hidden="true"><path pathLength="1" d="M30 64 C 28 44, 30 26, 34 16 M 22 22 C 52 6, 86 20, 82 44 C 78 66, 48 74, 26 66 C 18 62, 26 56, 36 58 M 96 60 C 100 58, 104 56, 106 60 M 150 40 C 136 30, 116 44, 120 60 C 124 72, 142 66, 150 58 M 158 52 C 168 44, 176 48, 170 58 C 166 66, 178 66, 186 54 M 200 50 C 190 48, 190 60, 200 62 C 210 64, 206 52, 196 56 M 214 40 L 206 66 M 210 50 L 222 50 M 232 46 L 226 66 M 242 30 L 234 66 M 252 30 L 244 66 C 250 68, 258 60, 264 54 C 276 46, 280 62, 268 64 C 260 64, 262 54, 272 52 C 284 50, 296 52, 312 44"/></svg>
+          <p class="lp-name">{{ story.signer }}</p>
+        </article>
+        <i class="envelope" aria-hidden="true"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="story-try" aria-labelledby="try-h">
+    <h2 id="try-h">Three steps, about a minute</h2>
+    <ol>
+      <li>Click "Explore the example case" below. A finished family case opens: {{ story.sheet_ids|length if story.sheet_ids else 14 }} sheets, 3 files, and the amount that may come off the bills.</li>
+      <li>Look at the findings. Each one shows the sheet and lines with the error, the law or hospital policy section behind it when there is one, and which model found and read the sheet. "What these lines mean" explains the lines in plain words.</li>
+      <li>Then open "Letter: request itemized bill" and "Call cheat sheet": a ready letter to the hospital and notes for the phone call.</li>
+    </ol>
+    <a class="btn gold" href="/example">Explore the example case</a>
+    {% if static %}<p class="note">Upload is off on this public copy — <a href="{{ repo_tree }}">run it with your own key from GitHub</a>.</p>{% elif public %}<p class="note">This public demo works on examples, so nobody's medical bills reach a public page. <a href="{{ repo_tree }}">The code is on GitHub</a>.</p>{% else %}<p class="note"><a href="{{ repo_tree }}">The code is on GitHub</a>.</p>{% endif %}
+  </section>
+</div>

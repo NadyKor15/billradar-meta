@@ -1,0 +1,109 @@
+{% extends "base.html" %}
+{% block title %}Check your sheets · BillRadar{% endblock %}
+{% block body %}
+<form class="review" id="review" method="post" action="/cases/{{ case_id }}/send">
+  <section class="review-head">
+    <div class="review-words">
+      <h1>Check every covered sheet before it leaves</h1>
+      <p>Your family's names, IDs, addresses, phone numbers and account numbers are covered on this computer. Doctors and hospitals stay visible because the checks and letters need them.</p>
+      <p>Before you press Send, only a heavily blurred copy with no readable text goes to Meta's {{ mdl.find }}, to find the sheets. The sheets themselves go only when you press Send.{% if pdf_pages %} PDF pages never go to SAM.{% endif %}{% if soft %} <button type="button" class="linkish" id="see-blurred" data-title="The blurred copy that went to {{ mdl.find }}" data-list='{{ soft|tojson }}'>See the blurred copy</button>{% endif %}</p>
+    </div>
+    <div class="review-side">
+    <ul class="review-pills" aria-live="polite">
+      <li>{{ cards|length }} sheet{{ '' if cards|length == 1 else 's' }}</li>
+      <li><span id="n-send">{{ to_send }}</span> to send</li>
+      <li><span id="n-keep">0</span> kept here</li>
+      <li>{{ not_sent }} not sent</li>
+    </ul>
+    <p class="review-hint">Click a sheet to see it large</p>
+    </div>
+  </section>
+  {% if error %}<p class="notice warn-note" role="alert">{{ error }}</p>{% endif %}
+  <ul class="review-grid" id="review-grid">
+    {% for c in cards %}{% set src = "/cases/" ~ case_id ~ ("/review/sheet/" if c.kind == "send" else "/review/original/") ~ c.id ~ ".png" %}
+    <li class="sheet-card{{ ' is-out' if c.kind == 'not_sent' }}" data-id="{{ c.id }}">
+      {% if c.kind == "send" or c.original %}<button type="button" class="sheet-open" data-big="{{ src }}" data-title="{{ c.label }}"{% if c.kind == "send" and c.original %} data-original="/cases/{{ case_id }}/review/original/{{ c.id }}.png"{% endif %} aria-label="See {{ c.label }} large"><img src="{{ src }}" alt="{{ c.label }}, covered"></button>
+      {% else %}<div class="sheet-open sheet-none" aria-hidden="true"></div>{% endif %}
+      <b>{{ c.label }}</b>
+      {% if c.kind == "send" %}<fieldset class="sheet-switch"><legend class="vh">{{ c.label }}</legend>
+        <label><input type="radio" name="{{ c.id }}" value="send" checked><span>Send</span></label>
+        <label><input type="radio" name="{{ c.id }}" value="keep"><span>Keep here</span></label>
+      </fieldset>{% if c.lost %}<small class="sheet-lost">Amount stays unconfirmed</small>{% endif %}
+      {% else %}<span class="sheet-out">Not sent</span><small>Take a new photo</small>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+  <div class="review-bar">
+    <div class="review-say">
+      <p id="review-why">{{ mdl.read }}{% if second_look %} and {{ mdl.review }} read{% else %} reads{% endif %} only the sheets you send. A sheet you keep is not read, so its amounts stay unconfirmed.</p>
+      <p class="upload-busy" id="review-busy" aria-live="polite" hidden><i aria-hidden="true"></i>Reading the sheets you sent. This takes a few minutes.</p>
+      <p class="review-refused" id="review-refused" role="alert" hidden></p>
+    </div>
+    <button class="btn gold" type="submit" id="review-go"{% if not to_send %} disabled{% endif %}>Send {{ to_send }} sheet{{ '' if to_send == 1 else 's' }} to the models</button>
+  </div>
+</form>
+<form class="review-drop" method="post" action="/cases/{{ case_id }}/delete" data-ask="Delete these papers from this computer? Nothing more is sent."><button class="linkish" type="submit">Delete these papers instead</button></form>
+<dialog class="sheet-big" id="sheet-big" aria-labelledby="sheet-big-title">
+  <header><b id="sheet-big-title"></b><span class="sheet-big-actions"><button type="button" class="btn ghost" id="big-original">As you photographed it</button><button type="button" class="btn ghost" id="big-prev">Previous</button><button type="button" class="btn ghost" id="big-next">Next</button><button type="button" class="btn ghost" id="big-close">Close</button></span></header>
+  <div class="sheet-big-view"><img id="sheet-big-img" alt=""></div>
+</dialog>
+{% endblock %}
+{% block scripts %}<script>
+// The sheets stay in the form; this only keeps the count right, opens a sheet large and says when the page has to wait.
+(() => {
+  const form = document.getElementById("review"), go = document.getElementById("review-go"), grid = document.getElementById("review-grid");
+  const busy = document.getElementById("review-busy"), refused = document.getElementById("review-refused");
+  const count = () => {
+    const send = form.querySelectorAll('.sheet-switch input[value=send]:checked').length, keep = form.querySelectorAll('.sheet-switch input[value=keep]:checked').length;
+    document.getElementById("n-send").textContent = send; document.getElementById("n-keep").textContent = keep;
+    go.textContent = `Send ${send} sheet${send === 1 ? "" : "s"} to the models`; go.disabled = !send;
+    grid.querySelectorAll(".sheet-card").forEach(li => li.classList.toggle("is-kept", !!li.querySelector("input[value=keep]:checked")));
+  };
+  form.addEventListener("change", count);
+  addEventListener("pageshow", count);
+
+  const said = async (r) => {
+    const body = await r.text();
+    try { const j = JSON.parse(body), words = j.detail || j.error; return typeof words === "string" ? words : ""; } catch (err) { /* a page, not JSON */ }
+    return new DOMParser().parseFromString(body, "text/html").querySelector("form [role=alert]")?.textContent.trim();
+  };
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const why = document.getElementById("review-why"), label = go.textContent;
+    const back = (words) => { go.disabled = false; go.textContent = label; busy.hidden = true; why.hidden = false; refused.textContent = words; refused.hidden = false; };
+    refused.hidden = true; why.hidden = true; go.disabled = true; go.textContent = "Reading the sheets"; busy.hidden = false;
+    try {
+      const r = await fetch(form.action, { method: "POST", body: new URLSearchParams(new FormData(form)) });
+      if (r.ok && r.redirected) { location.href = r.url; return; }
+      back((await said(r)) || "That did not work. Your sheets stay here.");
+    } catch (err) { back("The connection dropped, so your sheets were not sent. Try again."); }
+  });
+  document.querySelector(".review-drop").addEventListener("submit", (e) => { if (!confirm(e.target.dataset.ask)) e.preventDefault(); });
+
+  const big = document.getElementById("sheet-big"), img = document.getElementById("sheet-big-img"), title = document.getElementById("sheet-big-title");
+  const orig = document.getElementById("big-original"), prev = document.getElementById("big-prev"), next = document.getElementById("big-next");
+  const sheets = [...grid.querySelectorAll("[data-big]")].map(el => ({ src: el.dataset.big, title: el.dataset.title, original: el.dataset.original, el }));
+  let list = sheets, at = 0, showing = false;
+  const paint = () => {
+    const it = list[at];
+    img.src = showing ? it.original : it.src;
+    img.alt = title.textContent = it.title + (showing ? ", as you photographed it" : "");
+    orig.hidden = !it.original; orig.textContent = showing ? "Covered" : "As you photographed it";
+    prev.hidden = next.hidden = list.length < 2; prev.disabled = at <= 0; next.disabled = at >= list.length - 1;
+  };
+  const open = (items, i) => { list = items; at = i; showing = false; paint(); if (!big.open) big.showModal(); };
+  sheets.forEach((it, i) => it.el.addEventListener("click", () => open(sheets, i)));
+  const blurred = document.getElementById("see-blurred");
+  if (blurred) {
+    const files = JSON.parse(blurred.dataset.list);
+    const copies = files.map((f, i) => ({ src: `/cases/{{ case_id }}/review/blurred/${f}`, title: blurred.dataset.title + (files.length > 1 ? ` (${i + 1} of ${files.length})` : "") }));
+    blurred.addEventListener("click", () => open(copies, 0));
+  }
+  const step = (by) => { if (at + by >= 0 && at + by < list.length) { at += by; showing = false; paint(); } };
+  prev.addEventListener("click", () => step(-1)); next.addEventListener("click", () => step(1));
+  orig.addEventListener("click", () => { showing = !showing; paint(); });
+  document.getElementById("big-close").addEventListener("click", () => big.close());
+  big.addEventListener("click", (e) => { if (e.target === big) big.close(); });
+  big.addEventListener("keydown", (e) => { if (e.key === "ArrowLeft") step(-1); if (e.key === "ArrowRight") step(1); });
+})();
+</script>{% endblock %}

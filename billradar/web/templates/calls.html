@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block title %}Model calls · BillRadar{% endblock %}
+{% block body_class %}calls-body{% endblock %}
+{% block chrome %}{% endblock %}
+{% block body %}
+<section class="calls-page" id="calls" data-start="{{ start }}">
+  <h1>Model calls</h1>
+  <p class="calls-top"><span id="calls-clock"></span> UTC · <span id="calls-n">0</span> calls · $<span id="calls-sum">0.000000</span> · <span id="calls-state">waiting for a call</span></p>
+  <div class="calls-list" id="calls-list"></div>
+</section>
+{% endblock %}
+{% block scripts %}<script>
+(() => {
+  const box = document.getElementById("calls"), list = document.getElementById("calls-list"), state = document.getElementById("calls-state");
+  const start = +box.dataset.start, text = (cls, value) => { const s = document.createElement("span"); s.className = cls; s.textContent = value; return s; };
+  const row = (r) => {
+    const el = document.createElement("div"); el.className = "call" + (r.live ? " live" : "");
+    const top = document.createElement("div"); top.className = "c1";
+    top.append(text("t", (r.at || "").slice(11, 19)), text("m", r.model || ""), text("s", r.step || ""), text("st", String(r.state)),
+               text("l", "live: " + r.live), text("sec", r.seconds === undefined ? "" : r.seconds + " s"));
+    const low = document.createElement("div"); low.className = "c2";
+    low.append(text("id", r.response_id || ""), text("a", r.answer_start || ""));
+    el.append(top, low); return el;
+  };
+  const clock = () => { document.getElementById("calls-clock").textContent = new Date().toISOString().slice(11, 19); };
+  const tick = async () => {
+    try {
+      const j = await (await fetch("/calls.json?after=" + start)).json();
+      list.replaceChildren(...j.rows.slice().reverse().map(row));
+      document.getElementById("calls-n").textContent = j.rows.length;
+      document.getElementById("calls-sum").textContent = j.rows.reduce((n, r) => n + (r.usd || 0), 0).toFixed(6);
+      state.textContent = j.rows.length ? "watching the log" : "waiting for a call";
+    } catch (e) { state.textContent = "the log is not answering: " + e.message; }
+    setTimeout(tick, 500);
+  };
+  clock(); setInterval(clock, 1000); tick();
+})();
+</script>{% endblock %}
