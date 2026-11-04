@@ -4,7 +4,9 @@ BillRadar reads the whole pile of hospital bills and insurance statements from a
 
 All bills, statements and people in this repository are fictional. No real patient data has been sent to any model. BillRadar helps with bills and insurance statements; it is not medical or legal advice. You review and sign every letter, and only you send anything.
 
-Before the hackathon started on October 26 at 12:24 PM ET, there was the idea, the name, the logo, research on laws and hospitals, early code drafts from that morning, and a Telegram bot that is not part of this project. During the hackathon the code was rewritten. By `git blame -w -C -C`, 2,016 of 44,678 Python lines (4.5%) still trace back to the morning drafts (11:20 AM to 12:19 PM ET), mostly imports, function signatures and field names; 754 of them (1.7%) are logic. The full list is in `docs/RESIDUE.md`. The code was written with an AI coding agent.
+Before the hackathon started on October 26 at 12:24 PM ET, there was the idea, the name, the logo, research on laws and hospitals, early code drafts from that morning, and a Telegram bot that is not part of this project. During the hackathon the code was rewritten. By `git blame -w -C -C`, 2,020 of 44,972 Python lines (4.5%) still trace back to the morning drafts (11:20 AM to 12:19 PM ET), mostly imports, function signatures and field names; 755 of them (1.7%) are logic. The full list is in `docs/RESIDUE.md`. The code was written with an AI coding agent.
+
+This repository was assembled on November 3, 2026 from our private working repository, so that it holds only the hackathon's code, without an earlier project or any private data. We can show the full history on request.
 
 ## How it works
 

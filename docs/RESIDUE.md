@@ -1,30 +1,30 @@
 # Lines older than the hackathon start
 
-Taken on 2026-11-03 at 15:52 UTC from commit b46da60 of the working repository. Method: `git blame -w -C -C`; a line counts as old when the commit that last brought it in, or its author date, is before 2026-10-26 16:24 UTC (12:24 PM ET), the start of hacking. 1445 files, 254 of them binary; blame errors 0, Python parse errors 0.
+Taken on 2026-11-03 at 18:27 UTC from commit 559c891 of the working repository. Method: `git blame -w -C -C`; a line counts as old when the commit that last brought it in, or its author date, is before 2026-10-26 16:24 UTC (12:24 PM ET), the start of hacking. 1457 files, 254 of them binary; blame errors 0, Python parse errors 0.
 
-In Python: 2,016 of 44,678 lines are older (4.5%); 754 of them (1.7%) are logic, the rest are imports, function signatures, field names, brackets and docstrings. All files below, Python and not.
+In Python: 2,020 of 44,972 lines are older (4.5%); 755 of them (1.7%) are logic, the rest are imports, function signatures, field names, brackets and docstrings. All files below, Python and not.
 
 | Class | Lines |
 |---|---|
-| code | 754 |
-| import | 474 |
+| code | 755 |
+| import | 476 |
 | signature | 434 |
 | field | 223 |
 | data | 207 |
 | text | 79 |
 | template | 79 |
-| punct | 70 |
+| punct | 71 |
 | config | 52 |
 | doc | 35 |
 | string | 21 |
 | comment | 5 |
 | binary file | 2 |
-| total | 2435 |
+| total | 2439 |
 
 | Folder | Lines |
 |---|---|
-| billradar | 1542 |
-| tests | 678 |
+| billradar | 1544 |
+| tests | 680 |
 | scripts | 79 |
 | (root) | 78 |
 | docs | 52 |
@@ -50,31 +50,31 @@ In Python: 2,016 of 44,678 lines are older (4.5%); 754 of them (1.7%) are logic,
 | .gitignore | 11 | (file) | config | 2026-10-26 | runs/ |
 | .gitignore | 12 | (file) | config | 2026-10-26 | !.env.example |
 | README.md | 9 | (file) | text | 2026-10-26 | ## How it works |
-| README.md | 45 | (file) | text | 2026-10-26 | ## What it finds |
-| README.md | 47 | (file) | text | 2026-10-26 | \| Class \| What \| |
-| README.md | 48 | (file) | text | 2026-10-26 | \|---\|---\| |
-| README.md | 49 | (file) | text | 2026-10-26 | \| F1 \| The household qualifies under the hospital's policy, but no discount is on the bill \| |
-| README.md | 50 | (file) | text | 2026-10-26 | \| F2 \| The last day to apply, counted from the first bill after discharge (policy + federal rule) \| |
-| README.md | 52 | (file) | text | 2026-10-26 | \| E1 \| A bill line asks more than the insurance statement says the patient owes \| |
-| README.md | 53 | (file) | text | 2026-10-26 | \| E2 \| The same service billed twice \| |
-| README.md | 54 | (file) | text | 2026-10-26 | \| E3 \| A credit or overpayment left on the account \| |
-| README.md | 55 | (file) | text | 2026-10-26 | \| E4 \| One sheet asks two different amounts \| |
-| README.md | 56 | (file) | text | 2026-10-26 | \| B1 \| Newborn care billed under the mother's insurance ID \| |
-| README.md | 57 | (file) | text | 2026-10-26 | \| P1 \| Pages missing from a statement \| |
-| README.md | 61 | (file) | text | 2026-10-26 | ## Run it |
-| README.md | 63 | (file) | text | 2026-10-26 | ```sh |
-| README.md | 64 | (file) | text | 2026-10-26 | uv venv --python 3.12 && uv pip install -e ".[dev]" |
-| README.md | 65 | (file) | text | 2026-10-26 | python scripts/fetch_policies.py        # public policies and the blank form -> .cache/ (not committed) |
-| README.md | 66 | (file) | text | 2026-10-26 | pytest |
-| README.md | 78 | (file) | text | 2026-10-26 | ``` |
-| README.md | 94 | (file) | text | 2026-10-26 | ## Sources in the repo |
-| README.md | 96 | (file) | text | 2026-10-26 | \| Source \| From \| |
-| README.md | 97 | (file) | text | 2026-10-26 | \|---\|---\| |
-| README.md | 98 | (file) | text | 2026-10-26 | \| Memorial Healthcare System, Financial Assistance Policy, revised May 2026 \| mhs.net (public PDF) \| |
-| README.md | 100 | (file) | text | 2026-10-26 | \| Baptist Health South Florida, BHSF-355.14, revised 09/29/2026 \| baptisthealth.net (public PDF) \| |
-| README.md | 101 | (file) | text | 2026-10-26 | \| 26 CFR 1.501(r)-1, application period \| eCFR \| |
-| README.md | 102 | (file) | text | 2026-10-26 | \| Florida Statutes 395.301 (itemized statement, billing disputes) \| leg.state.fl.us \| |
-| README.md | 104 | (file) | text | 2026-10-26 | We store short quotes and page numbers, not the documents. Estimates follow the published policy; the hospital decides. |
+| README.md | 47 | (file) | text | 2026-10-26 | ## What it finds |
+| README.md | 49 | (file) | text | 2026-10-26 | \| Class \| What \| |
+| README.md | 50 | (file) | text | 2026-10-26 | \|---\|---\| |
+| README.md | 51 | (file) | text | 2026-10-26 | \| F1 \| The household qualifies under the hospital's policy, but no discount is on the bill \| |
+| README.md | 52 | (file) | text | 2026-10-26 | \| F2 \| The last day to apply, counted from the first bill after discharge (policy + federal rule) \| |
+| README.md | 54 | (file) | text | 2026-10-26 | \| E1 \| A bill line asks more than the insurance statement says the patient owes \| |
+| README.md | 55 | (file) | text | 2026-10-26 | \| E2 \| The same service billed twice \| |
+| README.md | 56 | (file) | text | 2026-10-26 | \| E3 \| A credit or overpayment left on the account \| |
+| README.md | 57 | (file) | text | 2026-10-26 | \| E4 \| One sheet asks two different amounts \| |
+| README.md | 58 | (file) | text | 2026-10-26 | \| B1 \| Newborn care billed under the mother's insurance ID \| |
+| README.md | 59 | (file) | text | 2026-10-26 | \| P1 \| Pages missing from a statement \| |
+| README.md | 63 | (file) | text | 2026-10-26 | ## Run it |
+| README.md | 65 | (file) | text | 2026-10-26 | ```sh |
+| README.md | 66 | (file) | text | 2026-10-26 | uv venv --python 3.12 && uv pip install -e ".[dev]" |
+| README.md | 67 | (file) | text | 2026-10-26 | python scripts/fetch_policies.py        # public policies and the blank form -> .cache/ (not committed) |
+| README.md | 68 | (file) | text | 2026-10-26 | pytest |
+| README.md | 80 | (file) | text | 2026-10-26 | ``` |
+| README.md | 99 | (file) | text | 2026-10-26 | ## Sources in the repo |
+| README.md | 101 | (file) | text | 2026-10-26 | \| Source \| From \| |
+| README.md | 102 | (file) | text | 2026-10-26 | \|---\|---\| |
+| README.md | 103 | (file) | text | 2026-10-26 | \| Memorial Healthcare System, Financial Assistance Policy, revised May 2026 \| mhs.net (public PDF) \| |
+| README.md | 105 | (file) | text | 2026-10-26 | \| Baptist Health South Florida, BHSF-355.14, revised 09/29/2026 \| baptisthealth.net (public PDF) \| |
+| README.md | 106 | (file) | text | 2026-10-26 | \| 26 CFR 1.501(r)-1, application period \| eCFR \| |
+| README.md | 107 | (file) | text | 2026-10-26 | \| Florida Statutes 395.301 (itemized statement, billing disputes) \| leg.state.fl.us \| |
+| README.md | 109 | (file) | text | 2026-10-26 | We store short quotes and page numbers, not the documents. Estimates follow the published policy; the hospital decides. |
 | billradar/agent_api.py | 26 | (module) | import | 2026-10-26 | from datetime import date |
 | billradar/agent_api.py | 27 | (module) | import | 2026-10-26 | from decimal import Decimal |
 | billradar/agent_api.py | 28 | (module) | import | 2026-10-26 | from pathlib import Path |
@@ -387,17 +387,17 @@ In Python: 2,016 of 44,678 lines are older (4.5%); 754 of them (1.7%) are logic,
 | billradar/checks.py | 310 | check_e1 | punct | 2026-10-26 |                 continue |
 | billradar/checks.py | 321 | check_e1 | code | 2026-10-26 |             if diff > 0: |
 | billradar/checks.py | 323 | check_e1 | punct | 2026-10-26 |             else: |
-| billradar/checks.py | 397 | check_assistance | code | 2026-10-26 |     tier = pol.tier_for(fpl_pct) |
-| billradar/checks.py | 419 | check_assistance | punct | 2026-10-26 |                 continue |
-| billradar/checks.py | 435 | check_assistance | punct | 2026-10-26 |             else: |
-| billradar/checks.py | 591 | check_window | signature | 2026-10-26 | def check_window(case: Case, pol: policy.Policy) -> Finding \| None: |
-| billradar/checks.py | 598 | check_window | code | 2026-10-26 |     refs.append("federal-501r#application-period") |
-| billradar/checks.py | 1023 | _finish | code | 2026-10-26 |     for f in candidates: |
-| billradar/checks.py | 1035 | _finish | punct | 2026-10-26 |         else: |
-| billradar/checks.py | 1036 | _finish | code | 2026-10-26 |             shown.append(f) |
-| billradar/checks.py | 1040 | run | signature | 2026-10-26 | def run(case: Case) -> Report: |
-| billradar/checks.py | 1045 | run | code | 2026-10-26 |     pol = policy.load(case.policy_id) |
-| billradar/checks.py | 1104 | (module) | code | 2026-10-26 | __all__ = ["run", "Report", "Finding", "Kind", "Evidence", "episodes", "DocKind"] |
+| billradar/checks.py | 402 | check_assistance | code | 2026-10-26 |     tier = pol.tier_for(fpl_pct) |
+| billradar/checks.py | 424 | check_assistance | punct | 2026-10-26 |                 continue |
+| billradar/checks.py | 440 | check_assistance | punct | 2026-10-26 |             else: |
+| billradar/checks.py | 596 | check_window | signature | 2026-10-26 | def check_window(case: Case, pol: policy.Policy) -> Finding \| None: |
+| billradar/checks.py | 603 | check_window | code | 2026-10-26 |     refs.append("federal-501r#application-period") |
+| billradar/checks.py | 1028 | _finish | code | 2026-10-26 |     for f in candidates: |
+| billradar/checks.py | 1040 | _finish | punct | 2026-10-26 |         else: |
+| billradar/checks.py | 1041 | _finish | code | 2026-10-26 |             shown.append(f) |
+| billradar/checks.py | 1045 | run | signature | 2026-10-26 | def run(case: Case) -> Report: |
+| billradar/checks.py | 1050 | run | code | 2026-10-26 |     pol = policy.load(case.policy_id) |
+| billradar/checks.py | 1109 | (module) | code | 2026-10-26 | __all__ = ["run", "Report", "Finding", "Kind", "Evidence", "episodes", "DocKind"] |
 | billradar/cli.py | 3 | (module) | import | 2026-10-26 | from __future__ import annotations |
 | billradar/cli.py | 5 | (module) | import | 2026-10-26 | import argparse |
 | billradar/cli.py | 6 | (module) | import | 2026-10-26 | import json |
@@ -749,15 +749,16 @@ In Python: 2,016 of 44,678 lines are older (4.5%); 754 of them (1.7%) are logic,
 | billradar/pipeline.py | 344 | _finish | code | 2026-10-26 |             profile.local.tokens.setdefault(secret.token.strip("[]"), secret.value) |
 | billradar/pipeline.py | 352 | _finish | code | 2026-10-26 |     problems += [f"reader: {p}" for p in read.problems] |
 | billradar/pipeline.py | 373 | _finish | code | 2026-10-26 |     report = checks.run(case) |
-| billradar/pipeline.py | 405 | sheets_not_sent | code | 2026-10-26 |         for f in report.findings: |
-| billradar/pipeline.py | 415 | device_confirms | code | 2026-10-26 |     for f in report.findings: |
-| billradar/pipeline.py | 671 | _what_was_sent | import | 2026-10-26 |     from PIL import Image, ImageDraw |
-| billradar/pipeline.py | 684 | _what_was_sent | code | 2026-10-26 |     return canvas |
-| billradar/pipeline.py | 692 | _vault | signature | 2026-10-26 | def _vault(profile: Profile) -> redact.Vault: |
-| billradar/pipeline.py | 718 | _no_leaks | signature | 2026-10-26 | def _no_leaks(img, vault: redact.Vault, doc_id: str): |
-| billradar/pipeline.py | 722 | _no_leaks | code | 2026-10-26 |     if left: |
-| billradar/pipeline.py | 725 | _no_leaks | code | 2026-10-26 |     return img |
-| billradar/pipeline.py | 784 | save | signature | 2026-10-26 | def save(run_: CaseRun, out: Path) -> None: |
+| billradar/pipeline.py | 406 | sheets_not_sent | code | 2026-10-26 |         for f in report.findings: |
+| billradar/pipeline.py | 420 | pages_maybe_unread | code | 2026-10-26 |     for f in report.findings: |
+| billradar/pipeline.py | 442 | device_confirms | code | 2026-10-26 |     for f in report.findings: |
+| billradar/pipeline.py | 698 | _what_was_sent | import | 2026-10-26 |     from PIL import Image, ImageDraw |
+| billradar/pipeline.py | 711 | _what_was_sent | code | 2026-10-26 |     return canvas |
+| billradar/pipeline.py | 719 | _vault | signature | 2026-10-26 | def _vault(profile: Profile) -> redact.Vault: |
+| billradar/pipeline.py | 745 | _no_leaks | signature | 2026-10-26 | def _no_leaks(img, vault: redact.Vault, doc_id: str): |
+| billradar/pipeline.py | 749 | _no_leaks | code | 2026-10-26 |     if left: |
+| billradar/pipeline.py | 752 | _no_leaks | code | 2026-10-26 |     return img |
+| billradar/pipeline.py | 811 | save | signature | 2026-10-26 | def save(run_: CaseRun, out: Path) -> None: |
 | billradar/plans.py | 11 | (module) | import | 2026-10-26 | from __future__ import annotations |
 | billradar/plans.py | 13 | (module) | import | 2026-10-26 | import io |
 | billradar/plans.py | 14 | (module) | import | 2026-10-26 | import json |
@@ -1104,70 +1105,70 @@ In Python: 2,016 of 44,678 lines are older (4.5%); 754 of them (1.7%) are logic,
 | billradar/redact.py | 43 | (module) | code | 2026-10-26 |     ("ADDR", ["address", "street"]), |
 | billradar/redact.py | 44 | (module) | code | 2026-10-26 |     ("PHONE", ["telephone", "phone", "tel"]), |
 | billradar/redact.py | 45 | (module) | punct | 2026-10-26 | ] |
-| billradar/redact.py | 46 | (module) | code | 2026-10-26 | PATTERNS = [ |
-| billradar/redact.py | 47 | (module) | code | 2026-10-26 |     ("SSN", re.compile(r"\\b\\d{3}-\\d{2}-\\d{4}\\b")), |
-| billradar/redact.py | 48 | (module) | code | 2026-10-26 |     ("PHONE", re.compile(r"\\(?\\b\\d{3}\\)?[\\s.-]?\\d{3}-\\d{4}\\b")), |
-| billradar/redact.py | 49 | (module) | punct | 2026-10-26 | ] |
-| billradar/redact.py | 65 | (module) | code | 2026-10-26 | SEP = re.compile(r"^[\\s:#.\\-]*") |
-| billradar/redact.py | 78 | compact | signature | 2026-10-26 | def compact(text: str) -> str: |
-| billradar/redact.py | 104 | Line (class) | signature | 2026-10-26 | @dataclass |
-| billradar/redact.py | 105 | Line (class) | signature | 2026-10-26 | class Line: |
-| billradar/redact.py | 106 | Line (class) | field | 2026-10-26 |     box: np.ndarray  # 4x2 corners |
-| billradar/redact.py | 107 | Line (class) | field | 2026-10-26 |     text: str |
-| billradar/redact.py | 108 | Line (class) | field | 2026-10-26 |     score: float |
-| billradar/redact.py | 175 | Secret (class) | signature | 2026-10-26 | @dataclass |
-| billradar/redact.py | 176 | Secret (class) | signature | 2026-10-26 | class Secret: |
-| billradar/redact.py | 177 | Secret (class) | field | 2026-10-26 |     kind: str |
-| billradar/redact.py | 178 | Secret (class) | field | 2026-10-26 |     value: str |
-| billradar/redact.py | 179 | Secret (class) | field | 2026-10-26 |     token: str |
-| billradar/redact.py | 182 | Redaction (class) | signature | 2026-10-26 | @dataclass |
-| billradar/redact.py | 183 | Redaction (class) | signature | 2026-10-26 | class Redaction: |
-| billradar/redact.py | 184 | Redaction (class) | field | 2026-10-26 |     image: Image.Image |
-| billradar/redact.py | 185 | Redaction (class) | field | 2026-10-26 |     secrets: list[Secret] = field(default_factory=list)  # every value covered on this image |
-| billradar/redact.py | 186 | Redaction (class) | field | 2026-10-26 |     covered: int = 0 |
-| billradar/redact.py | 188 | Redaction.tokens | signature | 2026-10-26 |     @property |
-| billradar/redact.py | 189 | Redaction.tokens | signature | 2026-10-26 |     def tokens(self) -> dict[str, str]: |
-| billradar/redact.py | 190 | Redaction.tokens | code | 2026-10-26 |         return {s.token: s.value for s in self.secrets} |
-| billradar/redact.py | 275 | Vault (class) | signature | 2026-10-26 | class Vault: |
-| billradar/redact.py | 276 | Vault (class) | doc | 2026-10-26 |     """Value -> token, shared across all images of one case so the same account gets the same token.""" |
-| billradar/redact.py | 278 | Vault.__init__ | signature | 2026-10-26 |     def __init__(self, known: list[tuple[str, str]] \| None = None, seed: dict[tuple[str, str], str] \| None = None): |
-| billradar/redact.py | 280 | Vault.__init__ | code | 2026-10-26 |         self.by_value: dict[tuple[str, str], Secret] = {} |
-| billradar/redact.py | 281 | Vault.__init__ | code | 2026-10-26 |         self.counts: dict[str, int] = {} |
-| billradar/redact.py | 287 | Vault.__init__ | code | 2026-10-26 |             self.by_value[(kind, compact(value))] = Secret(kind, value, token) |
-| billradar/redact.py | 291 | Vault.__init__ | code | 2026-10-26 |         self.seeded = dict(self.by_value) |
-| billradar/redact.py | 311 | Vault.token_for_label | signature | 2026-10-26 |     def token_for_label(self, kind: str, value: str) -> Secret: |
-| billradar/redact.py | 317 | Vault.token | signature | 2026-10-26 |     def token(self, kind: str, value: str) -> Secret: |
-| billradar/redact.py | 321 | Vault.token | code | 2026-10-26 |         self.counts[kind] = self.counts.get(kind, 0) + 1 |
-| billradar/redact.py | 344 | Vault.secrets | signature | 2026-10-26 |     @property |
-| billradar/redact.py | 345 | Vault.secrets | signature | 2026-10-26 |     def secrets(self) -> list[Secret]: |
-| billradar/redact.py | 346 | Vault.secrets | code | 2026-10-26 |         return list(self.by_value.values()) |
-| billradar/redact.py | 361 | _by_label | code | 2026-10-26 |     for kind, labels in LABELS: |
-| billradar/redact.py | 362 | _by_label | code | 2026-10-26 |         for label in labels: |
-| billradar/redact.py | 365 | _by_label | punct | 2026-10-26 |                 continue |
-| billradar/redact.py | 374 | _by_label | code | 2026-10-26 |             if len(compact(value)) < 3: |
-| billradar/redact.py | 375 | _by_label | punct | 2026-10-26 |                 continue |
-| billradar/redact.py | 377 | _by_label | code | 2026-10-26 |             if kind in WORD_KINDS: |
-| billradar/redact.py | 382 | _by_label | punct | 2026-10-26 |                     continue |
-| billradar/redact.py | 419 | _known_values | code | 2026-10-26 |         needle = compact(value) |
-| billradar/redact.py | 491 | _everything_known | code | 2026-10-26 |     for kind, value in vault.known: |
-| billradar/redact.py | 511 | _font | signature | 2026-10-26 | @cache |
-| billradar/redact.py | 512 | _font | signature | 2026-10-26 | def _font(size: int): |
-| billradar/redact.py | 517 | _font | punct | 2026-10-26 |         try: |
-| billradar/redact.py | 519 | _font | code | 2026-10-26 |         except OSError: |
-| billradar/redact.py | 665 | _cover_box | code | 2026-10-26 |     draw.rectangle(rect, fill=(250, 250, 248)) |
-| billradar/redact.py | 776 | sam_copy | signature | 2026-10-26 | def sam_copy(img: Image.Image, max_side: int = 900, secrets: list[Secret] \| None = None, |
-| billradar/redact.py | 777 | sam_copy | signature | 2026-10-26 |              tries: int = 4) -> Image.Image: |
-| billradar/redact.py | 778 | sam_copy | doc | 2026-10-26 |     """What SAM gets: small and soft, enough to see the sheets' edges, not to read them. |
-| billradar/redact.py | 779 | sam_copy | doc | 2026-10-26 |     With `secrets`, the copy is checked by OCR and blurred more until none of them can be read.""" |
-| billradar/redact.py | 780 | sam_copy | code | 2026-10-26 |     small = img.convert("RGB").copy() |
-| billradar/redact.py | 781 | sam_copy | code | 2026-10-26 |     small.thumbnail((max_side, max_side), Image.Resampling.LANCZOS) |
-| billradar/redact.py | 782 | sam_copy | code | 2026-10-26 |     radius = max_side / 150 |
-| billradar/redact.py | 783 | sam_copy | code | 2026-10-26 |     for _ in range(tries): |
-| billradar/redact.py | 784 | sam_copy | code | 2026-10-26 |         soft = small.filter(ImageFilter.GaussianBlur(radius=radius)) |
-| billradar/redact.py | 786 | sam_copy | code | 2026-10-26 |             return soft |
-| billradar/redact.py | 787 | sam_copy | code | 2026-10-26 |         radius *= 1.6 |
-| billradar/redact.py | 788 | sam_copy | string | 2026-10-26 |     raise RuntimeError("could not make the photo unreadable for SAM; not sending it") |
-| billradar/redact.py | 880 | ocr | signature | 2026-10-26 | def ocr(img: Image.Image) -> list[Line]: |
+| billradar/redact.py | 47 | (module) | code | 2026-10-26 | PATTERNS = [ |
+| billradar/redact.py | 48 | (module) | code | 2026-10-26 |     ("SSN", re.compile(r"\\b\\d{3}-\\d{2}-\\d{4}\\b")), |
+| billradar/redact.py | 49 | (module) | code | 2026-10-26 |     ("PHONE", re.compile(r"\\(?\\b\\d{3}\\)?[\\s.-]?\\d{3}-\\d{4}\\b")), |
+| billradar/redact.py | 64 | (module) | punct | 2026-10-26 | ] |
+| billradar/redact.py | 84 | (module) | code | 2026-10-26 | SEP = re.compile(r"^[\\s:#.\\-]*") |
+| billradar/redact.py | 97 | compact | signature | 2026-10-26 | def compact(text: str) -> str: |
+| billradar/redact.py | 123 | Line (class) | signature | 2026-10-26 | @dataclass |
+| billradar/redact.py | 124 | Line (class) | signature | 2026-10-26 | class Line: |
+| billradar/redact.py | 125 | Line (class) | field | 2026-10-26 |     box: np.ndarray  # 4x2 corners |
+| billradar/redact.py | 126 | Line (class) | field | 2026-10-26 |     text: str |
+| billradar/redact.py | 127 | Line (class) | field | 2026-10-26 |     score: float |
+| billradar/redact.py | 194 | Secret (class) | signature | 2026-10-26 | @dataclass |
+| billradar/redact.py | 195 | Secret (class) | signature | 2026-10-26 | class Secret: |
+| billradar/redact.py | 196 | Secret (class) | field | 2026-10-26 |     kind: str |
+| billradar/redact.py | 197 | Secret (class) | field | 2026-10-26 |     value: str |
+| billradar/redact.py | 198 | Secret (class) | field | 2026-10-26 |     token: str |
+| billradar/redact.py | 201 | Redaction (class) | signature | 2026-10-26 | @dataclass |
+| billradar/redact.py | 202 | Redaction (class) | signature | 2026-10-26 | class Redaction: |
+| billradar/redact.py | 203 | Redaction (class) | field | 2026-10-26 |     image: Image.Image |
+| billradar/redact.py | 204 | Redaction (class) | field | 2026-10-26 |     secrets: list[Secret] = field(default_factory=list)  # every value covered on this image |
+| billradar/redact.py | 205 | Redaction (class) | field | 2026-10-26 |     covered: int = 0 |
+| billradar/redact.py | 207 | Redaction.tokens | signature | 2026-10-26 |     @property |
+| billradar/redact.py | 208 | Redaction.tokens | signature | 2026-10-26 |     def tokens(self) -> dict[str, str]: |
+| billradar/redact.py | 209 | Redaction.tokens | code | 2026-10-26 |         return {s.token: s.value for s in self.secrets} |
+| billradar/redact.py | 294 | Vault (class) | signature | 2026-10-26 | class Vault: |
+| billradar/redact.py | 295 | Vault (class) | doc | 2026-10-26 |     """Value -> token, shared across all images of one case so the same account gets the same token.""" |
+| billradar/redact.py | 297 | Vault.__init__ | signature | 2026-10-26 |     def __init__(self, known: list[tuple[str, str]] \| None = None, seed: dict[tuple[str, str], str] \| None = None): |
+| billradar/redact.py | 299 | Vault.__init__ | code | 2026-10-26 |         self.by_value: dict[tuple[str, str], Secret] = {} |
+| billradar/redact.py | 300 | Vault.__init__ | code | 2026-10-26 |         self.counts: dict[str, int] = {} |
+| billradar/redact.py | 306 | Vault.__init__ | code | 2026-10-26 |             self.by_value[(kind, compact(value))] = Secret(kind, value, token) |
+| billradar/redact.py | 310 | Vault.__init__ | code | 2026-10-26 |         self.seeded = dict(self.by_value) |
+| billradar/redact.py | 330 | Vault.token_for_label | signature | 2026-10-26 |     def token_for_label(self, kind: str, value: str) -> Secret: |
+| billradar/redact.py | 336 | Vault.token | signature | 2026-10-26 |     def token(self, kind: str, value: str) -> Secret: |
+| billradar/redact.py | 340 | Vault.token | code | 2026-10-26 |         self.counts[kind] = self.counts.get(kind, 0) + 1 |
+| billradar/redact.py | 363 | Vault.secrets | signature | 2026-10-26 |     @property |
+| billradar/redact.py | 364 | Vault.secrets | signature | 2026-10-26 |     def secrets(self) -> list[Secret]: |
+| billradar/redact.py | 365 | Vault.secrets | code | 2026-10-26 |         return list(self.by_value.values()) |
+| billradar/redact.py | 380 | _by_label | code | 2026-10-26 |     for kind, labels in LABELS: |
+| billradar/redact.py | 381 | _by_label | code | 2026-10-26 |         for label in labels: |
+| billradar/redact.py | 384 | _by_label | punct | 2026-10-26 |                 continue |
+| billradar/redact.py | 393 | _by_label | code | 2026-10-26 |             if len(compact(value)) < 3: |
+| billradar/redact.py | 394 | _by_label | punct | 2026-10-26 |                 continue |
+| billradar/redact.py | 396 | _by_label | code | 2026-10-26 |             if kind in WORD_KINDS: |
+| billradar/redact.py | 401 | _by_label | punct | 2026-10-26 |                     continue |
+| billradar/redact.py | 438 | _known_values | code | 2026-10-26 |         needle = compact(value) |
+| billradar/redact.py | 510 | _everything_known | code | 2026-10-26 |     for kind, value in vault.known: |
+| billradar/redact.py | 530 | _font | signature | 2026-10-26 | @cache |
+| billradar/redact.py | 531 | _font | signature | 2026-10-26 | def _font(size: int): |
+| billradar/redact.py | 536 | _font | punct | 2026-10-26 |         try: |
+| billradar/redact.py | 538 | _font | code | 2026-10-26 |         except OSError: |
+| billradar/redact.py | 684 | _cover_box | code | 2026-10-26 |     draw.rectangle(rect, fill=(250, 250, 248)) |
+| billradar/redact.py | 795 | sam_copy | signature | 2026-10-26 | def sam_copy(img: Image.Image, max_side: int = 900, secrets: list[Secret] \| None = None, |
+| billradar/redact.py | 796 | sam_copy | signature | 2026-10-26 |              tries: int = 4) -> Image.Image: |
+| billradar/redact.py | 797 | sam_copy | doc | 2026-10-26 |     """What SAM gets: small and soft, enough to see the sheets' edges, not to read them. |
+| billradar/redact.py | 798 | sam_copy | doc | 2026-10-26 |     With `secrets`, the copy is checked by OCR and blurred more until none of them can be read.""" |
+| billradar/redact.py | 799 | sam_copy | code | 2026-10-26 |     small = img.convert("RGB").copy() |
+| billradar/redact.py | 800 | sam_copy | code | 2026-10-26 |     small.thumbnail((max_side, max_side), Image.Resampling.LANCZOS) |
+| billradar/redact.py | 801 | sam_copy | code | 2026-10-26 |     radius = max_side / 150 |
+| billradar/redact.py | 802 | sam_copy | code | 2026-10-26 |     for _ in range(tries): |
+| billradar/redact.py | 803 | sam_copy | code | 2026-10-26 |         soft = small.filter(ImageFilter.GaussianBlur(radius=radius)) |
+| billradar/redact.py | 805 | sam_copy | code | 2026-10-26 |             return soft |
+| billradar/redact.py | 806 | sam_copy | code | 2026-10-26 |         radius *= 1.6 |
+| billradar/redact.py | 807 | sam_copy | string | 2026-10-26 |     raise RuntimeError("could not make the photo unreadable for SAM; not sending it") |
+| billradar/redact.py | 899 | ocr | signature | 2026-10-26 | def ocr(img: Image.Image) -> list[Line]: |
 | billradar/sam.py | 7 | (module) | doc | 2026-10-26 | """ |
 | billradar/sam.py | 9 | (module) | import | 2026-10-26 | from __future__ import annotations |
 | billradar/sam.py | 11 | (module) | import | 2026-10-26 | import io |
@@ -1269,14 +1270,15 @@ In Python: 2,016 of 44,678 lines are older (4.5%); 754 of them (1.7%) are logic,
 | billradar/sheet_checks.py | 25 | _is_newborn_code | code | 2026-10-26 |     c = code.strip().upper() |
 | billradar/sheet_checks.py | 65 | _repeats | punct | 2026-10-26 |             continue |
 | billradar/sheet_checks.py | 69 | _repeats | punct | 2026-10-26 |             continue |
-| billradar/sheet_checks.py | 107 | duplicates | signature | 2026-10-26 | def duplicates(case: Case) -> list[Finding]: |
-| billradar/sheet_checks.py | 161 | _balance_credit | string | 2026-10-26 |                        detail="The balance is in your favor. Ask for a refund instead of leaving it on the account.", |
-| billradar/sheet_checks.py | 183 | credits | signature | 2026-10-26 | def credits(case: Case) -> list[Finding]: |
-| billradar/sheet_checks.py | 204 | two_amounts | signature | 2026-10-26 | def two_amounts(case: Case) -> list[Finding]: |
-| billradar/sheet_checks.py | 210 | two_amounts | punct | 2026-10-26 |             continue |
-| billradar/sheet_checks.py | 304 | baby_under_mother | signature | 2026-10-26 | def baby_under_mother(case: Case) -> list[Finding]: |
-| billradar/sheet_checks.py | 390 | missing_pages | signature | 2026-10-26 | def missing_pages(case: Case) -> list[Finding]: |
-| billradar/sheet_checks.py | 395 | run | signature | 2026-10-26 | def run(case: Case) -> list[Finding]: |
+| billradar/sheet_checks.py | 150 | page_doubles | punct | 2026-10-26 |                     continue |
+| billradar/sheet_checks.py | 166 | duplicates | signature | 2026-10-26 | def duplicates(case: Case) -> list[Finding]: |
+| billradar/sheet_checks.py | 220 | _balance_credit | string | 2026-10-26 |                        detail="The balance is in your favor. Ask for a refund instead of leaving it on the account.", |
+| billradar/sheet_checks.py | 242 | credits | signature | 2026-10-26 | def credits(case: Case) -> list[Finding]: |
+| billradar/sheet_checks.py | 263 | two_amounts | signature | 2026-10-26 | def two_amounts(case: Case) -> list[Finding]: |
+| billradar/sheet_checks.py | 269 | two_amounts | punct | 2026-10-26 |             continue |
+| billradar/sheet_checks.py | 363 | baby_under_mother | signature | 2026-10-26 | def baby_under_mother(case: Case) -> list[Finding]: |
+| billradar/sheet_checks.py | 449 | missing_pages | signature | 2026-10-26 | def missing_pages(case: Case) -> list[Finding]: |
+| billradar/sheet_checks.py | 454 | run | signature | 2026-10-26 | def run(case: Case) -> list[Finding]: |
 | billradar/submit_agent.py | 17 | (module) | doc | 2026-10-26 | """ |
 | billradar/submit_agent.py | 19 | (module) | import | 2026-10-26 | from __future__ import annotations |
 | billradar/submit_agent.py | 21 | (module) | import | 2026-10-26 | import json |
@@ -1344,46 +1346,46 @@ In Python: 2,016 of 44,678 lines are older (4.5%); 754 of them (1.7%) are logic,
 | billradar/verifier.py | 278 | _stay_deadline | code | 2026-10-26 |     options = [first + timedelta(days=240)] |
 | billradar/verifier.py | 294 | _expect_deadline | signature | 2026-10-26 | def _expect_deadline(case: Case): |
 | billradar/verifier.py | 315 | _names | code | 2026-10-26 |     for f in report.findings: |
-| billradar/verifier.py | 441 | _deadline_issues | code | 2026-10-26 |     want = _expect_deadline(case) |
-| billradar/verifier.py | 474 | _finding_issues | code | 2026-10-26 |         elif e.line_no is not None and ln is None: |
-| billradar/verifier.py | 476 | _finding_issues | code | 2026-10-26 |     for ref in f.policy_refs: |
-| billradar/verifier.py | 477 | _finding_issues | code | 2026-10-26 |         if not policy.verified(ref): |
-| billradar/verifier.py | 482 | check_findings | signature | 2026-10-26 | def check_findings(case: Case, report: Report) -> Verdict: |
-| billradar/verifier.py | 488 | check_findings | code | 2026-10-26 |     total = _q(sum((f.amount for f in report.findings if f.amount is not None), Decimal(0))) |
-| billradar/verifier.py | 489 | check_findings | code | 2026-10-26 |     if total != report.total_may_come_off: |
-| billradar/verifier.py | 490 | check_findings | code | 2026-10-26 |         v.issues.append(Issue("total", "error", f"total {report.total_may_come_off} but findings add up to {total}")) |
-| billradar/verifier.py | 491 | check_findings | code | 2026-10-26 |     return v |
-| billradar/verifier.py | 510 | _letter_errors | code | 2026-10-26 |     text = " ".join(p.text for p in letter.paragraphs) |
-| billradar/verifier.py | 521 | check_letters | signature | 2026-10-26 | def check_letters(case: Case, report: Report, letters: list[Letter], v: Verdict \| None = None) -> Verdict: |
-| billradar/verifier.py | 524 | check_letters | code | 2026-10-26 |     for letter in letters: |
-| billradar/verifier.py | 526 | check_letters | code | 2026-10-26 |         v.checked += 1 |
-| billradar/verifier.py | 528 | check_letters | code | 2026-10-26 |         if letter.dropped: |
-| billradar/verifier.py | 530 | check_letters | code | 2026-10-26 |     return v |
-| billradar/verifier.py | 534 | (module) | code | 2026-10-26 | MODEL = "muse-wonder-1.0" |
-| billradar/verifier.py | 535 | (module) | code | 2026-10-26 | REVIEW_SCHEMA = { |
-| billradar/verifier.py | 539 | (module) | code | 2026-10-26 |     "properties": {"items": {"type": "array", "items": { |
-| billradar/verifier.py | 542 | (module) | code | 2026-10-26 |         "required": ["subject", "verdict", "reason"], |
-| billradar/verifier.py | 543 | (module) | code | 2026-10-26 |         "properties": { |
-| billradar/verifier.py | 544 | (module) | code | 2026-10-26 |             "subject": {"type": "string"}, |
-| billradar/verifier.py | 545 | (module) | code | 2026-10-26 |             "verdict": {"type": "string", "enum": ["confirmed", "problem", "cannot_tell"]}, |
-| billradar/verifier.py | 546 | (module) | code | 2026-10-26 |             "reason": {"type": "string"}, |
-| billradar/verifier.py | 549 | (module) | punct | 2026-10-26 | } |
-| billradar/verifier.py | 569 | redacted | signature | 2026-10-26 | def redacted(case: Case) -> Case: |
-| billradar/verifier.py | 571 | redacted | code | 2026-10-26 |     people = [p.model_copy(update={"name": "", "birth_date": "", "employer": ""}) for p in case.profile.people] |
-| billradar/verifier.py | 574 | redacted | code | 2026-10-26 |     return case.model_copy(update={"profile": profile}) |
-| billradar/verifier.py | 598 | _reference | code | 2026-10-26 |     pol = policy.load(case.policy_id) |
-| billradar/verifier.py | 617 | review_body | signature | 2026-10-26 | def review_body(case: Case, report: Report, letters: list[Letter]) -> dict: |
-| billradar/verifier.py | 623 | review_body | code | 2026-10-26 |     payload = { |
-| billradar/verifier.py | 626 | review_body | code | 2026-10-26 |         "findings": findings, |
-| billradar/verifier.py | 627 | review_body | code | 2026-10-26 |         "letters": [{"subject": f"letter {x.kind}", "text": [p.text for p in x.paragraphs], "quotes": x.refs} |
-| billradar/verifier.py | 629 | review_body | punct | 2026-10-26 |     } |
-| billradar/verifier.py | 638 | model_review | signature | 2026-10-26 | def model_review(client: MetaClient, case: Case, report: Report, letters: list[Letter], v: Verdict) -> Verdict: |
-| billradar/verifier.py | 658 | model_review | code | 2026-10-26 |     return v |
-| billradar/verifier.py | 670 | verify | signature | 2026-10-26 | def verify(case: Case, report: Report, letters: list[Letter]) -> Verdict: |
-| billradar/verifier.py | 671 | verify | code | 2026-10-26 |     return check_letters(case, report, letters, check_findings(case, report)) |
-| billradar/verifier.py | 683 | subjects | code | 2026-10-26 |     for f in report.findings: |
-| billradar/verifier.py | 684 | subjects | code | 2026-10-26 |         counts[f.kind.value] = counts.get(f.kind.value, 0) + 1 |
-| billradar/verifier.py | 723 | grade | code | 2026-10-26 |     for f in report.findings: |
+| billradar/verifier.py | 445 | _deadline_issues | code | 2026-10-26 |     want = _expect_deadline(case) |
+| billradar/verifier.py | 478 | _finding_issues | code | 2026-10-26 |         elif e.line_no is not None and ln is None: |
+| billradar/verifier.py | 480 | _finding_issues | code | 2026-10-26 |     for ref in f.policy_refs: |
+| billradar/verifier.py | 481 | _finding_issues | code | 2026-10-26 |         if not policy.verified(ref): |
+| billradar/verifier.py | 486 | check_findings | signature | 2026-10-26 | def check_findings(case: Case, report: Report) -> Verdict: |
+| billradar/verifier.py | 492 | check_findings | code | 2026-10-26 |     total = _q(sum((f.amount for f in report.findings if f.amount is not None), Decimal(0))) |
+| billradar/verifier.py | 493 | check_findings | code | 2026-10-26 |     if total != report.total_may_come_off: |
+| billradar/verifier.py | 494 | check_findings | code | 2026-10-26 |         v.issues.append(Issue("total", "error", f"total {report.total_may_come_off} but findings add up to {total}")) |
+| billradar/verifier.py | 495 | check_findings | code | 2026-10-26 |     return v |
+| billradar/verifier.py | 514 | _letter_errors | code | 2026-10-26 |     text = " ".join(p.text for p in letter.paragraphs) |
+| billradar/verifier.py | 525 | check_letters | signature | 2026-10-26 | def check_letters(case: Case, report: Report, letters: list[Letter], v: Verdict \| None = None) -> Verdict: |
+| billradar/verifier.py | 528 | check_letters | code | 2026-10-26 |     for letter in letters: |
+| billradar/verifier.py | 530 | check_letters | code | 2026-10-26 |         v.checked += 1 |
+| billradar/verifier.py | 532 | check_letters | code | 2026-10-26 |         if letter.dropped: |
+| billradar/verifier.py | 534 | check_letters | code | 2026-10-26 |     return v |
+| billradar/verifier.py | 538 | (module) | code | 2026-10-26 | MODEL = "muse-wonder-1.0" |
+| billradar/verifier.py | 539 | (module) | code | 2026-10-26 | REVIEW_SCHEMA = { |
+| billradar/verifier.py | 543 | (module) | code | 2026-10-26 |     "properties": {"items": {"type": "array", "items": { |
+| billradar/verifier.py | 546 | (module) | code | 2026-10-26 |         "required": ["subject", "verdict", "reason"], |
+| billradar/verifier.py | 547 | (module) | code | 2026-10-26 |         "properties": { |
+| billradar/verifier.py | 548 | (module) | code | 2026-10-26 |             "subject": {"type": "string"}, |
+| billradar/verifier.py | 549 | (module) | code | 2026-10-26 |             "verdict": {"type": "string", "enum": ["confirmed", "problem", "cannot_tell"]}, |
+| billradar/verifier.py | 550 | (module) | code | 2026-10-26 |             "reason": {"type": "string"}, |
+| billradar/verifier.py | 553 | (module) | punct | 2026-10-26 | } |
+| billradar/verifier.py | 573 | redacted | signature | 2026-10-26 | def redacted(case: Case) -> Case: |
+| billradar/verifier.py | 575 | redacted | code | 2026-10-26 |     people = [p.model_copy(update={"name": "", "birth_date": "", "employer": ""}) for p in case.profile.people] |
+| billradar/verifier.py | 578 | redacted | code | 2026-10-26 |     return case.model_copy(update={"profile": profile}) |
+| billradar/verifier.py | 602 | _reference | code | 2026-10-26 |     pol = policy.load(case.policy_id) |
+| billradar/verifier.py | 621 | review_body | signature | 2026-10-26 | def review_body(case: Case, report: Report, letters: list[Letter]) -> dict: |
+| billradar/verifier.py | 627 | review_body | code | 2026-10-26 |     payload = { |
+| billradar/verifier.py | 630 | review_body | code | 2026-10-26 |         "findings": findings, |
+| billradar/verifier.py | 631 | review_body | code | 2026-10-26 |         "letters": [{"subject": f"letter {x.kind}", "text": [p.text for p in x.paragraphs], "quotes": x.refs} |
+| billradar/verifier.py | 633 | review_body | punct | 2026-10-26 |     } |
+| billradar/verifier.py | 642 | model_review | signature | 2026-10-26 | def model_review(client: MetaClient, case: Case, report: Report, letters: list[Letter], v: Verdict) -> Verdict: |
+| billradar/verifier.py | 662 | model_review | code | 2026-10-26 |     return v |
+| billradar/verifier.py | 674 | verify | signature | 2026-10-26 | def verify(case: Case, report: Report, letters: list[Letter]) -> Verdict: |
+| billradar/verifier.py | 675 | verify | code | 2026-10-26 |     return check_letters(case, report, letters, check_findings(case, report)) |
+| billradar/verifier.py | 687 | subjects | code | 2026-10-26 |     for f in report.findings: |
+| billradar/verifier.py | 688 | subjects | code | 2026-10-26 |         counts[f.kind.value] = counts.get(f.kind.value, 0) + 1 |
+| billradar/verifier.py | 727 | grade | code | 2026-10-26 |     for f in report.findings: |
 | billradar/video.py | 26 | (module) | import | 2026-10-26 | import cv2 |
 | billradar/video.py | 27 | (module) | import | 2026-10-26 | import numpy as np |
 | billradar/video.py | 28 | (module) | import | 2026-10-26 | from meta_sam_parser import ( |
@@ -1513,7 +1515,7 @@ In Python: 2,016 of 44,678 lines are older (4.5%); 754 of them (1.7%) are logic,
 | billradar/web/templates/case.html | 86 | (file) | template | 2026-10-26 |       </div> |
 | billradar/web/templates/case.html | 91 | (file) | template | 2026-10-26 |       </div> |
 | billradar/web/templates/case.html | 92 | (file) | template | 2026-10-26 |     </div> |
-| billradar/web/templates/case.html | 119 | (file) | template | 2026-10-26 |     </div> |
+| billradar/web/templates/case.html | 118 | (file) | template | 2026-10-26 |     </div> |
 | billradar/web/templates/case.html | 120 | (file) | template | 2026-10-26 |     <p class="note">Estimates from the hospital's published policy. The hospital decides. |
 | billradar/web/templates/case.html | 164 | (file) | template | 2026-10-26 |   </section> |
 | billradar/web/templates/case.html | 175 | (file) | template | 2026-10-26 |     </div> |
@@ -2055,6 +2057,8 @@ In Python: 2,016 of 44,678 lines are older (4.5%); 754 of them (1.7%) are logic,
 | tests/test_explain.py | 3 | (module) | import | 2026-10-26 | import json |
 | tests/test_explain.py | 4 | (module) | import | 2026-10-26 | from datetime import date |
 | tests/test_explain.py | 5 | (module) | import | 2026-10-26 | from decimal import Decimal |
+| tests/test_fix_after_sealed_run.py | 4 | (module) | import | 2026-10-26 | from datetime import date |
+| tests/test_fix_after_sealed_run.py | 5 | (module) | import | 2026-10-26 | from decimal import Decimal |
 | tests/test_highlight.py | 4 | (module) | import | 2026-10-26 | from datetime import date |
 | tests/test_highlight.py | 5 | (module) | import | 2026-10-26 | from decimal import Decimal |
 | tests/test_highlight.py | 12 | (module) | import | 2026-10-26 | from billradar.checks import Finding, Kind, Report |
@@ -2466,5 +2470,5 @@ In Python: 2,016 of 44,678 lines are older (4.5%); 754 of them (1.7%) are logic,
 | tests/test_writer.py | 170 | test_letter_and_form_routes | signature | 2026-10-26 | @needs_text |
 | tests/test_writer.py | 191 | test_no_form_for_a_policy_without_one | signature | 2026-10-26 | @needs_text |
 | tests/test_writer.py | 192 | test_no_form_for_a_policy_without_one | signature | 2026-10-26 | def test_no_form_for_a_policy_without_one(client): |
-| billradar/web/static/brand/shield.png | 0 | (file) | binary file |  | (binary file) |
-| billradar/web/static/brand/wordmark.png | 0 | (file) | binary file |  | (binary file) |
+| billradar/web/static/brand/shield.png | 0 | (file) | binary file |  | (бинарный файл) |
+| billradar/web/static/brand/wordmark.png | 0 | (file) | binary file |  | (бинарный файл) |

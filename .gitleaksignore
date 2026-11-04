@@ -1,0 +1,13 @@
+# Not secrets: the "key" field in recorded search answers is the replay key, sha256 of the request cut to 20 hex characters (billradar/tavily_client.py).
+billradar/policy_finder_recorded.json:generic-api-key:457
+billradar/policy_finder_recorded.json:generic-api-key:731
+billradar/policy_finder_recorded.json:generic-api-key:757
+billradar/policy_finder_recorded.json:generic-api-key:986
+billradar/policy_finder_recorded.json:generic-api-key:1012
+billradar/policy_finder_recorded.json:generic-api-key:1051
+billradar/policy_finder_recorded.json:generic-api-key:1255
+billradar/policy_finder_recorded.json:generic-api-key:1281
+billradar/policy_finder_recorded.json:generic-api-key:1320
+billradar/policy_finder_recorded.json:generic-api-key:1548
+billradar/policy_finder_recorded.json:generic-api-key:1574
+billradar/policy_finder_recorded.json:generic-api-key:1613

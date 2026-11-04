@@ -17,14 +17,12 @@ A judge model matches the simple path's free-text answer to the key. That raw an
 Packs live in `eval/packs/work/` and `eval/packs/holdout/`. A pack holds photos of fictional sheets on a table, each marked SAMPLE, any digital files, a `profile.json` with `"fictional": true`, and a `key.json`. The key lists what the pack really contains for each class (E1, E2, E3, E4, B1, P1, F1, F2, F3), with the sheets, amounts and dates.
 
 - **Work packs** are used while building and tuning.
-- **Holdout packs.** The final table counts only three packs, n1 to n3. A separate agent wrote them on Nov 2, 2026 from the sample generator. It did not open the pipeline code or the prompts, though it had the project notes in its context, and nobody looked at the answer keys before the run. Their key hashes went into `eval/SEALED.txt` before the run (commit 8973adc in our private working repository, Nov 3, 2026, 15:42 UTC), and scoring refuses a key that does not match. Five family roles the app does not offer (father, daughter, child) were set to "other" before the run; the keys were not touched. The six earlier holdout packs, h1 to h6, were run once on Nov 2. Two of them, h2 and h4, were then used to check how sheets are covered, so they no longer count as held out.
+- **Holdout packs.** Three packs, n1 to n3, are held out. A separate agent wrote them on Nov 2, 2026 from the sample generator. It did not open the pipeline code or the prompts, though it had the project notes in its context, and nobody looked at the answer keys before the run. Their key hashes went into `eval/SEALED.txt` before the run (commit 8973adc in our private working repository, Nov 3, 2026, 15:42 UTC), and scoring refuses a key that does not match. Five family roles the app does not offer (father, daughter, child) were set to "other" before the run; the keys were not touched. The six earlier holdout packs, h1 to h6, were run once on Nov 2. Two of them, h2 and h4, were then used to check how sheets are covered, so they no longer count as held out.
 
 ## What counts
 
 For each class we count what was found (k of n), false findings, amounts off by more than $1, findings with no amount, and wrong deadlines. For the simple path we also count money claims the judge could not match to the key.
 
-If the strong prompt catches up with BillRadar, that result gets published too.
-
 ## Where results go
 
-Each run writes to `eval/results/<UTC time>/`. A run with no live model calls carries the label "REPLAYED (not a measurement)".
+Each run writes to `eval/results/<UTC time>/`, which is not part of this repository. A run with no live model calls carries the label "REPLAYED (not a measurement)".
