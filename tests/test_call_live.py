@@ -225,3 +225,21 @@ def test_a_sample_on_a_public_copy_still_plays(client, monkeypatch):
     with client.websocket_connect("/cases/c1/call/hospital/live") as ws:
         ws.send_json({"type": "start", "sample": True, "lang": "en"})
         assert ws.receive_json()["kind"] == "started"
+
+
+def _call_head(html: str) -> str:
+    return html.split('class="lc-head"', 1)[1].split("</header>", 1)[0]
+
+
+def test_a_recorded_call_says_so_next_to_its_title(client):
+    r = client.get("/cases/c1/call/hospital")
+    assert r.status_code == 200 and 'id="livecall" data-live="0"' in r.text
+    assert "recorded example" in _call_head(r.text)
+
+
+def test_a_live_call_has_no_recorded_badge(client, monkeypatch):
+    real = app_module.voice_context
+    monkeypatch.setattr(app_module, "voice_context", lambda *a: {**real(*a), "live": True})
+    r = client.get("/cases/c1/call/hospital")
+    assert 'id="livecall" data-live="1"' in r.text
+    assert "recorded example" not in _call_head(r.text)
